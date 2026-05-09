@@ -1,0 +1,170 @@
+[
+  {
+    "key": "strength",
+    "aliases": ["strength", "str", "heavy weapon", "big weapon"],
+    "build": {
+      "archetype": "Strength bruiser",
+      "level": 80,
+      "stats": {
+        "vitality": 30,
+        "attunement": 8,
+        "endurance": 36,
+        "strength": 40,
+        "dexterity": 10,
+        "resistance": 11,
+        "intelligence": 8,
+        "faith": 10
+      },
+      "equipment": {
+        "weapon": "Man-Serpent Greatsword",
+        "offhand": "Grass Crest Shield",
+        "armor": "Elite Knight Set",
+        "rings": ["Havel's Ring", "Ring of Favor and Protection"],
+        "spells": []
+      },
+      "playstyle": "Two-hand often, trade through lighter hits, and use stamina recovery to keep pressure after staggers.",
+      "upgrade_path": "Standard +15. Use resins or Power Within if you add an attunement slot later.",
+      "notes": ["40 strength keeps the weapon plan simple and effective for one-handed or two-handed play."]
+    }
+  },
+  {
+    "key": "dexterity",
+    "aliases": ["dexterity", "dex", "fast melee", "bleed"],
+    "build": {
+      "archetype": "Dexterity duelist",
+      "level": 80,
+      "stats": {
+        "vitality": 30,
+        "attunement": 10,
+        "endurance": 32,
+        "strength": 14,
+        "dexterity": 40,
+        "resistance": 11,
+        "intelligence": 9,
+        "faith": 9
+      },
+      "equipment": {
+        "weapon": "Uchigatana",
+        "offhand": "Heater Shield",
+        "armor": "Shadow Set",
+        "rings": ["Cloranthy Ring", "Wolf Ring"],
+        "spells": ["Power Within"]
+      },
+      "playstyle": "Stay light, punish recovery frames, and use bleed pressure to force defensive mistakes.",
+      "upgrade_path": "Standard +15 for buff compatibility and clean dexterity scaling.",
+      "notes": ["Power Within is optional but gives the build a strong boss damage window."]
+    }
+  },
+  {
+    "key": "quality",
+    "aliases": ["quality", "balanced", "knight", "versatile"],
+    "build": {
+      "archetype": "Quality knight",
+      "level": 85,
+      "stats": {
+        "vitality": 32,
+        "attunement": 8,
+        "endurance": 34,
+        "strength": 27,
+        "dexterity": 40,
+        "resistance": 11,
+        "intelligence": 9,
+        "faith": 9
+      },
+      "equipment": {
+        "weapon": "Claymore",
+        "offhand": "Grass Crest Shield",
+        "armor": "Elite Knight Set",
+        "rings": ["Havel's Ring", "Ring of Favor and Protection"],
+        "spells": []
+      },
+      "playstyle": "Use the Claymore's thrusts for spacing, then two-hand for burst when openings are clear.",
+      "upgrade_path": "Standard +15. This keeps scaling and weapon buffs available.",
+      "notes": ["27 strength reaches the two-handed soft target while 40 dexterity keeps quality scaling strong."]
+    }
+  },
+  {
+    "key": "pyromancy",
+    "aliases": ["pyromancy", "pyro", "fire", "hybrid caster"],
+    "build": {
+      "archetype": "Pyromancy bruiser",
+      "level": 75,
+      "stats": {
+        "vitality": 28,
+        "attunement": 16,
+        "endurance": 30,
+        "strength": 16,
+        "dexterity": 14,
+        "resistance": 11,
+        "intelligence": 9,
+        "faith": 9
+      },
+      "equipment": {
+        "weapon": "Claymore",
+        "offhand": "Pyromancy Flame",
+        "armor": "Crimson Set",
+        "rings": ["Bellowing Dragoncrest Ring", "Ring of Favor and Protection"],
+        "spells": ["Power Within", "Great Combustion"]
+      },
+      "playstyle": "Play like a melee build until close-range pyromancy creates a burst window.",
+      "upgrade_path": "Standard +15 weapon and an upgraded Pyromancy Flame.",
+      "notes": ["Pyromancy preserves stat budget because flame upgrades drive spell damage."]
+    }
+  },
+  {
+    "key": "faith",
+    "aliases": ["faith", "miracle", "miracles", "cleric"],
+    "build": {
+      "archetype": "Faith weapon buffer",
+      "level": 85,
+      "stats": {
+        "vitality": 30,
+        "attunement": 14,
+        "endurance": 30,
+        "strength": 16,
+        "dexterity": 14,
+        "resistance": 11,
+        "intelligence": 8,
+        "faith": 30
+      },
+      "equipment": {
+        "weapon": "Claymore",
+        "offhand": "Canvas Talisman",
+        "armor": "Dingy Set",
+        "rings": ["Ring of Favor and Protection", "Wolf Ring"],
+        "spells": ["Sunlight Blade"]
+      },
+      "playstyle": "Use a buffable weapon, cast Sunlight Blade for bosses, and lean on spacing rather than armor trades.",
+      "upgrade_path": "Standard +15 to keep weapon buffs available.",
+      "notes": ["30 faith unlocks Sunlight Blade while leaving enough endurance for a practical melee kit."]
+    }
+  },
+  {
+    "key": "sorcery",
+    "aliases": ["sorcery", "sorcerer", "wizard", "mage", "magic", "intelligence", "int"],
+    "build": {
+      "archetype": "Sorcery skirmisher",
+      "level": 80,
+      "stats": {
+        "vitality": 27,
+        "attunement": 16,
+        "endurance": 24,
+        "strength": 10,
+        "dexterity": 12,
+        "resistance": 11,
+        "intelligence": 36,
+        "faith": 8
+      },
+      "equipment": {
+        "weapon": "Estoc",
+        "offhand": "Oolacile Ivory Catalyst",
+        "armor": "Crimson Set",
+        "rings": ["Bellowing Dragoncrest Ring", "Ring of Favor and Protection"],
+        "spells": ["Great Heavy Soul Arrow"]
+      },
+      "playstyle": "Control range with sorceries, then use the Estoc to punish approaches behind a shield.",
+      "upgrade_path": "Standard +15 Estoc for reliability; catalyst choice can shift once intelligence climbs higher.",
+      "notes": ["The stat spread keeps melee usable while giving sorceries real damage."]
+    }
+  }
+]

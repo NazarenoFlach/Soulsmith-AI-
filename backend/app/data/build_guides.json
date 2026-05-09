@@ -1,0 +1,32 @@
+[
+  {
+    "id": "strength_build_basics",
+    "title": "Strength Build Basics",
+    "tags": ["strength", "poise", "weapon-weight"],
+    "content": "Strength builds usually target 27 strength when two-handing or 40 strength for one-handed scaling. Endurance matters because heavy weapons and poise armor compete for equipment load. Good lighter alternatives include Reinforced Club, Battle Axe, Claymore, and Man-Serpent Greatsword."
+  },
+  {
+    "id": "dexterity_build_basics",
+    "title": "Dexterity Build Basics",
+    "tags": ["dexterity", "bleed", "fast-roll"],
+    "content": "Dexterity builds value low weight, fast recovery, bleed, and counter damage. Uchigatana, Great Scythe, Balder Side Sword, and Estoc support fast roll loadouts and benefit from sharp upgrade paths."
+  },
+  {
+    "id": "quality_build_basics",
+    "title": "Quality Build Basics",
+    "tags": ["quality", "versatile", "upgrade-path"],
+    "content": "Quality builds invest in both strength and dexterity, usually around 27/40 or 40/40 depending on level. Claymore, Longsword, and Black Knight Sword are strong examples because their movesets cover many matchups."
+  },
+  {
+    "id": "caster_hybrid_notes",
+    "title": "Caster Hybrid Notes",
+    "tags": ["pyromancy", "faith", "sorcery", "hybrid"],
+    "content": "Pyromancy is a low-stat splash option because damage comes from upgrading the flame. Faith and sorcery builds need attunement slots, a catalyst or talisman, and rings that boost spell damage or preserve survivability."
+  },
+  {
+    "id": "equip_load_notes",
+    "title": "Equip Load and Roll Breakpoints",
+    "tags": ["equip-load", "fast-roll", "mid-roll", "armor"],
+    "content": "Dark Souls 1 builds are often defined by roll breakpoints. Havel's Ring and Ring of Favor and Protection create room for heavier gear. Light armor with Wolf Ring or Dark Wood Grain Ring supports mobility without fully abandoning poise."
+  }
+]
