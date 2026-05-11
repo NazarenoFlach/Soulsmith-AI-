@@ -10,6 +10,8 @@ type ItemCardProps = {
 };
 
 export function ItemCard({ item }: ItemCardProps) {
+  const detail = item.acquisition ?? item.location;
+
   return (
     <Card className="grid min-h-[92px] grid-cols-[72px_1fr] overflow-hidden">
       <Image
@@ -28,6 +30,9 @@ export function ItemCard({ item }: ItemCardProps) {
         <p className="mt-2 text-xs text-muted-foreground">
           {item.weight === null ? "No equip load" : `${item.weight.toFixed(1)} weight`}
         </p>
+        {detail ? (
+          <p className="mt-1 line-clamp-2 text-xs text-muted-foreground">{detail}</p>
+        ) : null}
       </div>
     </Card>
   );

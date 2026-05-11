@@ -28,5 +28,11 @@
     "title": "Equip Load and Roll Breakpoints",
     "tags": ["equip-load", "fast-roll", "mid-roll", "armor"],
     "content": "Dark Souls 1 builds are often defined by roll breakpoints. Havel's Ring and Ring of Favor and Protection create room for heavier gear. Light armor with Wolf Ring or Dark Wood Grain Ring supports mobility without fully abandoning poise."
+  },
+  {
+    "id": "early_pickup_notes",
+    "title": "Useful Early Pickups",
+    "tags": ["early-game", "location", "routing"],
+    "content": "Several strong build items can be routed early: Zweihander from the Firelink graveyard, Estoc from the path toward New Londo, Grass Crest Shield from Darkroot Basin, Crimson Set from Blighttown, and Great Scythe from The Catacombs."
   }
 ]

@@ -8,7 +8,7 @@ The project is intentionally small enough to demo, but it is structured like a s
 
 - Generates complete DS1 builds with stats, equipment, rings, spells, upgrade path, and playstyle notes.
 - Maintains build state per conversation so follow-up edits preserve the rest of the build.
-- Uses a JSON item/build dataset with Chroma-backed retrieval when `OPENAI_API_KEY` is available.
+- Uses a split JSON item catalog with Chroma-backed retrieval when `OPENAI_API_KEY` is available.
 - Streams assistant responses to the UI.
 - Serves item images through the backend, with generated SVG fallbacks for missing source images.
 
@@ -20,7 +20,7 @@ backend/
     api/          FastAPI routers
     agent/        LangChain orchestration and prompts
     core/         config and error handling
-    data/         DS1 item catalog and build notes
+    data/         DS1 item catalog, split item files, and build notes
     models/       Pydantic schemas
     services/     build crafting, state, RAG, images
     tools/        small domain tools used by the agent
@@ -30,7 +30,7 @@ frontend/
   lib/           API client, shared types, utilities
 ```
 
-The backend keeps deterministic build consistency in services. The agent uses LangChain for planning and final response generation, while retrieval and item lookup stay in small domain tools. If no OpenAI key is configured, the app still runs with deterministic local responses so the demo is not blocked.
+The backend keeps deterministic build consistency in services. The item catalog is split by category under `backend/app/data/items/` so weapons, armor, rings, spells, consumables, and key items can grow independently. The agent uses LangChain for planning and final response generation, while retrieval and item lookup stay in small domain tools. If no OpenAI key is configured, the app still runs with deterministic local responses so the demo is not blocked.
 
 ## Run Locally
 
@@ -96,4 +96,4 @@ cd backend
 pytest
 ```
 
-The current tests cover state patching and item-catalog selection. The highest-value next tests would exercise the streaming endpoint and a full generate-then-refine conversation.
+The current tests cover state patching, conversational routing, fuzzy item lookup, and split catalog loading. The highest-value next tests would exercise the streaming endpoint and a full generate-then-refine conversation.

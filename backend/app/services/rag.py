@@ -110,7 +110,11 @@ class RagService:
         requirements = ", ".join(f"{stat} {value}" for stat, value in item.requirements.items()) or "none"
         scaling = ", ".join(f"{stat} {grade}" for stat, grade in item.scaling.items()) or "none"
         tags = ", ".join(item.tags)
+        weight = item.weight if item.weight is not None else "unknown"
+        location = item.location or "unknown"
+        acquisition = item.acquisition or "unknown"
         return (
-            f"{item.name} ({item.category}, weight {item.weight}): {item.description} "
-            f"Requirements: {requirements}. Scaling: {scaling}. Tags: {tags}."
+            f"{item.name} ({item.category}, weight {weight}): {item.description} "
+            f"Requirements: {requirements}. Scaling: {scaling}. "
+            f"Location: {location}. Acquisition: {acquisition}. Tags: {tags}."
         )
