@@ -10,6 +10,8 @@ $ErrorActionPreference = "Stop"
 $RootDir = Split-Path -Parent $PSCommandPath
 $BackendDir = Join-Path $RootDir "backend"
 $FrontendDir = Join-Path $RootDir "frontend"
+$RuntimeDir = Join-Path $RootDir ".dev"
+$ProcessFile = Join-Path $RuntimeDir "processes.json"
 $BackendVenv = Join-Path $BackendDir ".venv"
 $BackendPython = Join-Path $BackendVenv "Scripts\python.exe"
 
@@ -114,8 +116,24 @@ if ($DryRun) {
     exit 0
 }
 
-Start-Process -FilePath $PowerShell -ArgumentList @("-NoExit", "-ExecutionPolicy", "Bypass", "-Command", $BackendCommand) -WindowStyle Normal
-Start-Process -FilePath $PowerShell -ArgumentList @("-NoExit", "-ExecutionPolicy", "Bypass", "-Command", $FrontendCommand) -WindowStyle Normal
+$BackendProcess = Start-Process -FilePath $PowerShell -ArgumentList @("-NoExit", "-ExecutionPolicy", "Bypass", "-Command", $BackendCommand) -WindowStyle Normal -PassThru
+$FrontendProcess = Start-Process -FilePath $PowerShell -ArgumentList @("-NoExit", "-ExecutionPolicy", "Bypass", "-Command", $FrontendCommand) -WindowStyle Normal -PassThru
+
+New-Item -ItemType Directory -Force -Path $RuntimeDir | Out-Null
+@{
+    started_at = (Get-Date).ToString("o")
+    backend = @{
+        pid = $BackendProcess.Id
+        port = $BackendPort
+        url = "http://127.0.0.1:$BackendPort"
+    }
+    frontend = @{
+        pid = $FrontendProcess.Id
+        port = $FrontendPort
+        url = "http://127.0.0.1:$FrontendPort"
+    }
+} | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath $ProcessFile -Encoding UTF8
 
 Write-Host "Started backend and frontend in separate PowerShell windows."
-Write-Host "Close those windows or press Ctrl+C inside them to stop the servers."
+Write-Host "Stop both later with:"
+Write-Host "powershell.exe -ExecutionPolicy Bypass -File `"$RootDir\stop-dev.ps1`""

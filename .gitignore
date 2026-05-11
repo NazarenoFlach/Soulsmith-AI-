@@ -17,6 +17,7 @@ dist/
 coverage/
 *.tsbuildinfo
 logs/
+.dev/
 
 .DS_Store
 Thumbs.db
