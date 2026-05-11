@@ -9,6 +9,7 @@ class AgentIntent(str, Enum):
     generate = "generate"
     refine = "refine"
     explain = "explain"
+    item_info = "item_info"
     recommend = "recommend"
     reset = "reset"
     unknown = "unknown"

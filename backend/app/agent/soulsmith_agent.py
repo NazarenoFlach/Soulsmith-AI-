@@ -6,7 +6,7 @@ from uuid import uuid4
 from app.agent.intent_router import IntentRouter
 from app.agent.prompts import PLANNER_SYSTEM_PROMPT, RESPONSE_SYSTEM_PROMPT
 from app.models.agent import AgentIntent, AgentPlan
-from app.models.build import Build, ItemSummary
+from app.models.build import Build, Item, ItemSummary
 from app.models.chat import ChatResponse
 from app.models.conversation import BuildPreferences, ConversationState
 from app.services.build_crafter import BuildCraftService
@@ -126,6 +126,17 @@ class SoulsmithAgent:
                 use_llm=False,
             )
 
+        if plan.intent == AgentIntent.item_info:
+            item = self.catalog.find_in_text(message, allow_fuzzy=True)
+            return PreparedTurn(
+                conversation_id=conversation_id,
+                build=current_build,
+                items=[self.catalog.to_summary(item)] if item else [],
+                response_prompt="The user asked for item acquisition details.",
+                local_response=self._item_info_response(item),
+                use_llm=False,
+            )
+
         if plan.intent == AgentIntent.clarify:
             pending_archetypes = sorted(
                 self.crafter.templates.mentioned_keys(message)
@@ -237,6 +248,7 @@ class SoulsmithAgent:
             AgentIntent.reset,
             AgentIntent.clarify,
             AgentIntent.explore,
+            AgentIntent.item_info,
             AgentIntent.unknown,
         }:
             return heuristic
@@ -492,6 +504,24 @@ class SoulsmithAgent:
             "I don't know how to help with that yet. "
             "I'm still farming souls to reach that stat. 😅"
         )
+
+    def _item_info_response(self, item: Item | None) -> str:
+        if item is None:
+            return self._unknown_response("")
+
+        if item.acquisition:
+            return f"{item.name}: {item.acquisition}"
+        if item.location:
+            return (
+                f"{item.name} is listed around {item.location}, "
+                "but I do not have the exact pickup notes yet."
+            )
+        if item.source_url:
+            return (
+                f"I have {item.name} in the local catalog, but I do not have exact pickup "
+                f"notes for it yet. Source: {item.source_url}"
+            )
+        return self._unknown_response("")
 
     def _build_llm(self, api_key: str | None, model: str, timeout_seconds: int):
         if not api_key or ChatOpenAI is None:

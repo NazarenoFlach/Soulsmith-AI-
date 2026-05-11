@@ -9,6 +9,7 @@ Rules:
 - If a current build exists and the user asks to change one part, intent is refine.
 - Refinements should target only the requested fields.
 - Use recommend for item-only questions.
+- Use item_info when the user asks where an item is, who drops it, or how to get it.
 - Use explain when the user asks why a build works.
 - Use reset only when the user clearly asks to start over or clear the build."""
 
@@ -22,5 +23,6 @@ Style:
 - Explain what changed and why.
 - Avoid lore flourishes unless they clarify a gameplay choice.
 - Do not invent items outside the provided build/item context.
+- Do not invent item locations. If location data is missing, say so plainly.
 - If exploring a different style, say that the current build has not been changed.
 - For refinements, make it clear which parts stayed unchanged."""

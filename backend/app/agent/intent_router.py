@@ -25,9 +25,9 @@ class IntentRouter:
                 item_query=message,
             )
 
-        if self._looks_like_unavailable_fact_question(text):
+        if self._looks_like_item_fact_question(text):
             return AgentPlan(
-                intent=AgentIntent.unknown,
+                intent=AgentIntent.item_info,
                 constraints=[message],
                 item_query=message,
             )
@@ -286,7 +286,7 @@ class IntentRouter:
         greetings = {"hi", "hello", "hey", "yo", "hola", "buenas", "thanks", "thank you"}
         return normalized in greetings
 
-    def _looks_like_unavailable_fact_question(self, text: str) -> bool:
+    def _looks_like_item_fact_question(self, text: str) -> bool:
         location_terms = [
             "where can i find",
             "where do i find",

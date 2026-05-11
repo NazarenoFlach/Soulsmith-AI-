@@ -103,7 +103,7 @@ def test_single_archetype_viability_question_is_exploration():
     assert "very good" in body["message"]
 
 
-def test_unavailable_item_location_does_not_generate_default_build():
+def test_known_item_location_uses_dataset_notes():
     with TestClient(app) as client:
         response = client.post(
             "/api/chat",
@@ -113,7 +113,77 @@ def test_unavailable_item_location_does_not_generate_default_build():
     assert response.status_code == 200
     body = response.json()
     assert body["build"] is None
+    assert "Sealer's corpse" in body["message"]
+    assert body["items"][0]["id"] == "crimson_set"
+
+
+def test_misspelled_item_location_uses_fuzzy_match():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "where can i find the crimsom set?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert "Crimson Set" in body["message"]
+    assert body["items"][0]["id"] == "crimson_set"
+
+
+def test_unknown_item_location_keeps_friendly_fallback():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "where can i find the moon cabbage?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"] == []
     assert "farming souls" in body["message"]
+
+
+def test_catalog_item_without_location_does_not_look_unknown():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "where can i get the abyss greatsword?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "abyss_greatsword"
+    assert "local catalog" in body["message"]
+
+
+def test_catalog_item_shorthand_does_not_look_unknown():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "where can i get the abbys sword?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "abyss_greatsword"
+    assert "local catalog" in body["message"]
+
+
+def test_misspelled_archetype_still_generates_expected_build():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "i want a strenght build"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is not None
+    assert body["build"]["archetype"] == "Strength bruiser"
 
 
 def test_greeting_does_not_generate_default_build():
