@@ -5,6 +5,7 @@ from app.core.config import Settings, get_settings
 from app.services.build_crafter import BuildCraftService
 from app.services.build_state import BuildStateManager
 from app.services.build_templates import BuildTemplateCatalog
+from app.services.conversation_state import ConversationStateManager
 from app.services.image_service import ImageService
 from app.services.item_catalog import ItemCatalog
 from app.services.rag import RagService
@@ -19,6 +20,11 @@ def get_item_catalog() -> ItemCatalog:
 @lru_cache
 def get_state_manager() -> BuildStateManager:
     return BuildStateManager()
+
+
+@lru_cache
+def get_conversation_state_manager() -> ConversationStateManager:
+    return ConversationStateManager()
 
 
 @lru_cache
@@ -56,6 +62,7 @@ def get_agent() -> SoulsmithAgent:
         catalog=get_item_catalog(),
         rag=get_rag_service(),
         state_manager=get_state_manager(),
+        conversation_manager=get_conversation_state_manager(),
         crafter=get_build_crafter(),
         openai_api_key=settings.openai_api_key,
         model=settings.openai_model,

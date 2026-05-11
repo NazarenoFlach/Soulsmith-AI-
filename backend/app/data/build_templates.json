@@ -113,7 +113,7 @@
   },
   {
     "key": "faith",
-    "aliases": ["faith", "miracle", "miracles", "cleric"],
+    "aliases": ["faith", "miracle", "miracles", "cleric", "priest", "paladin", "holy"],
     "build": {
       "archetype": "Faith weapon buffer",
       "level": 85,

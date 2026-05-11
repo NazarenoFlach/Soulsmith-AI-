@@ -30,11 +30,19 @@ class BuildTemplateCatalog:
 
     def resolve_key(self, requested: str | None, constraints: list[str]) -> str:
         text = " ".join([requested or "", *constraints]).lower()
-        for alias, key in self._aliases.items():
-            if alias in text:
-                return key
-        return "quality"
+        return self.first_mentioned_key(text) or "quality"
 
     def mentioned_keys(self, text: str) -> set[str]:
         lowered = text.lower()
         return {key for alias, key in self._aliases.items() if alias in lowered}
+
+    def first_mentioned_key(self, text: str) -> str | None:
+        lowered = text.lower()
+        matches = [
+            (position, -len(alias), key)
+            for alias, key in self._aliases.items()
+            if (position := lowered.find(alias)) >= 0
+        ]
+        if not matches:
+            return None
+        return sorted(matches)[0][2]

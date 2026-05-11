@@ -5,11 +5,13 @@ from pydantic import BaseModel, Field
 
 class AgentIntent(str, Enum):
     clarify = "clarify"
+    explore = "explore"
     generate = "generate"
     refine = "refine"
     explain = "explain"
     recommend = "recommend"
     reset = "reset"
+    unknown = "unknown"
 
 
 class AgentPlan(BaseModel):
