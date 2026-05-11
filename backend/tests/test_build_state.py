@@ -7,7 +7,7 @@ from app.services.build_templates import BuildTemplateCatalog
 
 
 def test_apply_patch_preserves_unmodified_build_fields(settings_data_dir):
-    catalog = ItemCatalog(settings_data_dir / "items.json")
+    catalog = ItemCatalog(settings_data_dir / "items")
     templates = BuildTemplateCatalog(settings_data_dir / "build_templates.json")
     crafter = BuildCraftService(catalog, templates)
     build = crafter.generate(AgentPlan(intent=AgentIntent.generate, archetype="strength"))

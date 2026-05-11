@@ -1,0 +1,404 @@
+[
+  {
+    "id": "acid_surge",
+    "name": "Acid Surge",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "In the graveyard area to the right side as you enter near the edge of the cliff in the Painted World of Ariamis.",
+    "acquisition": "In the graveyard area to the right side as you enter near the edge of the cliff in the Painted World of Ariamis.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Acid+Surge",
+    "description": "Pyromancy foreign to the Great Swamp. Emit acid which corrodes weapons and armor damaging their durability. Does not affect user."
+  },
+  {
+    "id": "black_flame",
+    "name": "Black Flame",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Found on a corpse in the Chasm of the Abyss. (AotA Only)",
+    "acquisition": "Found on a corpse in the Chasm of the Abyss. (AotA Only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Flame",
+    "description": "Similar to Great Combustion. Melee-range pyromancy. Main difference with Great Combustion is that when Black Flame is blocked, it consumes a much higher amount of stamina than Great Combustion, making this pyromancy great for breaking guards."
+  },
+  {
+    "id": "chaos_fire_whip",
+    "name": "Chaos Fire Whip",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Chest in Lost Izalith - turn right at the boss fog, it is down the path and around the corner guarded by a Chaos Eater.",
+    "acquisition": "Chest in Lost Izalith - turn right at the boss fog, it is down the path and around the corner guarded by a Chaos Eater.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Chaos+Fire+Whip",
+    "description": "Sweep foes with chaos fire whip with lava traces Note: Leaves lava behind for a bit. Follows same mechanics as Fire Whip."
+  },
+  {
+    "id": "chaos_storm",
+    "name": "Chaos Storm",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Rank 2 in Chaos Servant (30 humanities total)",
+    "acquisition": "Rank 2 in Chaos Servant (30 humanities total)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Chaos+Storm",
+    "description": "Erect localized chaos fire pillars which leave blobs of temporary lava Note: Like firestorm and leaves a little lava behind."
+  },
+  {
+    "id": "combustion",
+    "name": "Combustion",
+    "category": "spell",
+    "aliases": [
+      "basic combustion"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "attunement": 10
+    },
+    "scaling": {},
+    "damage_type": [
+      "fire"
+    ],
+    "tags": [
+      "close-range",
+      "fast",
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Laurentius and Quelana",
+    "acquisition": "Laurentius and Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Combustion",
+    "description": "Elementary pyromancy. Create powerful flame in hand Note: Good 'melee' range spell, very quick too."
+  },
+  {
+    "id": "fire_orb",
+    "name": "Fire Orb",
+    "category": "spell",
+    "aliases": [
+      "pyro orb"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "attunement": 10
+    },
+    "scaling": {},
+    "damage_type": [
+      "fire"
+    ],
+    "tags": [
+      "aoe",
+      "fire",
+      "pyromancy",
+      "ranged"
+    ],
+    "image_url": null,
+    "location": "Laurentius and Quelana",
+    "acquisition": "Laurentius and Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire%2BOrb",
+    "description": "Pyromancy which improves upon Fireball. Hurl fire orb."
+  },
+  {
+    "id": "fire_surge",
+    "name": "Fire Surge",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Drop from the Bloated Dredge located after passing two illusory walls under the well, in Painted World of Ariamis.",
+    "acquisition": "Drop from the Bloated Dredge located after passing two illusory walls under the well, in Painted World of Ariamis.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire+Surge",
+    "description": "Pyromancy foreign to the Great Swamp. Create a surge of flame from palm of hand. Note: Rapid fire spell you can cast while moving."
+  },
+  {
+    "id": "fire_tempest",
+    "name": "Fire Tempest",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana gives it to you after finishing her favor.",
+    "acquisition": "Quelana gives it to you after finishing her favor.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire+Tempest",
+    "description": "Primal pyromancy of Quelana of Izalith. Erect giant fire pillars in vicinity."
+  },
+  {
+    "id": "fire_whip",
+    "name": "Fire Whip",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana",
+    "acquisition": "Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire+Whip",
+    "description": "Primal pyromancy taught by Quelana of Izalith. Sweep foes with fire whip. Note: Uses 21 uses per cast. Note:Hits twice/cast"
+  },
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Laurentius, Quelana and starting spell for the Pyromancer class.",
+    "acquisition": "Laurentius, Quelana and starting spell for the Pyromancer class.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fireball",
+    "description": "Standard pyromancy of the Great Swamp. Hurl fireball."
+  },
+  {
+    "id": "firestorm",
+    "name": "Firestorm",
+    "category": "spell",
+    "aliases": [
+      "fire storm"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "attunement": 10
+    },
+    "scaling": {},
+    "damage_type": [
+      "fire"
+    ],
+    "tags": [
+      "area-control",
+      "burst",
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana",
+    "acquisition": "Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Firestorm",
+    "description": "Primal pyromancy taught by Quelana of Izalith. Erect fire pillars in vicinity. Note: Uses 17 uses per cast."
+  },
+  {
+    "id": "flash_sweat",
+    "name": "Flash Sweat",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Laurentius",
+    "acquisition": "Laurentius",
+    "source_url": "https://darksouls.wiki.fextralife.com/Flash+Sweat",
+    "description": "Covers the player in water, reduces fire damage."
+  },
+  {
+    "id": "great_chaos_fireball",
+    "name": "Great Chaos Fireball",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Joining Chaos Servant covenant (Daughter of Chaos after Quelaag)",
+    "acquisition": "Joining Chaos Servant covenant (Daughter of Chaos after Quelaag)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Chaos+Fireball",
+    "description": "Hurl giant chaos fireball, leaving a large amount of temporary lava"
+  },
+  {
+    "id": "great_combustion",
+    "name": "Great Combustion",
+    "category": "spell",
+    "aliases": [
+      "g combustion"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "attunement": 10
+    },
+    "scaling": {},
+    "damage_type": [
+      "fire"
+    ],
+    "tags": [
+      "close-range",
+      "fast",
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana",
+    "acquisition": "Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great%2BCombustion",
+    "description": "Pyromancy which improves upon Combustion. Create powerful, giant flame in hand. Note: Very good melee range spell."
+  },
+  {
+    "id": "great_fireball",
+    "name": "Great Fireball",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana",
+    "acquisition": "Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Fireball",
+    "description": "Ultimate fireball pyromancy. Hurl giant fireball."
+  },
+  {
+    "id": "iron_flesh",
+    "name": "Iron Flesh",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Laurentius",
+    "acquisition": "Laurentius",
+    "source_url": "https://darksouls.wiki.fextralife.com/Iron+Flesh",
+    "description": "Self-buff, raises defenses and poise. Note: User becomes heavy and unable to move freely: can only walk, can't run, sprint, roll, or jump."
+  },
+  {
+    "id": "poison_mist",
+    "name": "Poison Mist",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Swamp in Blighttown, Eingyi, the Egg-burdened NPC near the Daughter of Chaos sells this. (You need to be an Egg-head to be able to purchase this.)",
+    "acquisition": "Swamp in Blighttown, Eingyi, the Egg-burdened NPC near the Daughter of Chaos sells this. (You need to be an Egg-head to be able to purchase this.)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Poison+Mist",
+    "description": "Breathes out a cone of poison mist that fills the surrounding area causing poison status."
+  },
+  {
+    "id": "power_within",
+    "name": "Power Within",
+    "category": "spell",
+    "aliases": [
+      "pw"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "attunement": 10
+    },
+    "scaling": {},
+    "damage_type": [
+      "buff"
+    ],
+    "tags": [
+      "buff",
+      "damage",
+      "pyromancy",
+      "stamina"
+    ],
+    "image_url": null,
+    "location": "Blighttown (Underneath the Parasitic Wall Hugger)",
+    "acquisition": "Blighttown (Underneath the Parasitic Wall Hugger)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Power%2BWithin",
+    "description": "Increases Attack and Defense but gradually drains HP"
+  },
+  {
+    "id": "toxic_mist",
+    "name": "Toxic Mist",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Eingyi, the Egg Burdened NPC near the Daughter of Chaos. (You need to be an Egg-head to be able to purchase this.)",
+    "acquisition": "Eingyi, the Egg Burdened NPC near the Daughter of Chaos. (You need to be an Egg-head to be able to purchase this.)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Toxic+Mist",
+    "description": "Breathes out a cone of toxic mist that fills the surrounding area causing toxic status."
+  },
+  {
+    "id": "undead_rapport",
+    "name": "Undead Rapport",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy"
+    ],
+    "image_url": null,
+    "location": "Quelana",
+    "acquisition": "Quelana",
+    "source_url": "https://darksouls.wiki.fextralife.com/Undead+Rapport",
+    "description": "Advanced pyromancy of Quelana of Izalith. Charm undead and gain temporary allies. Melee ranged support spell with about 2 second cast time."
+  }
+]

@@ -1,0 +1,2454 @@
+[
+  {
+    "id": "abyss_greatsword",
+    "name": "Abyss Greatsword",
+    "category": "weapon",
+    "aliases": [
+      "Abyss Sword",
+      "Abbys Sword"
+    ],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Abyss+Greatsword",
+    "description": "Abyss Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "astora_s_straight_sword",
+    "name": "Astora's Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Astora's+Straight+Sword",
+    "description": "Astora's Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "avelyn",
+    "name": "Avelyn",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "crossbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Avelyn",
+    "description": "Avelyn is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "balder_side_sword",
+    "name": "Balder Side Sword",
+    "category": "weapon",
+    "aliases": [
+      "balder swag sword",
+      "bss"
+    ],
+    "weight": 3.0,
+    "requirements": {
+      "strength": 10,
+      "dexterity": 14
+    },
+    "scaling": {
+      "strength": "E",
+      "dexterity": "B"
+    },
+    "damage_type": [
+      "slash",
+      "thrust"
+    ],
+    "tags": [
+      "counter-damage",
+      "dexterity",
+      "light",
+      "straight-swords",
+      "thrust",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Undead Parish and Sen's Fortress",
+    "acquisition": "Rare drop from Balder Knights wielding the sword in Undead Parish and Sen's Fortress.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Balder%2BSide%2BSword",
+    "description": "A dexterity straight sword prized for reach, thrust attacks, and low weight."
+  },
+  {
+    "id": "bandit_s_knife",
+    "name": "Bandit's Knife",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bandit's+Knife",
+    "description": "Bandit's Knife is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "barbed_straight_sword",
+    "name": "Barbed Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Barbed+Straight+Sword",
+    "description": "Barbed Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "bastard_sword",
+    "name": "Bastard Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bastard+Sword",
+    "description": "Bastard Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "battle_axe",
+    "name": "Battle Axe",
+    "category": "weapon",
+    "aliases": [
+      "axe"
+    ],
+    "weight": 4.0,
+    "requirements": {
+      "strength": 12,
+      "dexterity": 8
+    },
+    "scaling": {
+      "strength": "C",
+      "dexterity": "D"
+    },
+    "damage_type": [
+      "standard"
+    ],
+    "tags": [
+      "axes",
+      "early-game",
+      "fast",
+      "light",
+      "strength",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Bandit starting gear or Andre of Astora",
+    "acquisition": "Starting equipment for Bandit, sold by Andre of Astora, and rare drop from axe-wielding Hollow Warriors.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Battle%2BAxe",
+    "description": "A light strength-friendly option with quick recovery and modest stat requirements."
+  },
+  {
+    "id": "black_bow_of_pharis",
+    "name": "Black Bow of Pharis",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "bows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Bow+of+Pharis",
+    "description": "Black Bow of Pharis is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "black_knight_greataxe",
+    "name": "Black Knight Greataxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Knight+Greataxe",
+    "description": "Black Knight Greataxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "black_knight_greatsword",
+    "name": "Black Knight Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ultra-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Knight+Greatsword",
+    "description": "Black Knight Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "black_knight_halberd",
+    "name": "Black Knight Halberd",
+    "category": "weapon",
+    "aliases": [
+      "bkh"
+    ],
+    "weight": 14.0,
+    "requirements": {
+      "strength": 32,
+      "dexterity": 18
+    },
+    "scaling": {
+      "strength": "D",
+      "dexterity": "E"
+    },
+    "damage_type": [
+      "slash"
+    ],
+    "tags": [
+      "halberd",
+      "halberds",
+      "high-base-damage",
+      "quality",
+      "rare",
+      "strength",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Black Knight halberd drops",
+    "acquisition": "Chance drop from halberd-wielding Black Knights in Darkroot Basin, Tomb of Giants, and Kiln of the First Flame.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Black%2BKnight%2BHalberd",
+    "description": "A heavy rare halberd with very high base damage that can carry strength or quality builds when it drops early."
+  },
+  {
+    "id": "black_knight_sword",
+    "name": "Black Knight Sword",
+    "category": "weapon",
+    "aliases": [
+      "bks"
+    ],
+    "weight": 8.0,
+    "requirements": {
+      "strength": 20,
+      "dexterity": 18
+    },
+    "scaling": {
+      "strength": "C",
+      "dexterity": "E"
+    },
+    "damage_type": [
+      "standard"
+    ],
+    "tags": [
+      "greatswords",
+      "high-base-damage",
+      "quality",
+      "rare",
+      "strength",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Black Knight drops",
+    "acquisition": "Chance drop from sword-wielding Black Knights in places like Undead Burg, Undead Asylum revisit, Tomb of Giants, and Kiln of the First Flame.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Black%2BKnight%2BSword",
+    "description": "A high base damage greatsword that can carry a build when it drops early."
+  },
+  {
+    "id": "blacksmith_giant_hammer",
+    "name": "Blacksmith Giant Hammer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Blacksmith+Giant+Hammer",
+    "description": "Blacksmith Giant Hammer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "blacksmith_hammer",
+    "name": "Blacksmith Hammer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Blacksmith+Hammer",
+    "description": "Blacksmith Hammer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "broadsword",
+    "name": "Broadsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Broadsword",
+    "description": "Broadsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "broken_straight_sword",
+    "name": "Broken Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Broken+Straight+Sword",
+    "description": "Broken Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "butcher_knife",
+    "name": "Butcher Knife",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Butcher+Knife",
+    "description": "Butcher Knife is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "caestus",
+    "name": "Caestus",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "fist-claw",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Caestus",
+    "description": "Caestus is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "channeler_s_trident",
+    "name": "Channeler's Trident",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Channeler's+Trident",
+    "description": "Channeler's Trident is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "chaos_blade",
+    "name": "Chaos Blade",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "katanas",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Chaos+Blade",
+    "description": "Chaos Blade is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "claws",
+    "name": "Claws",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "fist-claw",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Claws",
+    "description": "Claws is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "claymore",
+    "name": "Claymore",
+    "category": "weapon",
+    "aliases": [
+      "claymore greatsword"
+    ],
+    "weight": 6.0,
+    "requirements": {
+      "strength": 16,
+      "dexterity": 10
+    },
+    "scaling": {
+      "strength": "C",
+      "dexterity": "C"
+    },
+    "damage_type": [
+      "standard",
+      "thrust"
+    ],
+    "tags": [
+      "dexterity",
+      "greatswords",
+      "medium-weight",
+      "quality",
+      "strength",
+      "versatile",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Upper Undead Burg bridge",
+    "acquisition": "Looted from a body on the bridge guarded by the Hellkite Wyvern in upper Undead Burg.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Claymore",
+    "description": "A balanced greatsword with thrusting attacks, low commitment, and excellent upgrade flexibility."
+  },
+  {
+    "id": "club",
+    "name": "Club",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Club",
+    "description": "Club is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "composite_bow",
+    "name": "Composite Bow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "bows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Composite+Bow",
+    "description": "Composite Bow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "crescent_axe",
+    "name": "Crescent Axe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crescent+Axe",
+    "description": "Crescent Axe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "crystal_greatsword",
+    "name": "Crystal Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Greatsword",
+    "description": "Crystal Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "crystal_straight_sword",
+    "name": "Crystal Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Straight+Sword",
+    "description": "Crystal Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dagger",
+    "description": "Dagger is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dark_hand",
+    "name": "Dark Hand",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "fist-claw",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Hand",
+    "description": "Dark Hand is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dark_silver_tracer",
+    "name": "Dark Silver Tracer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Silver+Tracer",
+    "description": "Dark Silver Tracer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "darkmoon_bow",
+    "name": "Darkmoon Bow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "bows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Darkmoon+Bow",
+    "description": "Darkmoon Bow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "darksword",
+    "name": "Darksword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Darksword",
+    "description": "Darksword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "demon_great_machete",
+    "name": "Demon Great Machete",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ultra-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon+Great+Machete",
+    "description": "Demon Great Machete is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "demon_s_great_hammer",
+    "name": "Demon's Great Hammer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon's+Great+Hammer",
+    "description": "Demon's Great Hammer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "demon_s_greataxe",
+    "name": "Demon's Greataxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon's+Greataxe",
+    "description": "Demon's Greataxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "demon_s_spear",
+    "name": "Demon's Spear",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon's+Spear",
+    "description": "Demon's Spear is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragon_bone_fist",
+    "name": "Dragon Bone Fist",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "fist-claw",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Bone+Fist",
+    "description": "Dragon Bone Fist is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragon_greatsword",
+    "name": "Dragon Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ultra-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Greatsword",
+    "description": "Dragon Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragon_king_greataxe",
+    "name": "Dragon King Greataxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+King+Greataxe",
+    "description": "Dragon King Greataxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragon_tooth",
+    "name": "Dragon Tooth",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Tooth",
+    "description": "Dragon Tooth is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragonslayer_greatbow",
+    "name": "Dragonslayer Greatbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragonslayer+Greatbow",
+    "description": "Dragonslayer Greatbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "dragonslayer_spear",
+    "name": "Dragonslayer Spear",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragonslayer+Spear",
+    "description": "Dragonslayer Spear is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "drake_sword",
+    "name": "Drake Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Drake+Sword",
+    "description": "Drake Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "estoc",
+    "name": "Estoc",
+    "category": "weapon",
+    "aliases": [
+      "mail breaker alternative"
+    ],
+    "weight": 3.0,
+    "requirements": {
+      "strength": 10,
+      "dexterity": 12
+    },
+    "scaling": {
+      "strength": "D",
+      "dexterity": "C"
+    },
+    "damage_type": [
+      "thrust"
+    ],
+    "tags": [
+      "dexterity",
+      "light",
+      "piercing-swords",
+      "shield-poke",
+      "thrust",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Lower Firelink Shrine path to New Londo Ruins",
+    "acquisition": "Looted from a corpse in the lower section of Firelink Shrine, along the path toward New Londo Ruins.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Estoc",
+    "description": "A light thrusting sword that pairs well with shields and counter damage."
+  },
+  {
+    "id": "falchion",
+    "name": "Falchion",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Falchion",
+    "description": "Falchion is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "flamberge",
+    "name": "Flamberge",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Flamberge",
+    "description": "Flamberge is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "four_pronged_plow",
+    "name": "Four-pronged Plow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Four-Pronged+Plow",
+    "description": "Four-pronged Plow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "gargoyle_tail_axe",
+    "name": "Gargoyle Tail Axe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gargoyle+Tail+Axe",
+    "description": "Gargoyle Tail Axe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "gargoyle_s_halberd",
+    "name": "Gargoyle's Halberd",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gargoyle's+Halberd",
+    "description": "Gargoyle's Halberd is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "ghost_blade",
+    "name": "Ghost Blade",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Ghost+Blade",
+    "description": "Ghost Blade is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "giant_s_halberd",
+    "name": "Giant's Halberd",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Giant's+Halberd",
+    "description": "Giant's Halberd is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "gold_tracer",
+    "name": "Gold Tracer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gold+Tracer",
+    "description": "Gold Tracer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "golem_axe",
+    "name": "Golem Axe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Golem+Axe",
+    "description": "Golem Axe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "gough_s_greatbow",
+    "name": "Gough's Greatbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gough's+Greatbow",
+    "description": "Gough's Greatbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "grant",
+    "name": "Grant",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Grant",
+    "description": "Grant is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "gravelord_sword",
+    "name": "Gravelord Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gravelord+Sword",
+    "description": "Gravelord Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "great_club",
+    "name": "Great Club",
+    "category": "weapon",
+    "aliases": [
+      "large club alternative"
+    ],
+    "weight": 12.0,
+    "requirements": {
+      "strength": 28
+    },
+    "scaling": {
+      "strength": "A"
+    },
+    "damage_type": [
+      "strike"
+    ],
+    "tags": [
+      "great-hammers",
+      "heavy",
+      "stagger",
+      "strength",
+      "strike",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Blighttown swamp",
+    "acquisition": "Found in Blighttown near Quelaag's Domain, around the concrete structures guarded by Infested Barbarians.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great%2BClub",
+    "description": "A heavy strength weapon that hits extremely hard and punishes armored enemies with strike damage."
+  },
+  {
+    "id": "great_lord_greatsword",
+    "name": "Great Lord Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Lord+Greatsword",
+    "description": "Great Lord Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "great_scythe",
+    "name": "Great Scythe",
+    "category": "weapon",
+    "aliases": [
+      "scythe"
+    ],
+    "weight": 5.0,
+    "requirements": {
+      "strength": 14,
+      "dexterity": 14
+    },
+    "scaling": {
+      "strength": "E",
+      "dexterity": "B"
+    },
+    "damage_type": [
+      "slash"
+    ],
+    "tags": [
+      "bleed",
+      "dexterity",
+      "halberds",
+      "light",
+      "reach",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "The Catacombs",
+    "acquisition": "Found in The Catacombs above the lever to the second closed door; access it by jumping from the second spiked rotating bridge.",
+    "source_url": "https://darksouls.wiki.fextralife.com/great%2Bscythe",
+    "description": "A lightweight dexterity weapon with strong running attacks, bleed, and impressive reach."
+  },
+  {
+    "id": "greataxe",
+    "name": "Greataxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Greataxe",
+    "description": "Greataxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "greatsword",
+    "name": "Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ultra-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Greatsword",
+    "description": "Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "greatsword_of_artorias",
+    "name": "Greatsword of Artorias",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Greatsword+of+Artorias",
+    "description": "Greatsword of Artorias is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "greatsword_of_artorias_cursed",
+    "name": "Greatsword of Artorias (Cursed)",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Greatsword+of+Artorias+(Cursed)",
+    "description": "Greatsword of Artorias (Cursed) is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "guardian_tail",
+    "name": "Guardian Tail",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "weapon",
+      "whips"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Guardian+Tail",
+    "description": "Guardian Tail is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "halberd",
+    "name": "Halberd",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Halberd",
+    "description": "Halberd is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "hammer_of_vamos",
+    "name": "Hammer of Vamos",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hammer+of+Vamos",
+    "description": "Hammer of Vamos is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "hand_axe",
+    "name": "Hand Axe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hand+Axe",
+    "description": "Hand Axe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "heavy_crossbow",
+    "name": "Heavy Crossbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "crossbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Heavy+Crossbow",
+    "description": "Heavy Crossbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "iaito",
+    "name": "Iaito",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "katanas",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Iaito",
+    "description": "Iaito is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "jagged_ghost_blade",
+    "name": "Jagged Ghost Blade",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Jagged+Ghost+Blade",
+    "description": "Jagged Ghost Blade is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "large_club",
+    "name": "Large Club",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Club",
+    "description": "Large Club is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "lifehunt_scythe",
+    "name": "Lifehunt Scythe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Lifehunt+Scythe",
+    "description": "Lifehunt Scythe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "light_crossbow",
+    "name": "Light Crossbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "crossbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Light+Crossbow",
+    "description": "Light Crossbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "longbow",
+    "name": "Longbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "bows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Longbow",
+    "description": "Longbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "longsword",
+    "name": "Longsword",
+    "category": "weapon",
+    "aliases": [
+      "long sword"
+    ],
+    "weight": 3.0,
+    "requirements": {
+      "strength": 10,
+      "dexterity": 10
+    },
+    "scaling": {
+      "strength": "C",
+      "dexterity": "C"
+    },
+    "damage_type": [
+      "standard",
+      "thrust"
+    ],
+    "tags": [
+      "light",
+      "quality",
+      "straight-sword",
+      "straight-swords",
+      "versatile",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Warrior starting gear or Andre of Astora",
+    "acquisition": "Common straight sword option; available as starting gear for Warrior and sold by Andre of Astora.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Longsword",
+    "description": "A low-weight straight sword with a flexible moveset and easy stat requirements."
+  },
+  {
+    "id": "lucerne",
+    "name": "Lucerne",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Lucerne",
+    "description": "Lucerne is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "mace",
+    "name": "Mace",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mace",
+    "description": "Mace is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "mail_breaker",
+    "name": "Mail Breaker",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "piercing-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mail+Breaker",
+    "description": "Mail Breaker is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "man_serpent_greatsword",
+    "name": "Man-Serpent Greatsword",
+    "category": "weapon",
+    "aliases": [
+      "man serpent greatsword",
+      "man-serpent sword",
+      "msgs"
+    ],
+    "weight": 10.0,
+    "requirements": {
+      "strength": 24
+    },
+    "scaling": {
+      "strength": "B"
+    },
+    "damage_type": [
+      "standard"
+    ],
+    "tags": [
+      "buffable",
+      "efficient",
+      "greatsword",
+      "greatswords",
+      "strength",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress",
+    "acquisition": "Dropped by Man-Serpents in Sen's Fortress.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Man-serpent%2BGreatword",
+    "description": "A pure strength greatsword with excellent scaling and no dexterity requirement."
+  },
+  {
+    "id": "moonlight_butterfly_horn",
+    "name": "Moonlight Butterfly Horn",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Moonlight+Butterfly+Horn",
+    "description": "Moonlight Butterfly Horn is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "moonlight_greatsword",
+    "name": "Moonlight Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Moonlight+Greatsword",
+    "description": "Moonlight Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "morning_star",
+    "name": "Morning Star",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Morning+Star",
+    "description": "Morning Star is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "murakumo",
+    "name": "Murakumo",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Murakumo",
+    "description": "Murakumo is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "notched_whip",
+    "name": "Notched Whip",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "weapon",
+      "whips"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Notched+Whip",
+    "description": "Notched Whip is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "obsidian_greatsword",
+    "name": "Obsidian Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Obsidian+Greatsword",
+    "description": "Obsidian Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "painting_guardian_sword",
+    "name": "Painting Guardian Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Painting+Guardian+Sword",
+    "description": "Painting Guardian Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "parrying_dagger",
+    "name": "Parrying Dagger",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Parrying+dagger",
+    "description": "Parrying Dagger is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "partizan",
+    "name": "Partizan",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Partizan",
+    "description": "Partizan is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "pickaxe",
+    "name": "Pickaxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Pickaxe",
+    "description": "Pickaxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Pike",
+    "description": "Pike is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "priscilla_s_dagger",
+    "name": "Priscilla's Dagger",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "daggers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Priscilla's+Dagger",
+    "description": "Priscilla's Dagger is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "quelaag_s_furysword",
+    "name": "Quelaag's Furysword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Quelaag's+Furysword",
+    "description": "Quelaag's Furysword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "rapier",
+    "name": "Rapier",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "piercing-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Rapier",
+    "description": "Rapier is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "reinforced_club",
+    "name": "Reinforced Club",
+    "category": "weapon",
+    "aliases": [
+      "reinforced mace"
+    ],
+    "weight": 4.0,
+    "requirements": {
+      "strength": 12
+    },
+    "scaling": {
+      "strength": "B"
+    },
+    "damage_type": [
+      "strike"
+    ],
+    "tags": [
+      "bleed",
+      "early-game",
+      "hammers",
+      "light",
+      "strength",
+      "strike",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Undead Burg merchant",
+    "acquisition": "Sold by the Male Undead Merchant in Undead Burg.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Reinforced%2BClub",
+    "description": "A compact strength weapon with strike damage and bleed that remains useful far past the early game."
+  },
+  {
+    "id": "ricard_s_rapier",
+    "name": "Ricard's Rapier",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "piercing-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Ricard's+Rapier",
+    "description": "Ricard's Rapier is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "scimitar",
+    "name": "Scimitar",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Scimitar",
+    "description": "Scimitar is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "scythe",
+    "name": "Scythe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Scythe",
+    "description": "Scythe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "server",
+    "name": "Server",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Server",
+    "description": "Server is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "short_bow",
+    "name": "Short Bow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "bows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Short+Bow",
+    "description": "Short Bow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "shortsword",
+    "name": "Shortsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Shortsword",
+    "description": "Shortsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "shotel",
+    "name": "Shotel",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "curved-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Shotel",
+    "description": "Shotel is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "silver_knight_spear",
+    "name": "Silver Knight Spear",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Silver+Knight+Spear",
+    "description": "Silver Knight Spear is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "silver_knight_straight_sword",
+    "name": "Silver Knight Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Silver+Knight+Straight+Sword",
+    "description": "Silver Knight Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "smough_s_hammer",
+    "name": "Smough's Hammer",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Smough's+Hammer",
+    "description": "Smough's Hammer is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "sniper_crossbow",
+    "name": "Sniper Crossbow",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "crossbows",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sniper+Crossbow",
+    "description": "Sniper Crossbow is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "spear",
+    "name": "Spear",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Spear",
+    "description": "Spear is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "stone_greataxe",
+    "name": "Stone Greataxe",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "great-axes",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Stone+Greataxe",
+    "description": "Stone Greataxe is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "stone_greatsword",
+    "name": "Stone Greatsword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Stone+Greatsword",
+    "description": "Stone Greatsword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "straight_sword_hilt",
+    "name": "Straight Sword Hilt",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Straight+Sword+Hilt",
+    "description": "Straight Sword Hilt is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "sunlight_straight_sword",
+    "name": "Sunlight Straight Sword",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "straight-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Straight+Sword",
+    "description": "Sunlight Straight Sword is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "titanite_catch_pole",
+    "name": "Titanite Catch Pole",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "halberds",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Titanite+Catch+Pole",
+    "description": "Titanite Catch Pole is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "uchigatana",
+    "name": "Uchigatana",
+    "category": "weapon",
+    "aliases": [
+      "katana",
+      "uchi"
+    ],
+    "weight": 5.0,
+    "requirements": {
+      "strength": 14,
+      "dexterity": 14
+    },
+    "scaling": {
+      "strength": "E",
+      "dexterity": "B"
+    },
+    "damage_type": [
+      "slash"
+    ],
+    "tags": [
+      "bleed",
+      "dexterity",
+      "fast",
+      "katana",
+      "katanas",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Undead Burg or Shiva of the East",
+    "acquisition": "Dropped by the Male Undead Merchant in Undead Burg, or sold by Shiva of the East for 5,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/uchigatana",
+    "description": "A fast dexterity katana with bleed buildup and reliable one-handed attacks."
+  },
+  {
+    "id": "velka_s_rapier",
+    "name": "Velka's Rapier",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "piercing-swords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Velka's+Rapier",
+    "description": "Velka's Rapier is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "warpick",
+    "name": "Warpick",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "hammers",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Warpick",
+    "description": "Warpick is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "washing_pole",
+    "name": "Washing Pole",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "katanas",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/washing+pole",
+    "description": "Washing Pole is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "whip",
+    "name": "Whip",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "weapon",
+      "whips"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Whip",
+    "description": "Whip is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "winged_spear",
+    "name": "Winged Spear",
+    "category": "weapon",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "spears",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Winged+Spear",
+    "description": "Winged Spear is a Dark Souls 1 weapon tracked in the local catalog."
+  },
+  {
+    "id": "zweihander",
+    "name": "Zweihander",
+    "category": "weapon",
+    "aliases": [
+      "bass cannon",
+      "zwei"
+    ],
+    "weight": 10.0,
+    "requirements": {
+      "strength": 24,
+      "dexterity": 10
+    },
+    "scaling": {
+      "strength": "C",
+      "dexterity": "D"
+    },
+    "damage_type": [
+      "standard",
+      "thrust"
+    ],
+    "tags": [
+      "quality",
+      "stagger",
+      "strength",
+      "ultra-greatsword",
+      "ultra-greatswords",
+      "weapon"
+    ],
+    "image_url": null,
+    "location": "Firelink Shrine graveyard",
+    "acquisition": "Looted from a corpse in the graveyard behind Firelink Shrine, near the large tombstones and skeletons.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Zweihander",
+    "description": "A wide ultra greatsword with long reach, strong poise damage, and a forgiving moveset for strength or quality builds."
+  }
+]

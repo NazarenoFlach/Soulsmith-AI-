@@ -1,0 +1,254 @@
+[
+  {
+    "id": "blue_titanite_chunk",
+    "name": "Blue Titanite Chunk",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Crystal Golems, the last of Black Knights in Kiln of the First Flame. Trade with Snuggly: 1x for Dried Finger.",
+    "acquisition": "Drops from: Crystal Golems, the last of Black Knights in Kiln of the First Flame. Trade with Snuggly: 1x for Dried Finger.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blue+Titanite+Chunk",
+    "description": "Reinforce Magic weapons to +9, Enchanted weapons to +4"
+  },
+  {
+    "id": "blue_titanite_slab",
+    "name": "Blue Titanite Slab",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Moonlight Butterflies in Crystal Cave (rare drop). 1x at the end of long invisible path near Crystal Lizard in Crystal Cave. 1x in the chest in the water in the middle of the wood in Royal Woods. (AotA only)",
+    "acquisition": "Drops from: Moonlight Butterflies in Crystal Cave (rare drop). 1x at the end of long invisible path near Crystal Lizard in Crystal Cave. 1x in the chest in the water in the middle of the wood in Royal Woods. (AotA only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blue+Titanite+Slab",
+    "description": "Reinforce Magic weapons to +10, Enchanted weapons to +5"
+  },
+  {
+    "id": "demon_titanite",
+    "name": "Demon Titanite",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Titanite Demons (2x for the respawning one in Lost Izalith and non-respawning Demon in Anor Londo, 1x for the rest). 4x total found in chests in Anor Londo (see the Ore's page for further details). Trade with Snuggly: 1x for Prism Stone, 1x for Dung Pie.",
+    "acquisition": "Drops from: Titanite Demons (2x for the respawning one in Lost Izalith and non-respawning Demon in Anor Londo, 1x for the rest). 4x total found in chests in Anor Londo (see the Ore's page for further details). Trade with Snuggly: 1x for Prism Stone, 1x for Dung Pie.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon+Titanite",
+    "description": "Reinforce weapons made with Boss Souls to +5"
+  },
+  {
+    "id": "dragon_scale",
+    "name": "Dragon Scale",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Drakes (rare drop), Hydras, Black Hydras, Undead Dragons. 3x total on corpses in Ash Lake (see the Ore's page for further details), 1x in a chest close to the second bonfire in Blighttown. Trade with Snuggly: 1x for Egg Vermifuge.",
+    "acquisition": "Drops from: Drakes (rare drop), Hydras, Black Hydras, Undead Dragons. 3x total on corpses in Ash Lake (see the Ore's page for further details), 1x in a chest close to the second bonfire in Blighttown. Trade with Snuggly: 1x for Egg Vermifuge.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Scale",
+    "description": "Reinforce Dragon weapons to +5"
+  },
+  {
+    "id": "green_titanite_shard",
+    "name": "Green Titanite Shard",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Merchant: Giant Blacksmith (4,800 Souls) Merchant: Crestfallen Merchant (5,000 Souls) Merchant: Hawkeye Gough (4,800 Souls) (AotA only) Drops from: Slime (The Depths), Giant Leeches (5x per kill).",
+    "acquisition": "Merchant: Giant Blacksmith (4,800 Souls) Merchant: Crestfallen Merchant (5,000 Souls) Merchant: Hawkeye Gough (4,800 Souls) (AotA only) Drops from: Slime (The Depths), Giant Leeches (5x per kill).",
+    "source_url": "https://darksouls.wiki.fextralife.com/Green+Titanite+Shard",
+    "description": "Reinforce Magic, Divine, and Fire weapons to +5"
+  },
+  {
+    "id": "large_titanite_shard",
+    "name": "Large Titanite Shard",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Merchant: Crestfallen Merchant (4,000 Souls) Merchant: Giant Blacksmith (3,800 Souls) Merchant: Hawkeye Gough (3,800 Souls) (AotA only) Drops from: Slime (The Depths), Balder Knights, The Berenike Knights, Giant Leeches.",
+    "acquisition": "Merchant: Crestfallen Merchant (4,000 Souls) Merchant: Giant Blacksmith (3,800 Souls) Merchant: Hawkeye Gough (3,800 Souls) (AotA only) Drops from: Slime (The Depths), Balder Knights, The Berenike Knights, Giant Leeches.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Titanite+Shard",
+    "description": "Reinforce standard weapons to +10, Raw weapons to +5 Reinforce standard armor to +6"
+  },
+  {
+    "id": "red_titanite_chunk",
+    "name": "Red Titanite Chunk",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Chaos Bugs, Chaos Eaters beneath the collapsed floor in Lost Izalith, Black Knights in Kiln of the First Flame. Trade with Snuggly: 1x for Pyromancy Flame.",
+    "acquisition": "Drops from: Chaos Bugs, Chaos Eaters beneath the collapsed floor in Lost Izalith, Black Knights in Kiln of the First Flame. Trade with Snuggly: 1x for Pyromancy Flame.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+Titanite+Chunk",
+    "description": "Reinforce Fire weapons to +9, Chaos weapons to +4"
+  },
+  {
+    "id": "red_titanite_slab",
+    "name": "Red Titanite Slab",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Chaos Eaters beneath the collapsed floor in Lost Izalith (rare drop). 1x in the chest of sewer area near Bed of Chaos. Trade with Snuggly: 1x for Pyromancy Flame (Ascended).",
+    "acquisition": "Drops from: Chaos Eaters beneath the collapsed floor in Lost Izalith (rare drop). 1x in the chest of sewer area near Bed of Chaos. Trade with Snuggly: 1x for Pyromancy Flame (Ascended).",
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+Titanite+Slab",
+    "description": "Reinforce Fire weapons to +10, Chaos weapons to +5"
+  },
+  {
+    "id": "titanite_chunk",
+    "name": "Titanite Chunk",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Crystal Lizards, Black Knights, Darkwraith Knights, Sen's Fortress Giants (Bomber and the one through the secret door), Anor Londo's Royal Sentinel (the two just before the Ornstein and Smough boss fight). Trade with Snuggly: 1x for Rubbish.",
+    "acquisition": "Drops from: Crystal Lizards, Black Knights, Darkwraith Knights, Sen's Fortress Giants (Bomber and the one through the secret door), Anor Londo's Royal Sentinel (the two just before the Ornstein and Smough boss fight). Trade with Snuggly: 1x for Rubbish.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Titanite+Chunk",
+    "description": "Reinforce standard weapons to +14, Crystal and Lightning weapons to +4, Reinforce standard armor to +9"
+  },
+  {
+    "id": "titanite_shard",
+    "name": "Titanite Shard",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Merchant: Blacksmith Andre (800 Souls) Merchant: Giant Blacksmith (800 Souls) Merchant: Blacksmith Vamos (800 Souls) Merchant: Hawkeye Gough (800 Souls) (AotA only) Drops from: Undead Soldiers (Spear), Undead Soldiers (bow), and Balder Knights.",
+    "acquisition": "Merchant: Blacksmith Andre (800 Souls) Merchant: Giant Blacksmith (800 Souls) Merchant: Blacksmith Vamos (800 Souls) Merchant: Hawkeye Gough (800 Souls) (AotA only) Drops from: Undead Soldiers (Spear), Undead Soldiers (bow), and Balder Knights.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Titanite+Shard",
+    "description": "Reinforce standard weapons to +5 Reinforce standard armor to +3"
+  },
+  {
+    "id": "titanite_slab",
+    "name": "Titanite Slab",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Crystal Lizards, Stray Demon (on return), Darkwraith Knights (rare drop). Rewarded for completing the Siegmeyer of Catarina questline. See the NPC page for further details. 1x in a chest behind waterfall in Black Dragon Kalameet's area. (AotA only)",
+    "acquisition": "Drops from: Crystal Lizards, Stray Demon (on return), Darkwraith Knights (rare drop). Rewarded for completing the Siegmeyer of Catarina questline. See the NPC page for further details. 1x in a chest behind waterfall in Black Dragon Kalameet's area. (AotA only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Titanite+Slab",
+    "description": "Reinforce standard weapons to +15, Crystal and Lightning weapons to +5, Reinforce standard armor to +10"
+  },
+  {
+    "id": "twinkling_titanite",
+    "name": "Twinkling Titanite",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Merchant: Giant Blacksmith (8,000 souls) Drops from: Crystal Lizards, Man-Eater Shells. Trade with Snuggly: 1x for Purple Moss Clump, 1x for Bloodred Moss Clump, 2x for Blooming Purple Moss Clump.",
+    "acquisition": "Merchant: Giant Blacksmith (8,000 souls) Drops from: Crystal Lizards, Man-Eater Shells. Trade with Snuggly: 1x for Purple Moss Clump, 1x for Bloodred Moss Clump, 2x for Blooming Purple Moss Clump.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Twinkling+Titanite",
+    "description": "Reinforce non-infusable weapons and rare armor to +5"
+  },
+  {
+    "id": "white_titanite_chunk",
+    "name": "White Titanite Chunk",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Black Knights in Kiln of the First Flame, Bone Towers (rare drop). Trade with Snuggly: 1x for Sunlight Medal.",
+    "acquisition": "Drops from: Black Knights in Kiln of the First Flame, Bone Towers (rare drop). Trade with Snuggly: 1x for Sunlight Medal.",
+    "source_url": "https://darksouls.wiki.fextralife.com/White+Titanite+Chunk",
+    "description": "Reinforce Divine weapons to +9, Occult weapons to +4"
+  },
+  {
+    "id": "white_titanite_slab",
+    "name": "White Titanite Slab",
+    "category": "upgrade_material",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "upgrade-material"
+    ],
+    "image_url": null,
+    "location": "Drops from: Pinwheel Servants (rare drop). 1x from a corpse in the skeleton baby area in the Tomb of Giants. 1x from a corpse near Manus, Father of the Abyss. (AotA only)",
+    "acquisition": "Drops from: Pinwheel Servants (rare drop). 1x from a corpse in the skeleton baby area in the Tomb of Giants. 1x from a corpse near Manus, Father of the Abyss. (AotA only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/White+Titanite+Slab",
+    "description": "Reinforce Divine weapons to +10, Occult weapons to +5"
+  }
+]

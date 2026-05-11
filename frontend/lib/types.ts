@@ -1,4 +1,17 @@
-export type ItemCategory = "weapon" | "shield" | "armor" | "ring" | "spell" | "tool";
+export type ItemCategory =
+  | "weapon"
+  | "shield"
+  | "armor"
+  | "ring"
+  | "spell"
+  | "tool"
+  | "consumable"
+  | "key_item"
+  | "ember"
+  | "upgrade_material"
+  | "ammunition"
+  | "soul"
+  | "multiplayer";
 
 export type ItemSummary = {
   id: string;
@@ -6,6 +19,9 @@ export type ItemSummary = {
   category: ItemCategory;
   weight: number | null;
   image_url: string | null;
+  location?: string | null;
+  acquisition?: string | null;
+  source_url?: string | null;
 };
 
 export type Stats = {

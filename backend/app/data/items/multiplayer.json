@@ -1,0 +1,290 @@
+[
+  {
+    "id": "black_separation_crystal",
+    "name": "Black Separation Crystal",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "In the player's inventory when the game starts.",
+    "acquisition": "In the player's inventory when the game starts.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Separation+Crystal",
+    "description": "The crystal sends phantoms back to their world or sends you back to yours."
+  },
+  {
+    "id": "blue_eye_orb",
+    "name": "Blue Eye Orb",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Received for joining the Blade of the Dark Moon covenant.May be used while hollowed",
+    "acquisition": "Received for joining the Blade of the Dark Moon covenant.May be used while hollowed",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blue+Eye+Orb",
+    "description": "Invade the world of a sinner."
+  },
+  {
+    "id": "book_of_the_guilty",
+    "name": "Book of the Guilty",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Purchased from Oswald of Carim for 1,000 souls.",
+    "acquisition": "Purchased from Oswald of Carim for 1,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Book+of+the+Guilty",
+    "description": "Online play item. Checklist of indicted players."
+  },
+  {
+    "id": "cracked_red_eye_orb",
+    "name": "Cracked Red Eye Orb",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Purchased from Darkstalker Kaathe4 found in a chest in the elevator shaft near Firelink Shrine.6 found on a corpse hanging over a well in lower New Londo Ruins.",
+    "acquisition": "Purchased from Darkstalker Kaathe4 found in a chest in the elevator shaft near Firelink Shrine.6 found on a corpse hanging over a well in lower New Londo Ruins.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cracked+Red+Eye+Orb",
+    "description": "This consumable item will allow you to invade another player's world."
+  },
+  {
+    "id": "dragon_eye",
+    "name": "Dragon Eye",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Obtained by joining Covenant Path of the Dragon",
+    "acquisition": "Obtained by joining Covenant Path of the Dragon",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Eye",
+    "description": "Invade the world of a possessor of a Dragon Scale."
+  },
+  {
+    "id": "dried_finger",
+    "name": "Dried Finger",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Found in Painted World of Ariamis",
+    "acquisition": "Found in Painted World of Ariamis",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dried+Finger",
+    "description": "Resets invasion timer."
+  },
+  {
+    "id": "eye_of_death",
+    "name": "Eye Of Death",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Dropped from the Basilisks (fairly common following patch 1.05) in the Depths and The Great Hollow. Purchased from Patches the Hyena for 3,000 souls apiece, although he only has 3 in stock.",
+    "acquisition": "Dropped from the Basilisks (fairly common following patch 1.05) in the Depths and The Great Hollow. Purchased from Patches the Hyena for 3,000 souls apiece, although he only has 3 in stock.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Eye+of+Death",
+    "description": "Lure Phantoms from other worlds."
+  },
+  {
+    "id": "indictment",
+    "name": "Indictment",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Purchased from Oswald of Carim for 200 souls.",
+    "acquisition": "Purchased from Oswald of Carim for 200 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/indictment",
+    "description": "Online play item. Indict invader."
+  },
+  {
+    "id": "orange_guidance_soapstone",
+    "name": "Orange Guidance Soapstone",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Purchased from the Undead Merchant for 100 souls.",
+    "acquisition": "Purchased from the Undead Merchant for 100 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Orange+Guidance+Soapstone",
+    "description": "Online play item used to write and rate messages left by other players."
+  },
+  {
+    "id": "purple_coward_s_crystal",
+    "name": "Purple Coward's Crystal",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Online play item used to exit Battle of Stoicism. (AotA Only) It activates like any other item. Game text: \"Online play item. Quit battle of Stoicism. (Session ends if host leaves) Victory in this battle once led to ancient Anor Londo, but even in the absence of its overseer, capitulation is a disgrace. In the name of a warrior's honor, do not quickly resort to use of this crystal.\" Received after joining Battle of Stoicism.",
+    "acquisition": "Online play item used to exit Battle of Stoicism. (AotA Only) It activates like any other item. Game text: \"Online play item. Quit battle of Stoicism. (Session ends if host leaves) Victory in this battle once led to ancient Anor Londo, but even in the absence of its overseer, capitulation is a disgrace. In the name of a warrior's honor, do not quickly resort to use of this crystal.\" Received after joining Battle of Stoicism.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Purple+Coward's+Crystal",
+    "description": "Online play item used to exit Battle of Stoicism. (AotA Only)"
+  },
+  {
+    "id": "red_eye_orb",
+    "name": "Red Eye Orb",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "You receive this item after ranking up once with the Darkwraith covenantYou may only use this as long as you are part of the covenant.",
+    "acquisition": "You receive this item after ranking up once with the Darkwraith covenantYou may only use this as long as you are part of the covenant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+Eye+Orb",
+    "description": "This reusable item allows the player to invade another player's world."
+  },
+  {
+    "id": "red_sign_soapstone",
+    "name": "Red Sign Soapstone",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "This item is found in the Painted World of Ariamis.",
+    "acquisition": "This item is found in the Painted World of Ariamis.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+Sign+Soapstone",
+    "description": "Online play item used to leave summon sign for competitive play."
+  },
+  {
+    "id": "servant_roster",
+    "name": "Servant Roster",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Sold by Eingyi.",
+    "acquisition": "Sold by Eingyi.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Servant+Roster",
+    "description": "Check servants of the Daughters of Chaos."
+  },
+  {
+    "id": "souvenir_of_reprisal",
+    "name": "Souvenir of Reprisal",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Killing Knight Lautrec in his world using the Black Eye Orb. Trade Pendant with \"Snuggly\" to receive 1 of this item Rare drop from Crow Demons in the Painted World of Ariamis",
+    "acquisition": "Killing Knight Lautrec in his world using the Black Eye Orb. Trade Pendant with \"Snuggly\" to receive 1 of this item Rare drop from Crow Demons in the Painted World of Ariamis",
+    "source_url": "https://darksouls.wiki.fextralife.com/Souvenir+of+Reprisal",
+    "description": "Used to rank up in the Blades of the Darkmoon covenant"
+  },
+  {
+    "id": "sunlight_medal",
+    "name": "Sunlight Medal",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "If a boss is defeated while a Warrior of Sunlight covenant member has been summoned, everyone involved (host, covenant member, and any other friendly summons) will receive 1 medal. The covenant member must be a summons; if the host is a member but none of the summons are no medal will be received.Anor Londo 3 from a chest guarded by a spear-wielding Silver Knight If you save Knight Lautrec, talk to him when he goes to Firelink Shrine. He will reward you with 1 medal. Rare drop from Sunlight Maggots. (Demon Ruins, Lost Izalith)",
+    "acquisition": "If a boss is defeated while a Warrior of Sunlight covenant member has been summoned, everyone involved (host, covenant member, and any other friendly summons) will receive 1 medal. The covenant member must be a summons; if the host is a member but none of the summons are no medal will be received.Anor Londo 3 from a chest guarded by a spear-wielding Silver Knight If you save Knight Lautrec, talk to him when he goes to Firelink Shrine. He will reward you with 1 medal. Rare drop from Sunlight Maggots. (Demon Ruins, Lost Izalith)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Medal",
+    "description": "Used to rank up in the Warriors of Sunlight covenant"
+  },
+  {
+    "id": "white_sign_soapstone",
+    "name": "White Sign Soapstone",
+    "category": "multiplayer",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "multiplayer"
+    ],
+    "image_url": null,
+    "location": "Gift from Solaire of Astora",
+    "acquisition": "Gift from Solaire of Astora",
+    "source_url": "https://darksouls.wiki.fextralife.com/White+Sign+Soapstone",
+    "description": "Online play item used to leave a summon sign for cooperative play."
+  }
+]

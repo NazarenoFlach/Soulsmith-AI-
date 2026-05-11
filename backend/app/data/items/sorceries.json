@@ -1,0 +1,514 @@
+[
+  {
+    "id": "aural_decoy",
+    "name": "Aural Decoy",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 1,000 souls",
+    "acquisition": "Griggs of Vinheim 1,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Aural+Decoy",
+    "description": "Lures enemies away by creating a sound originating in the distance."
+  },
+  {
+    "id": "cast_light",
+    "name": "Cast Light",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile 1,000 souls",
+    "acquisition": "Dusk of Oolacile 1,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cast+Light",
+    "description": "Cast a bright light upon surroundings, and lasts 5 minutes. Particularly useful for Tomb of Giants"
+  },
+  {
+    "id": "chameleon",
+    "name": "Chameleon",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile 3,000 souls",
+    "acquisition": "Dusk of Oolacile 3,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Chameleon",
+    "description": "Transform the caster into an inanimate object. Generally, the object you become is something common to the area you are in. Could be a vase, or a box, etc. Some strategy must be used, and the most effective is to place yourself in a cluster of similar objects. Once cast, you can move slowly and position yourself. If done properly, an enemy will walk by you and never know you're there. Cannot run when using, any other action breaks the effect."
+  },
+  {
+    "id": "crystal_magic_weapon",
+    "name": "Crystal Magic Weapon",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan 20,000 souls",
+    "acquisition": "Big Hat Logan 20,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Magic+Weapon",
+    "description": "Enhances and crystallizes right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 1.4x your Magic Adjustment stat (NOT Intelligence) as magic damage to your weapon."
+  },
+  {
+    "id": "crystal_soul_spear",
+    "name": "Crystal Soul Spear",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan 50,000 souls",
+    "acquisition": "Big Hat Logan 50,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Soul+Spear",
+    "description": "Fire an even more powerful, piercing ranged attack."
+  },
+  {
+    "id": "dark_bead",
+    "name": "Dark Bead",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Found on a corpse behind an Oolacile Sorcerer in the Depths of the Abyss. (AotA Only)",
+    "acquisition": "Found on a corpse behind an Oolacile Sorcerer in the Depths of the Abyss. (AotA Only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Bead",
+    "description": "Fires a large amount of small dark orbs that fan outwards—very fast cast time. Excellent against large bosses."
+  },
+  {
+    "id": "dark_fog",
+    "name": "Dark Fog",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Found in Oolacile Township (AotA Only)",
+    "acquisition": "Found in Oolacile Township (AotA Only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Fog",
+    "description": "Creates a fog that inflicts poison. The fog is created at the location of the locked target."
+  },
+  {
+    "id": "dark_orb",
+    "name": "Dark Orb",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Found in Oolacile Township. (AotA Only)",
+    "acquisition": "Found in Oolacile Township. (AotA Only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Orb",
+    "description": "After a brief charge, fires a large shot at your target."
+  },
+  {
+    "id": "fall_control",
+    "name": "Fall Control",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 1,500 souls",
+    "acquisition": "Griggs of Vinheim 1,500 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fall+Control",
+    "description": "Reduces damage and noise from fall. However, terminal falls will still kill you even with this active."
+  },
+  {
+    "id": "great_heavy_soul_arrow",
+    "name": "Great Heavy Soul Arrow",
+    "category": "spell",
+    "aliases": [
+      "ghsa"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "intelligence": 16
+    },
+    "scaling": {},
+    "damage_type": [
+      "magic"
+    ],
+    "tags": [
+      "intelligence",
+      "ranged",
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 8,000 souls Big Hat Logan 8,000 souls",
+    "acquisition": "Griggs of Vinheim 8,000 souls Big Hat Logan 8,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great%2BHeavy%2BSoul%2BArrow",
+    "description": "Stronger than heavy soul arrow, fewer uses. Has a slow cast time, but deals a tremendous amount of damage, even against bosses."
+  },
+  {
+    "id": "great_magic_weapon",
+    "name": "Great Magic Weapon",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Cut Chandelier on the catwalk and pick up in front of Painted World Entrance in Anor Londo",
+    "acquisition": "Cut Chandelier on the catwalk and pick up in front of Painted World Entrance in Anor Londo",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Magic+Weapon",
+    "description": "Enhances the right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 1.1x your Magic Adjustment stat (NOT Intelligence) magic damage to your weapon."
+  },
+  {
+    "id": "great_soul_arrow",
+    "name": "Great Soul Arrow",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 6,000 souls Big Hat Logan 6,000 souls",
+    "acquisition": "Griggs of Vinheim 6,000 souls Big Hat Logan 6,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Soul+Arrow",
+    "description": "Stronger soul arrow, same cast time as soul arrow, fewer uses."
+  },
+  {
+    "id": "heavy_soul_arrow",
+    "name": "Heavy Soul Arrow",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 2,000 souls Big Hat Logan 2,000 souls Blacksmith Rickert of Vinheim 4,000 souls",
+    "acquisition": "Griggs of Vinheim 2,000 souls Big Hat Logan 2,000 souls Blacksmith Rickert of Vinheim 4,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Heavy+Soul+Arrow",
+    "description": "Stronger than greater soul arrow, longer casting time."
+  },
+  {
+    "id": "hidden_body",
+    "name": "Hidden Body",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile 2,000 souls",
+    "acquisition": "Dusk of Oolacile 2,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Hidden+Body",
+    "description": "Masks your presence, making detection harder."
+  },
+  {
+    "id": "hidden_weapon",
+    "name": "Hidden Weapon",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile 2,000 souls",
+    "acquisition": "Dusk of Oolacile 2,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Hidden+Weapon",
+    "description": "Turns your right hand weapon invisible. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too."
+  },
+  {
+    "id": "homing_crystal_soulmass",
+    "name": "Homing Crystal Soulmass",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan 30,000 souls",
+    "acquisition": "Big Hat Logan 30,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Homing+Crystal+Soulmass",
+    "description": "Fires multiple, homing crystal projectiles. Can be successfully cast without an initial \"lock on\". Multiple crystal arrows will hover above the player. Each individual soul arrow will seek the closest target, in the direction the player is facing, when in range."
+  },
+  {
+    "id": "homing_soulmass",
+    "name": "Homing Soulmass",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan 20,000 souls Griggs of Vinheim 20,000 souls",
+    "acquisition": "Big Hat Logan 20,000 souls Griggs of Vinheim 20,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Homing+Soulmass",
+    "description": "Fires multiple, homing magic projectiles. Can be successfully cast without an initial \"lock on\". Multiple soul arrows will hover above the player. Each individual soul arrow will seek the closest target, in the direction the player is facing, when in range. Because the spell can be cast in advance, it has a unique advantage in that, if timed correctly, it can be cast in synchronicity with other attacks."
+  },
+  {
+    "id": "hush",
+    "name": "Hush",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress (treasure) Griggs of Vinheim (drop)",
+    "acquisition": "Sen's Fortress (treasure) Griggs of Vinheim (drop)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Hush",
+    "description": "Masks all noises of caster."
+  },
+  {
+    "id": "magic_shield",
+    "name": "Magic Shield",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 3,000 souls Big Hat Logan 3,000 souls",
+    "acquisition": "Griggs of Vinheim 3,000 souls Big Hat Logan 3,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Magic+Shield",
+    "description": "Reinforces the equipped shield or weapon able to block in the left hand with magic. Works on all types of shields (even unique or upgraded to any path) and on all weapons able to block while on the left hand (even unique or upgraded to any path). Halves stamina used on hit deflection (only on shields) and improves the weapon's or shield's magic resistance by 30% (by up to a maximum of 90%). Lasts 15 seconds, 5 casts."
+  },
+  {
+    "id": "magic_weapon",
+    "name": "Magic Weapon",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 3,000 souls Big Hat Logan 3,000 souls",
+    "acquisition": "Griggs of Vinheim 3,000 souls Big Hat Logan 3,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Magic+Weapon",
+    "description": "Enhances the right-hand weapon. Weapon must be standard, crystal, or raw. Some Dragon and Unique weapons can be enchanted too. Adds 0.8x your Magic Adjustment stat (NOT Intelligence) magic damage to your weapon."
+  },
+  {
+    "id": "pursuers",
+    "name": "Pursuers",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Exchange Soul of Manus with Snuggly. (AotA Only)",
+    "acquisition": "Exchange Soul of Manus with Snuggly. (AotA Only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Pursuers",
+    "description": "Slow moving dark soul mass, fires and homes in on target when in range. Slower moving than homing soul mass but has much better homing capabilities."
+  },
+  {
+    "id": "remedy",
+    "name": "Remedy",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Blighttown",
+    "acquisition": "Blighttown",
+    "source_url": "https://darksouls.wiki.fextralife.com/Remedy",
+    "description": "Removes poison/toxic/bleeding build up, and cures poison/toxic status."
+  },
+  {
+    "id": "repair",
+    "name": "Repair",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile 10,000 souls",
+    "acquisition": "Dusk of Oolacile 10,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Repair",
+    "description": "Repairs weapons and armor"
+  },
+  {
+    "id": "resist_curse",
+    "name": "Resist Curse",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Ingward 5,000 souls",
+    "acquisition": "Ingward 5,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Resist+Curse",
+    "description": "Removes curse build up."
+  },
+  {
+    "id": "soul_arrow",
+    "name": "Soul Arrow",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim 1,000 souls Big Hat Logan 1,000 souls Blacksmith Rickert of Vinheim 2,000 souls",
+    "acquisition": "Griggs of Vinheim 1,000 souls Big Hat Logan 1,000 souls Blacksmith Rickert of Vinheim 2,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+Arrow",
+    "description": "Fires a magical projectile. Excellent starting spell which does very good damage against most enemies in the early game areas."
+  },
+  {
+    "id": "soul_spear",
+    "name": "Soul Spear",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan 40,000 souls Griggs of Vinheim 40,000 souls",
+    "acquisition": "Big Hat Logan 40,000 souls Griggs of Vinheim 40,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+Spear",
+    "description": "Fire piercing soul spear."
+  },
+  {
+    "id": "strong_magic_shield",
+    "name": "Strong Magic Shield",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Chest in The Duke's Archives",
+    "acquisition": "Chest in The Duke's Archives",
+    "source_url": "https://darksouls.wiki.fextralife.com/Strong+Magic+Shield",
+    "description": "Reinforces the equipped shield or weapon able to block in the left hand with a stronger magic effect. Works on all types of shields (even unique or upgraded to any path) and on all weapons able to block while on the left hand (even unique or upgraded to any path). Reduces the stamina used to deflect a hit considerably (only on shields) and improves all the resistances of the shield or weapon enchanted to 100%. Lasts 15 seconds, 3 casts."
+  },
+  {
+    "id": "white_dragon_breath",
+    "name": "White Dragon Breath",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Big Hat Logan (drop)",
+    "acquisition": "Big Hat Logan (drop)",
+    "source_url": "https://darksouls.wiki.fextralife.com/White+Dragon+Breath",
+    "description": "A straight line of crystals pop out of the ground in front of you, shooting towards your target. One advantage of this spell is that it will take out large groups of enemies if they are lined up one behind the other. It has a medium cast time, but once it fires, it will take out anything in its path. 20 casts make this a great high level replacement for the soul arrow at high levels, as it's not as useful on most bosses."
+  }
+]

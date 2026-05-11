@@ -14,7 +14,7 @@ from app.services.rag import RagService
 @lru_cache
 def get_item_catalog() -> ItemCatalog:
     settings = get_settings()
-    return ItemCatalog(settings.data_dir / "items.json")
+    return ItemCatalog(settings.data_dir / "items")
 
 
 @lru_cache

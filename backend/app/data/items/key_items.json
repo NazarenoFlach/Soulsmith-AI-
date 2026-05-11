@@ -1,0 +1,434 @@
+[
+  {
+    "id": "annex_key",
+    "name": "Annex Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Painted World of Ariamis.Found in the underground sewers section, located in a dead end behind an illusory wall.",
+    "acquisition": "Painted World of Ariamis.Found in the underground sewers section, located in a dead end behind an illusory wall.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Annex+Key",
+    "description": "Unlocks or enables: Opens Annex in Painted World. Get Dark Ember."
+  },
+  {
+    "id": "archive_prison_extra_key",
+    "name": "Archive Prison Extra Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Found on corpse after dropping down from cell 3 to 4.",
+    "acquisition": "The Duke's Archives. Found on corpse after dropping down from cell 3 to 4.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Archive+Prison+Extra+Key",
+    "description": "Unlocks or enables: Opens the other cell doors in Archive Tower. Also opens the second door in the Bonfire cell, and a shortcut to the gramophone."
+  },
+  {
+    "id": "archive_tower_cell_key",
+    "name": "Archive Tower Cell Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Dropped by the sleeping Man-Serpent just outside the bonfire.",
+    "acquisition": "The Duke's Archives. Dropped by the sleeping Man-Serpent just outside the bonfire.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Archive+Tower+Cell+Key",
+    "description": "Unlocks or enables: Opens prison in Archive Tower. Opens the third door down from the bonfire."
+  },
+  {
+    "id": "archive_tower_giant_cell_key",
+    "name": "Archive Tower Giant Cell Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Found in the chest at the bottom of the Archives, by the exit to the Crystal Cave.",
+    "acquisition": "The Duke's Archives. Found in the chest at the bottom of the Archives, by the exit to the Crystal Cave.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Archive+Tower+Giant+Cell+Key",
+    "description": "Unlocks or enables: Opens the cell behind the Pisacas. Free Big Hat Logan."
+  },
+  {
+    "id": "archive_tower_giant_door_key",
+    "name": "Archive Tower Giant Door Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Found in the chest behind the gramophone.",
+    "acquisition": "The Duke's Archives. Found in the chest behind the gramophone.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Archive+Tower+Giant+Door+Key",
+    "description": "Unlocks or enables: Exit Archive Tower."
+  },
+  {
+    "id": "basement_key",
+    "name": "Basement Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Found on the steps to Undead Church, right behind the big gate.",
+    "acquisition": "Found on the steps to Undead Church, right behind the big gate.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Basement+Key",
+    "description": "Unlocks or enables: Unlocks the small door at the start of the Hellkite bridge, leading to Lower Undead Burg"
+  },
+  {
+    "id": "big_pilgrim_s_key",
+    "name": "Big Pilgrim's Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Dropped by Asylum Demon. Also given by Oscar of Astora if the Asylum Demon is slain before acquiring the Estus Flask.",
+    "acquisition": "Dropped by Asylum Demon. Also given by Oscar of Astora if the Asylum Demon is slain before acquiring the Estus Flask.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Big+Pilgrim's+Key",
+    "description": "Unlocks or enables: Undead Asylum. Exit Asylum."
+  },
+  {
+    "id": "blighttown_key",
+    "name": "Blighttown Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Depths. Dropped by Gaping Dragon.",
+    "acquisition": "Depths. Dropped by Gaping Dragon.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blighttown+Key",
+    "description": "Unlocks or enables: Unlocks Blighttown. Huge doors beside Domhnall of Zena (sewer merchant) in Depths."
+  },
+  {
+    "id": "broken_pendant",
+    "name": "Broken Pendant",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Dropped by the Crystal Golem after the first elevator. Dusk of Oolacile must have been rescued for the pendant to drop. (AotA only)",
+    "acquisition": "The Duke's Archives. Dropped by the Crystal Golem after the first elevator. Dusk of Oolacile must have been rescued for the pendant to drop. (AotA only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Broken+Pendant",
+    "description": "Unlocks or enables: Access Lost Oolacile from the Darkroot Basin."
+  },
+  {
+    "id": "cage_key",
+    "name": "Cage Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress. At the bottom of the tower with Crestfallen Merchant. Jump across the broken bridge to access the tower.",
+    "acquisition": "Sen's Fortress. At the bottom of the tower with Crestfallen Merchant. Jump across the broken bridge to access the tower.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cage+Key",
+    "description": "Unlocks or enables: Unlocks hidden cages in Sen's Fortress. Frees Logan and a Soul of a Hero.Unlocks cage elevator in Sen's Fortress."
+  },
+  {
+    "id": "crest_key",
+    "name": "Crest Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Oolacile Township. Found inside a Mimic near a lit fireplace. (AotA only)",
+    "acquisition": "Oolacile Township. Found inside a Mimic near a lit fireplace. (AotA only)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crest+Key",
+    "description": "Unlocks or enables: Access Hawkeye Gough."
+  },
+  {
+    "id": "crest_of_artorias",
+    "name": "Crest of Artorias",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Bought from Blacksmith Andre for 20,000 souls. Dropped by Blacksmith Andre",
+    "acquisition": "Bought from Blacksmith Andre for 20,000 souls. Dropped by Blacksmith Andre",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crest+of+Artorias",
+    "description": "Unlocks or enables: Opens the sealed gate within Darkroot Garden."
+  },
+  {
+    "id": "dungeon_cell_key",
+    "name": "Dungeon Cell Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Northern Undead Asylum. On corpse dropped into cell.",
+    "acquisition": "Northern Undead Asylum. On corpse dropped into cell.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dungeon+Cell+Key",
+    "description": "Unlocks or enables: Northern Undead Asylum. Cell door."
+  },
+  {
+    "id": "key_to_depths",
+    "name": "Key to Depths",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Lower Undead Burg. Dropped by Capra Demon.",
+    "acquisition": "Lower Undead Burg. Dropped by Capra Demon.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Key+to+Depths",
+    "description": "Unlocks or enables: Unlocks the door to the Depths. Go right just before the Capra Demon's fog wall, the door is at the bottom of the tower by two thieves."
+  },
+  {
+    "id": "key_to_new_londo_ruins",
+    "name": "Key to New Londo Ruins",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Blighttown. In the Chest at the end of the cave, when entering from the Valley of Drakes.",
+    "acquisition": "Blighttown. In the Chest at the end of the cave, when entering from the Valley of Drakes.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Key+to+New+Londo+Ruins",
+    "description": "Unlocks or enables: Unlocks shortcut between New Londo Ruins and Valley of Drakes."
+  },
+  {
+    "id": "key_to_the_seal",
+    "name": "Key to the Seal",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "New Londo Ruins. Gift from Ingward after getting the Lordvessel. He will also drop it if killed.",
+    "acquisition": "New Londo Ruins. Gift from Ingward after getting the Lordvessel. He will also drop it if killed.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Key+to+the+Seal",
+    "description": "Unlocks or enables: Access lower New Londo, Valley of Drakes (2nd entrance) and The Abyss."
+  },
+  {
+    "id": "master_key",
+    "name": "Master Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Gotten by choosing it as a gift, or the thief class, at the start of the game. Buy it for 5,000 souls from Domhnall of Zena after he moves under the bridge by Firelink Shrine.",
+    "acquisition": "Gotten by choosing it as a gift, or the thief class, at the start of the game. Buy it for 5,000 souls from Domhnall of Zena after he moves under the bridge by Firelink Shrine.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Master+Key",
+    "description": "Unlocks or enables: Unlocks many locks in the early areas. See which locks it opens in the MK section to the right, or on the Master Key page."
+  },
+  {
+    "id": "mystery_key",
+    "name": "Mystery Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Undead Parish. On the rafters behind a ladder in the room under the Fang Boar.",
+    "acquisition": "Undead Parish. On the rafters behind a ladder in the room under the Fang Boar.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Mystery+Key",
+    "description": "Unlocks or enables: Frees Lautrec. Behind a breakable door, on the second floor of the Undead Church."
+  },
+  {
+    "id": "peculiar_doll",
+    "name": "Peculiar Doll",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Undead Asylum, found near the Dungeon Cell Key after Firelink Shrine has been visited.",
+    "acquisition": "Undead Asylum, found near the Dungeon Cell Key after Firelink Shrine has been visited.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Peculiar+Doll",
+    "description": "Unlocks or enables: Access Painted World of Ariamis."
+  },
+  {
+    "id": "residence_key",
+    "name": "Residence Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Undead Burg. Bought from Undead Merchant.",
+    "acquisition": "Undead Burg. Bought from Undead Merchant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Residence+Key",
+    "description": "Unlocks or enables: Access 3x Gold Pine Resin in a residence in Undead Burg.Frees Griggs of Vinheim in Lower Undead Burg."
+  },
+  {
+    "id": "sewer_chamber_key",
+    "name": "Sewer Chamber Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Depths. On a corpse in the room with the giant rat. The key is also accessible from the other side of the iron bars.",
+    "acquisition": "Depths. On a corpse in the room with the giant rat. The key is also accessible from the other side of the iron bars.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Sewer+Chamber+Key",
+    "description": "Unlocks or enables: Unlocks Bonfire room in the first slime-hallway in Depths."
+  },
+  {
+    "id": "undead_asylum_f2_east_key",
+    "name": "Undead Asylum F2 East Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Undead Asylum. Gift from Oscar of Astora.",
+    "acquisition": "Undead Asylum. Gift from Oscar of Astora.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Undead+Asylum+F2+East+Key",
+    "description": "Unlocks or enables: Undead Asylum. Door behind boulder trap."
+  },
+  {
+    "id": "undead_asylum_f2_west_key",
+    "name": "Undead Asylum F2 West Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Firelink Shrine. Roof of building flooded with water. Accessible after unlocking lift to Undead Church.",
+    "acquisition": "Firelink Shrine. Roof of building flooded with water. Accessible after unlocking lift to Undead Church.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Undead+Asylum+F2+West+Key",
+    "description": "Unlocks or enables: Undead Asylum. Open the door guarded by Elite Undead, leads to Rusted Iron Ring."
+  },
+  {
+    "id": "watchtower_basement_key",
+    "name": "Watchtower Basement Key",
+    "category": "key_item",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "key-item"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden. On top of the tower, after crossing the Moonlight Butterfly bridge.",
+    "acquisition": "Darkroot Garden. On top of the tower, after crossing the Moonlight Butterfly bridge.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Watchtower+Basement+Key",
+    "description": "Unlocks or enables: Unlock shortcut between Undead Burg and Darkroot Basin, guarded by Havel."
+  }
+]

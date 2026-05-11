@@ -1,0 +1,794 @@
+[
+  {
+    "id": "bellowing_dragoncrest_ring",
+    "name": "Bellowing Dragoncrest Ring",
+    "category": "ring",
+    "aliases": [
+      "bdcr",
+      "bellowing ring"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "pyromancy",
+      "ring",
+      "sorcery",
+      "spell-damage"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim",
+    "acquisition": "Sold by Griggs of Vinheim after he is rescued and moves to Firelink Shrine.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Bellowing%2BDragoncrest%2BRing",
+    "description": "Boosts sorcery and pyromancy damage, a key ring for offensive casters."
+  },
+  {
+    "id": "bloodbite_ring",
+    "name": "Bloodbite Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Oswald of Carim for 10,000 souls",
+    "acquisition": "Purchase: Oswald of Carim for 10,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Bloodbite+Ring",
+    "description": "Bleed resistance: +400%"
+  },
+  {
+    "id": "blue_tearstone_ring",
+    "name": "Blue Tearstone Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Undead Burg",
+    "acquisition": "Location: Undead Burg",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blue+Tearstone+Ring",
+    "description": "Defense: +50% when health is below 20%"
+  },
+  {
+    "id": "calamity_ring",
+    "name": "Calamity Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Black Dragon Kalameet",
+    "acquisition": "Drop: Black Dragon Kalameet",
+    "source_url": "https://darksouls.wiki.fextralife.com/Calamity+Ring",
+    "description": "The player receives twice the amount of damage they normally would"
+  },
+  {
+    "id": "cat_covenant_ring",
+    "name": "Cat Covenant Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Covenant reward: Given upon joining the Forest Hunter covenant",
+    "acquisition": "Covenant reward: Given upon joining the Forest Hunter covenant",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cat+Covenant+Ring",
+    "description": "Allows Alvina to summon player to protect Darkroot Garden from other players Note: Requires to be a member of the Forest Hunter Covenant to be summoned."
+  },
+  {
+    "id": "cloranthy_ring",
+    "name": "Cloranthy Ring",
+    "category": "ring",
+    "aliases": [
+      "stamina ring"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "generalist",
+      "mobility",
+      "ring",
+      "stamina"
+    ],
+    "image_url": null,
+    "location": "The Great Hollow",
+    "acquisition": "Found in a secret area near the middle of The Great Hollow by dropping into the central tree path.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cloranthy%2BRing",
+    "description": "Improves stamina recovery for aggressive or roll-heavy playstyles."
+  },
+  {
+    "id": "covenant_of_artorias",
+    "name": "Covenant of Artorias",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Great Grey Wolf Sif",
+    "acquisition": "Drop: Great Grey Wolf Sif",
+    "source_url": "https://darksouls.wiki.fextralife.com/Covenant+of+Artorias",
+    "description": "Allows entering to The Abyss"
+  },
+  {
+    "id": "covetous_gold_serpent_ring",
+    "name": "Covetous Gold Serpent Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress",
+    "acquisition": "Location: Sen's Fortress",
+    "source_url": "https://darksouls.wiki.fextralife.com/Covetous+Gold+Serpent+Ring",
+    "description": "Item discovery: +200 points"
+  },
+  {
+    "id": "covetous_silver_serpent_ring",
+    "name": "Covetous Silver Serpent Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Tomb of Giants",
+    "acquisition": "Location: Tomb of Giants",
+    "source_url": "https://darksouls.wiki.fextralife.com/Covetous+Silver+Serpent+Ring",
+    "description": "Souls absorbed for each kill: +20% Stacks with Symbol of Avarice."
+  },
+  {
+    "id": "cursebite_ring",
+    "name": "Cursebite Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "New Londo Ruins",
+    "acquisition": "Location: New Londo Ruins",
+    "source_url": "https://darksouls.wiki.fextralife.com/Cursebite+Ring",
+    "description": "Curse resistance: +400%"
+  },
+  {
+    "id": "dark_wood_grain_ring",
+    "name": "Dark Wood Grain Ring",
+    "category": "ring",
+    "aliases": [
+      "dark wood ring",
+      "dwgr",
+      "ninja flip ring"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "fast-roll",
+      "light",
+      "mobility",
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Shiva of the East bodyguard",
+    "acquisition": "Dropped by the ninja bodyguard who follows Shiva of the East after joining the Forest Hunter covenant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark%2BWood%2BGrain%2BRing",
+    "description": "Improves light-roll mobility when the build stays below the required equipment load threshold."
+  },
+  {
+    "id": "darkmoon_blade_covenant_ring",
+    "name": "Darkmoon Blade Covenant Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Covenant reward: Given upon joining the Darkmoon Blades covenant",
+    "acquisition": "Covenant reward: Given upon joining the Darkmoon Blades covenant",
+    "source_url": "https://darksouls.wiki.fextralife.com/Darkmoon+Blade+Covenant+Ring",
+    "description": "Allows Gwyndolin to summon one player to invade another player's Dark Anor Londo."
+  },
+  {
+    "id": "darkmoon_seance_ring",
+    "name": "Darkmoon Seance Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "The Catacombs",
+    "acquisition": "Location: The Catacombs",
+    "source_url": "https://darksouls.wiki.fextralife.com/Darkmoon+Seance+Ring",
+    "description": "Attunement slots: +1 slot Grants player entrance to Darkmoon Blades covenant at Anor Londo."
+  },
+  {
+    "id": "dusk_crown_ring",
+    "name": "Dusk Crown Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Hydra (Darkroot Basin)",
+    "acquisition": "Drop: Hydra (Darkroot Basin)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dusk+Crown+Ring",
+    "description": "Amount of sorcery castings: +50% Maximum HP: -50%"
+  },
+  {
+    "id": "east_wood_grain_ring",
+    "name": "East Wood Grain Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Purchased from Shiva of the East (Blighttown).",
+    "acquisition": "Location: Purchased from Shiva of the East (Blighttown).",
+    "source_url": "https://darksouls.wiki.fextralife.com/East+Wood+Grain+Ring",
+    "description": "Lessens the amount of durability loss. Note: Does not lessen durability loss when using a weapon's special ability (i.e. dragon weapons' two-handed strong attack)."
+  },
+  {
+    "id": "flame_stoneplate_ring",
+    "name": "Flame Stoneplate Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress",
+    "acquisition": "Location: Sen's Fortress",
+    "source_url": "https://darksouls.wiki.fextralife.com/Flame+Stoneplate+Ring",
+    "description": "Fire defense: +50 points"
+  },
+  {
+    "id": "havels_ring",
+    "name": "Havel's Ring",
+    "category": "ring",
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "equip-load",
+      "strength",
+      "heavy-armor"
+    ],
+    "image_url": null,
+    "description": "Increases maximum equipment load, enabling heavier armor and weapons without losing roll breakpoints.",
+    "aliases": [
+      "havel ring",
+      "havel's ring"
+    ],
+    "location": "Undead Burg / Darkroot Basin tower shortcut",
+    "acquisition": "Obtained after defeating Havel the Rock in the tower shortcut between Undead Burg and Darkroot Basin.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Havel%27s%2BRing"
+  },
+  {
+    "id": "havel_s_ring",
+    "name": "Havel's Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Havel the Rock",
+    "acquisition": "Drop: Havel the Rock",
+    "source_url": "https://darksouls.wiki.fextralife.com/Havel's+Ring",
+    "description": "Maximum equip load: +50%"
+  },
+  {
+    "id": "hawk_ring",
+    "name": "Hawk Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Chest behind Giant Blacksmith in Anor Londo",
+    "acquisition": "Location: Chest behind Giant Blacksmith in Anor Londo",
+    "source_url": "https://darksouls.wiki.fextralife.com/Hawk+Ring",
+    "description": "Bow range: +50% Enhanced zooming: bows and binoculars"
+  },
+  {
+    "id": "hornet_ring",
+    "name": "Hornet Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden, on a corpse behind the gravestone in the boss area for Sif",
+    "acquisition": "Location: Darkroot Garden, on a corpse behind the gravestone in the boss area for Sif",
+    "source_url": "https://darksouls.wiki.fextralife.com/Hornet+Ring",
+    "description": "Critical attack (backstab, riposte): +30%"
+  },
+  {
+    "id": "leo_ring",
+    "name": "Leo Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Ornstein",
+    "acquisition": "Drop: Ornstein",
+    "source_url": "https://darksouls.wiki.fextralife.com/Leo+Ring",
+    "description": "Counter damage: +40%"
+  },
+  {
+    "id": "lingering_dragoncrest_ring",
+    "name": "Lingering Dragoncrest Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Griggs of Vinheim for 20,000 souls",
+    "acquisition": "Purchase: Griggs of Vinheim for 20,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Lingering+Dragoncrest+Ring",
+    "description": "Magic effect length: +50% Note: Does not increase miracles' effect length."
+  },
+  {
+    "id": "old_witch_s_ring",
+    "name": "Old Witch's Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Starting gift Trade: Snuggly for a Sunlight Maggot",
+    "acquisition": "Starting gift Trade: Snuggly for a Sunlight Maggot",
+    "source_url": "https://darksouls.wiki.fextralife.com/Old+Witch's+Ring",
+    "description": "Allows talking to Quelaag's Sister Note: Without the ring choosing to talk to her only prompts a \"...?\" response."
+  },
+  {
+    "id": "orange_charred_ring",
+    "name": "Orange Charred Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Centipede Demon",
+    "acquisition": "Drop: Centipede Demon",
+    "source_url": "https://darksouls.wiki.fextralife.com/Orange+Charred+Ring",
+    "description": "Reduces lava damage Adds fire element to kick motion"
+  },
+  {
+    "id": "poisonbite_ring",
+    "name": "Poisonbite Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Oswald of Carim for 15,000 souls",
+    "acquisition": "Purchase: Oswald of Carim for 15,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Poisonbite+Ring",
+    "description": "Poison resistance: +400%"
+  },
+  {
+    "id": "rare_ring_of_sacrifice",
+    "name": "Rare Ring of Sacrifice",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress  New Londo Ruins  Lost Izalith Trade: Snuggly for Twin Humanities",
+    "acquisition": "Location: Sen's Fortress Location: New Londo Ruins Location: Lost Izalith Trade: Snuggly for Twin Humanities",
+    "source_url": "https://darksouls.wiki.fextralife.com/Rare+Ring+of+Sacrifice",
+    "description": "Lose nothing upon deathDeath caused by curse will not take effect Ring breaks when used"
+  },
+  {
+    "id": "red_tearstone_ring",
+    "name": "Red Tearstone Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Valley of Drakes",
+    "acquisition": "Location: Valley of Drakes",
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+Tearstone+Ring",
+    "description": "Attack: +50% when health is below 20%"
+  },
+  {
+    "id": "ring_of_favor_and_protection",
+    "name": "Ring of Favor and Protection",
+    "category": "ring",
+    "aliases": [
+      "fap ring",
+      "favor ring",
+      "rofp"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "equip-load",
+      "generalist",
+      "health",
+      "ring",
+      "stamina"
+    ],
+    "image_url": null,
+    "location": "Knight Lautrec or Snuggly trade",
+    "acquisition": "Dropped by Knight Lautrec when killed, or received by trading the Xanthous Crown to Snuggly.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring%2Bof%2BFavor%2Band%2BProtection",
+    "description": "Raises HP, stamina, and equipment load, making it one of the strongest general-purpose rings."
+  },
+  {
+    "id": "ring_of_fog",
+    "name": "Ring of Fog",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Covenant reward: Forest Hunter, rank 0, 3 kills Trade: Snuggly for a Skull Lantern",
+    "acquisition": "Covenant reward: Forest Hunter, rank 0, 3 kills Trade: Snuggly for a Skull Lantern",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+Fog",
+    "description": "Turns the player transparent making them un-targetable (but not un-hittable). Note: As of Patch 1.04, users of this ring are targetable."
+  },
+  {
+    "id": "ring_of_sacrifice",
+    "name": "Ring of Sacrifice",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Firelink Shrine  New Londo Ruins Trade: Snuggly for Humanity  Oswald of Carim for 5,000 souls",
+    "acquisition": "Location: Firelink Shrine Location: New Londo Ruins Trade: Snuggly for Humanity Purchase: Oswald of Carim for 5,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+Sacrifice",
+    "description": "Lose nothing upon death Ring breaks when used"
+  },
+  {
+    "id": "ring_of_steel_protection",
+    "name": "Ring of Steel Protection",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress",
+    "acquisition": "Location: Sen's Fortress",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+Steel+Protection",
+    "description": "Physical defense: +50 points"
+  },
+  {
+    "id": "ring_of_the_evil_eye",
+    "name": "Ring of the Evil Eye",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Depths",
+    "acquisition": "Location: Depths",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+the+Evil+Eye",
+    "description": "Absorbs 30 HP from every fallen enemy Note: Does not stack on multiple kills."
+  },
+  {
+    "id": "ring_of_the_sun_princess",
+    "name": "Ring of the Sun Princess",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Obtained upon joining the Princess Guard covenant after speaking with Gwynevere in Anor Londo.",
+    "acquisition": "Location: Obtained upon joining the Princess Guard covenant after speaking with Gwynevere in Anor Londo.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+the+Sun+Princess",
+    "description": "Boosts miracle synergy"
+  },
+  {
+    "id": "ring_of_the_sun_s_firstborn",
+    "name": "Ring of the Sun's Firstborn",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Anor Londo",
+    "acquisition": "Location: Anor Londo",
+    "source_url": "https://darksouls.wiki.fextralife.com/Ring+of+the+Sun's+Firstborn",
+    "description": "Miracle power: +20% Stacks with Crown of Dusk/Dark Sun"
+  },
+  {
+    "id": "rusted_iron_ring",
+    "name": "Rusted Iron Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Undead Asylum (second visit) Note: You need a special key to open a door before reaching the ring. See Undead Asylum for more information.",
+    "acquisition": "Location: Undead Asylum (second visit) Note: You need a special key to open a door before reaching the ring. See Undead Asylum for more information.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Rusted+Iron+Ring",
+    "description": "Removes the movement speed penalty in water, poison swamp, tar, etc."
+  },
+  {
+    "id": "slumbering_dragoncrest_ring",
+    "name": "Slumbering Dragoncrest Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Sen's Fortress  Griggs of Vinheim",
+    "acquisition": "Location: Sen's Fortress Drop: Griggs of Vinheim",
+    "source_url": "https://darksouls.wiki.fextralife.com/Slumbering+Dragoncrest+Ring",
+    "description": "Wearer makes no sound"
+  },
+  {
+    "id": "speckled_stoneplate_ring",
+    "name": "Speckled Stoneplate Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Siegmeyer of CatarinaReward: Siegmeyer of Catarina in Lost Izalith if we kill all the Chaos Eaters before we interact with him",
+    "acquisition": "Drop: Siegmeyer of CatarinaReward: Siegmeyer of Catarina in Lost Izalith if we kill all the Chaos Eaters before we interact with him",
+    "source_url": "https://darksouls.wiki.fextralife.com/Speckled+Stoneplate+Ring",
+    "description": "Magic defense: +25 points Fire defense: +25 points Lightning defense: +25 points"
+  },
+  {
+    "id": "spell_stoneplate_ring",
+    "name": "Spell Stoneplate Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Crestfallen Merchant for 15,000 souls",
+    "acquisition": "Purchase: Crestfallen Merchant for 15,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Spell+Stoneplate+Ring",
+    "description": "Magic defense: +50 points"
+  },
+  {
+    "id": "thunder_stoneplate_ring",
+    "name": "Thunder Stoneplate Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Crestfallen Merchant for 15,000 souls",
+    "acquisition": "Purchase: Crestfallen Merchant for 15,000 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Thunder+Stoneplate+Ring",
+    "description": "Lightning defense: +50 points"
+  },
+  {
+    "id": "tiny_being_s_ring",
+    "name": "Tiny Being's Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Starting gift Reward: Siegmeyer of Catarina in Anor Londo",
+    "acquisition": "Starting gift Reward: Siegmeyer of Catarina in Anor Londo",
+    "source_url": "https://darksouls.wiki.fextralife.com/Tiny+Being's+Ring",
+    "description": "Maximum HP: +5%"
+  },
+  {
+    "id": "white_seance_ring",
+    "name": "White Seance Ring",
+    "category": "ring",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ring"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives",
+    "acquisition": "Location: The Duke's Archives",
+    "source_url": "https://darksouls.wiki.fextralife.com/White+Seance+Ring",
+    "description": "Attunement slots: +1 slot"
+  },
+  {
+    "id": "wolf_ring",
+    "name": "Wolf Ring",
+    "category": "ring",
+    "aliases": [
+      "poise ring"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "generalist",
+      "light-armor",
+      "poise",
+      "ring"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden",
+    "acquisition": "Found in Darkroot Garden by cutting through hidden tree paths past the lower area and following the path guarded by Stone Knights.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Wolf%2BRing",
+    "description": "Adds poise without increasing weight, especially useful for light armor builds."
+  }
+]

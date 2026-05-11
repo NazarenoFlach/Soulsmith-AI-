@@ -3,19 +3,37 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 
-ItemCategory = Literal["weapon", "shield", "armor", "ring", "spell", "tool"]
+ItemCategory = Literal[
+    "weapon",
+    "shield",
+    "armor",
+    "ring",
+    "spell",
+    "tool",
+    "consumable",
+    "key_item",
+    "ember",
+    "upgrade_material",
+    "ammunition",
+    "soul",
+    "multiplayer",
+]
 
 
 class Item(BaseModel):
     id: str
     name: str
     category: ItemCategory
+    aliases: list[str] = Field(default_factory=list)
     weight: float | None = None
     requirements: dict[str, int] = Field(default_factory=dict)
     scaling: dict[str, str] = Field(default_factory=dict)
     damage_type: list[str] = Field(default_factory=list)
     tags: list[str] = Field(default_factory=list)
     image_url: str | None = None
+    location: str | None = None
+    acquisition: str | None = None
+    source_url: str | None = None
     description: str
 
 
@@ -25,6 +43,9 @@ class ItemSummary(BaseModel):
     category: ItemCategory
     weight: float | None = None
     image_url: str | None = None
+    location: str | None = None
+    acquisition: str | None = None
+    source_url: str | None = None
 
 
 class Stats(BaseModel):

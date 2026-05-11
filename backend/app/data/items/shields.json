@@ -1,0 +1,848 @@
+[
+  {
+    "id": "balder_shield",
+    "name": "Balder Shield",
+    "category": "shield",
+    "aliases": [
+      "balder medium shield"
+    ],
+    "weight": 4.0,
+    "requirements": {
+      "strength": 12
+    },
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "medium",
+      "shield",
+      "stability",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": "Undead Parish, Sen's Fortress, or Crestfallen Merchant",
+    "acquisition": "Rare drop from Balder Knights wielding it in Undead Parish and Sen's Fortress; also sold by the Crestfallen Merchant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Balder%2BShield",
+    "description": "A sturdy medium shield with excellent stability for its weight."
+  },
+  {
+    "id": "black_iron_greatshield",
+    "name": "Black Iron Greatshield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Iron+Greatshield",
+    "description": "Black Iron Greatshield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "black_knight_shield",
+    "name": "Black Knight Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Knight+Shield",
+    "description": "Black Knight Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "bloodshield",
+    "name": "Bloodshield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bloodshield",
+    "description": "Bloodshield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "bonewheel_shield",
+    "name": "Bonewheel Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bonewheel+Shield",
+    "description": "Bonewheel Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "buckler",
+    "name": "Buckler",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Buckler",
+    "description": "Buckler is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "caduceus_kite_shield",
+    "name": "Caduceus Kite Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Caduceus+Kite+Shield",
+    "description": "Caduceus Kite Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "caduceus_round_shield",
+    "name": "Caduceus Round Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Caduceus+Round+Shield",
+    "description": "Caduceus Round Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "cleansing_greatshield",
+    "name": "Cleansing Greatshield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Cleansing+Greatshield",
+    "description": "Cleansing Greatshield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "cracked_round_shield",
+    "name": "Cracked Round Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Cracked+Round+Shield",
+    "description": "Cracked Round Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "crest_shield",
+    "name": "Crest Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crest+Shield",
+    "description": "Crest Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "crystal_ring_shield",
+    "name": "Crystal Ring Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Ring+Shield",
+    "description": "Crystal Ring Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "crystal_shield",
+    "name": "Crystal Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Shield",
+    "description": "Crystal Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "dragon_crest_shield",
+    "name": "Dragon Crest Shield",
+    "category": "shield",
+    "aliases": [
+      "dragon shield",
+      "fire shield"
+    ],
+    "weight": 3.0,
+    "requirements": {
+      "strength": 10
+    },
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "early-game",
+      "fire-defense",
+      "shield",
+      "standard-shields",
+      "utility"
+    ],
+    "image_url": null,
+    "location": "Valley of Drakes",
+    "acquisition": "Found in Valley of Drakes on a corpse near the Undead Dragon, beside Astora's Straight Sword.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon%2BCrest%2BShield",
+    "description": "A light standard shield with excellent fire resistance for early dangerous areas and fire-heavy bosses."
+  },
+  {
+    "id": "eagle_shield",
+    "name": "Eagle Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Eagle+Shield",
+    "description": "Eagle Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "east_west_shield",
+    "name": "East-West Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/East-West+Shield",
+    "description": "East-West Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "effigy_shield",
+    "name": "Effigy Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Effigy+Shield",
+    "description": "Effigy Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "gargoyle_s_shield",
+    "name": "Gargoyle's Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gargoyle's+Shield",
+    "description": "Gargoyle's Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "giant_shield",
+    "name": "Giant Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Giant+Shield",
+    "description": "Giant Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "grass_crest_shield",
+    "name": "Grass Crest Shield",
+    "category": "shield",
+    "aliases": [
+      "gcs",
+      "grass crest"
+    ],
+    "weight": 3.0,
+    "requirements": {
+      "strength": 10
+    },
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "light",
+      "shield",
+      "stamina",
+      "standard-shields",
+      "utility"
+    ],
+    "image_url": null,
+    "location": "Darkroot Basin",
+    "acquisition": "Found at the bottom of Darkroot Garden/Darkroot Basin, guarded by a Black Knight.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Grass%2BCrest%2BShield",
+    "description": "A light shield valued for stamina regeneration, often worn on the back."
+  },
+  {
+    "id": "greatshield_of_artorias",
+    "name": "Greatshield of Artorias",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Greatshield+of+Artorias",
+    "description": "Greatshield of Artorias is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "havel_s_greatshield",
+    "name": "Havel's Greatshield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Havel's+Greatshield",
+    "description": "Havel's Greatshield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "heater_shield",
+    "name": "Heater Shield",
+    "category": "shield",
+    "aliases": [
+      "heater"
+    ],
+    "weight": 2.0,
+    "requirements": {
+      "strength": 8
+    },
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "light",
+      "low-requirement",
+      "parry",
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": "Undead Burg merchant",
+    "acquisition": "Sold by the Male Undead Merchant in Undead Burg; also available as early low-weight shield gear.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Heater%2BShield",
+    "description": "A compact shield with full physical block and low weight."
+  },
+  {
+    "id": "hollow_soldier_shield",
+    "name": "Hollow Soldier Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hollow+Soldier+Shield",
+    "description": "Hollow Soldier Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "iron_round_shield",
+    "name": "Iron Round Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Iron+Round+Shield",
+    "description": "Iron Round Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "knight_shield",
+    "name": "Knight Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Knight+Shield",
+    "description": "Knight Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "large_leather_shield",
+    "name": "Large Leather Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Leather+Shield",
+    "description": "Large Leather Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "leather_shield",
+    "name": "Leather Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Leather+Shield",
+    "description": "Leather Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "pierce_shield",
+    "name": "Pierce Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Pierce+Shield",
+    "description": "Pierce Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "plank_shield",
+    "name": "Plank Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Plank+Shield",
+    "description": "Plank Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "red_and_white_round_shield",
+    "name": "Red & White Round Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Red+&+White+Round+Shield",
+    "description": "Red & White Round Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "sanctus",
+    "name": "Sanctus",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sanctus",
+    "description": "Sanctus is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "silver_knight_shield",
+    "name": "Silver Knight Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Silver+Knight+Shield",
+    "description": "Silver Knight Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "small_leather_shield",
+    "name": "Small Leather Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Small+Leather+Shield",
+    "description": "Small Leather Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "spider_shield",
+    "name": "Spider Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Spider+Shield",
+    "description": "Spider Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "spiked_shield",
+    "name": "Spiked Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Spiked+Shield",
+    "description": "Spiked Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "stone_greatshield",
+    "name": "Stone Greatshield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Stone+Greatshield",
+    "description": "Stone Greatshield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "sunlight_shield",
+    "name": "Sunlight Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Shield",
+    "description": "Sunlight Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "target_shield",
+    "name": "Target Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Target+Shield",
+    "description": "Target Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "tower_kite_shield",
+    "name": "Tower Kite Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Tower+Kite+Shield",
+    "description": "Tower Kite Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "tower_shield",
+    "name": "Tower Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "greatshields",
+      "shield"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Tower+Shield",
+    "description": "Tower Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "warrior_s_round_shield",
+    "name": "Warrior's Round Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "small-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Warrior's+Round+Shield",
+    "description": "Warrior's Round Shield is a Dark Souls 1 shield tracked in the local catalog."
+  },
+  {
+    "id": "wooden_shield",
+    "name": "Wooden Shield",
+    "category": "shield",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "shield",
+      "standard-shields"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Wooden+Shield",
+    "description": "Wooden Shield is a Dark Souls 1 shield tracked in the local catalog."
+  }
+]

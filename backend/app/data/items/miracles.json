@@ -1,0 +1,443 @@
+[
+  {
+    "id": "bountiful_sunlight",
+    "name": "Bountiful Sunlight",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Pisaca - Little Sister",
+    "acquisition": "Pisaca - Little Sister",
+    "source_url": "https://darksouls.wiki.fextralife.com/Bountiful+Sunlight",
+    "description": "Gradually restores HP over time for a short duration to you and nearby allies. Must be part of the Princess's Guard to use."
+  },
+  {
+    "id": "darkmoon_blade",
+    "name": "Darkmoon Blade",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Darkmoon Offer 10 Souvenirs of Reprisal to Gwyndolin to get to Rank 1 in order to obtain it",
+    "acquisition": "Covenant: Darkmoon Offer 10 Souvenirs of Reprisal to Gwyndolin to get to Rank 1 in order to obtain it",
+    "source_url": "https://darksouls.wiki.fextralife.com/Darkmoon+Blade",
+    "description": "Boosts right hand weapon with rays of Darkmoon. Adds 1.8x your talisman's Magic Adjustment value as Magic Damage at Covenant Rank 0. Scaling increases by 0.1x for each rank to a maximum of 2.1x at Covenant Rank 3. • Must be member of Darkmoon covenant to use."
+  },
+  {
+    "id": "emit_force",
+    "name": "Emit Force",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "After you clear Anor Londo, Siegmeyer of Catarina will appear at Firelink Shrine. When you talk to him he will ask if you opened the gates to Sen's Fortress. Say \"yes\" and you will receive the miracle.",
+    "acquisition": "After you clear Anor Londo, Siegmeyer of Catarina will appear at Firelink Shrine. When you talk to him he will ask if you opened the gates to Sen's Fortress. Say \"yes\" and you will receive the miracle.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Emit+Force",
+    "description": "Shoots a large ball of force energy to explode on the target causing damage to the target and close surrounding enemies. Can deflect sorceries."
+  },
+  {
+    "id": "escape_death",
+    "name": "Escape Death",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Unobtainable by normal means; the miracle lacks an icon when viewed on the Attune Magic page or in the player's spell slots, so the game developers likely did not finish it.",
+    "acquisition": "Unobtainable by normal means; the miracle lacks an icon when viewed on the Attune Magic page or in the player's spell slots, so the game developers likely did not finish it.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Escape+Death",
+    "description": "Escape Death is a self-buff that prevents the user from losing souls and humanity after death. The miracle will not work if the user has two other self-buffs active (i.e. having both the Green Blossom stamina regen effect and the Transient Curse's effect will prevent the use of this miracle). Upon death, the message \"Magic Revived\" appears in green lettering identical to the \"Ring Revival\" message produced when a player dies with a Ring of Sacrifice equipped."
+  },
+  {
+    "id": "force",
+    "name": "Force",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Petrus of Thorolund 4,000 Souls Reah of Thorolund 1,000 Souls",
+    "acquisition": "Petrus of Thorolund 4,000 Souls Reah of Thorolund 1,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Force",
+    "description": "AoE effect that does no damage but knocks back most surrounding enemies Must be very close to cause knockdown Can deflect sorceries such as Homing Soulmass."
+  },
+  {
+    "id": "gravelord_greatsword_dance",
+    "name": "Gravelord Greatsword Dance",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Gravelord Servant Requires rank +1 in the covenant.",
+    "acquisition": "Covenant: Gravelord Servant Requires rank +1 in the covenant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Gravelord+Greatsword+Dance",
+    "description": "Upgraded version of Gravelord Sword Dance miracle. Area of effect is expanded and increased damage."
+  },
+  {
+    "id": "gravelord_sword_dance",
+    "name": "Gravelord Sword Dance",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Gravelord Servant Note: Each casting costs 20 uses",
+    "acquisition": "Covenant: Gravelord Servant Note: Each casting costs 20 uses",
+    "source_url": "https://darksouls.wiki.fextralife.com/Gravelord+Sword+Dance",
+    "description": "AoE miracle similar to Gravelord Nito's \"scream sword\" attack. Several swords will pierce the ground impaling enemies in the area. Miracle is very effective when used in close quarters such as hallways or bridges as several swords may impale the same enemy."
+  },
+  {
+    "id": "great_heal",
+    "name": "Great Heal",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Reah of Thorolund 10,000 Souls",
+    "acquisition": "Reah of Thorolund 10,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Heal",
+    "description": "Heals a large amount of the casters HP, depending on faith."
+  },
+  {
+    "id": "great_heal_excerpt",
+    "name": "Great Heal Excerpt",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Petrus of Thorolund 10,000 Souls Patches 10,000 Souls Reah of Thorolund 2,000 Souls",
+    "acquisition": "Petrus of Thorolund 10,000 Souls Patches 10,000 Souls Reah of Thorolund 2,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Heal+Excerpt",
+    "description": "Cut down version of Great Heal. Heals large amount of HP to the caster. (NOTE: This spell does not affect allies as the erroneous load screen info would have you believe.)"
+  },
+  {
+    "id": "great_lightning_spear",
+    "name": "Great Lightning Spear",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Warrior of Sunlight Requires rank 1 in the covenant.",
+    "acquisition": "Covenant: Warrior of Sunlight Requires rank 1 in the covenant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Lightning+Spear",
+    "description": "A larger, more powerful spear of light that inflicts lightning damage. Scales with faith. Can be thrown into water to cause AoE. (Puddles, lakes,etc.)"
+  },
+  {
+    "id": "great_magic_barrier",
+    "name": "Great Magic Barrier",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "The Great Hollow - Ash Lake",
+    "acquisition": "The Great Hollow - Ash Lake",
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Magic+Barrier",
+    "description": "As Magic Barrier but reduces even more magic damage. (90%)"
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Cleric Default Petrus of Thorolund 4,000 Souls Patches 5,000 Souls Reah of Thorolund 1,000 Souls",
+    "acquisition": "Cleric Default Petrus of Thorolund 4,000 Souls Patches 5,000 Souls Reah of Thorolund 1,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Heal",
+    "description": "Heals a moderate amount of the casters HP, depending on faith."
+  },
+  {
+    "id": "homeward",
+    "name": "Homeward",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Petrus of Thorolund 8,000 Souls Reah of Thorolund 1,000 Souls",
+    "acquisition": "Petrus of Thorolund 8,000 Souls Reah of Thorolund 1,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Homeward",
+    "description": "Transports you back to the last used bonfire."
+  },
+  {
+    "id": "karmic_justice",
+    "name": "Karmic Justice",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Oswald of Carim 40,000 Souls",
+    "acquisition": "Oswald of Carim 40,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Karmic+Justice",
+    "description": "Karmic Justice is a self-buff that lasts for 1 minute. If the player takes successive hits in PHYSICAL damage (meaning melee and non-magical), the spell explodes, dealing massive damage to all nearby enemies and knocking them all down. A very effective miracle for players who wear cloth armor with no poise. If they get stunlocked by a combo, this spell can save you from certain death."
+  },
+  {
+    "id": "lightning_spear",
+    "name": "Lightning Spear",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Warrior of Sunlight",
+    "acquisition": "Covenant: Warrior of Sunlight",
+    "source_url": "https://darksouls.wiki.fextralife.com/Lightning+Spear",
+    "description": "A powerful spear of light that inflicts lightning damage. Scales with faith. Can be thrown into bodies of water to cause AoE. (Puddles, lakes,etc.)"
+  },
+  {
+    "id": "magic_barrier",
+    "name": "Magic Barrier",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Reah of Thorolund 6,000 Souls",
+    "acquisition": "Reah of Thorolund 6,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Magic+Barrier",
+    "description": "Reduces incoming magic damage for a short duration. (30%)"
+  },
+  {
+    "id": "replenishment",
+    "name": "Replenishment",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Received from Reah of Thorolund after rescuing her from the two hollows in the Tomb of the Giants.",
+    "acquisition": "Received from Reah of Thorolund after rescuing her from the two hollows in the Tomb of the Giants.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Replenishment",
+    "description": "Gradually restores HP over time for a short duration."
+  },
+  {
+    "id": "seek_guidance",
+    "name": "Seek Guidance",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Petrus of Thorolund 2,000 Souls Reah of Thorolund 500 Souls",
+    "acquisition": "Petrus of Thorolund 2,000 Souls Reah of Thorolund 500 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Seek+Guidance",
+    "description": "The Seek Guidance miracle allows the player to see more messages on the ground as well as their positive and negative ratings. Additional developer messages, providing hints, can also be seen in some areas."
+  },
+  {
+    "id": "soothing_sunlight",
+    "name": "Soothing Sunlight",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Pisaca - Elder Sister",
+    "acquisition": "Pisaca - Elder Sister",
+    "source_url": "https://darksouls.wiki.fextralife.com/Soothing+Sunlight",
+    "description": "Heals large amount of HP to the caster and nearby allies. Scales with faith. Must be part of the Princess's Guard to use."
+  },
+  {
+    "id": "sunlight_blade",
+    "name": "Sunlight Blade",
+    "category": "spell",
+    "aliases": [
+      "sunlight buff"
+    ],
+    "weight": 0.0,
+    "requirements": {
+      "faith": 30
+    },
+    "scaling": {},
+    "damage_type": [
+      "buff",
+      "lightning"
+    ],
+    "tags": [
+      "faith",
+      "miracle",
+      "weapon-buff"
+    ],
+    "image_url": null,
+    "location": "Defeat Dark Sun Gwyndolin by entering the fog at the Blade of the Darkmoon altar. This will irreversibly cause the Anor Londo firekeeper to become hostile and will break your oath with Blade of the Darkmoon. You will be unable to join the covenant until the next playthrough.",
+    "acquisition": "Defeat Dark Sun Gwyndolin by entering the fog at the Blade of the Darkmoon altar. This will irreversibly cause the Anor Londo firekeeper to become hostile and will break your oath with Blade of the Darkmoon. You will be unable to join the covenant until the next playthrough.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight%2BBlade",
+    "description": "Coats right hand weapon in lightning. Adds 1.8x your talisman's Magic Adjustment value as Lightning Damage."
+  },
+  {
+    "id": "sunlight_spear",
+    "name": "Sunlight Spear",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Covenant: Warrior of Sunlight Requires Soul of Gwyn, Lord of Cinder and rank 1 in the covenant.",
+    "acquisition": "Covenant: Warrior of Sunlight Requires Soul of Gwyn, Lord of Cinder and rank 1 in the covenant.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Spear",
+    "description": "A very powerful version of the lightning spear. Fewer charges but a lot more damage. Scales with faith. Can be thrown into water to cause AoE. (Puddles, lakes,etc.) Must remain part of Warriors of Sunlight to use."
+  },
+  {
+    "id": "tranquil_walk_of_peace",
+    "name": "Tranquil Walk of Peace",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Catacombs - From the second bonfire, go across the bridge to the spiral tower with two skeletons. There's a breakable wall with a big skeleton behind it. Go through a hole on the right side of the room and follow it up until you get to a necromancer. There's an easily missable ladder and the miracle is at the top..",
+    "acquisition": "Catacombs - From the second bonfire, go across the bridge to the spiral tower with two skeletons. There's a breakable wall with a big skeleton behind it. Go through a hole on the right side of the room and follow it up until you get to a necromancer. There's an easily missable ladder and the miracle is at the top..",
+    "source_url": "https://darksouls.wiki.fextralife.com/Tranquil+Walk+of+Peace",
+    "description": "Applies a debuff to nearby enemies which slows movement speed, that lasts for about 10 seconds."
+  },
+  {
+    "id": "vow_of_silence",
+    "name": "Vow of Silence",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Painted World of Ariamis",
+    "acquisition": "Painted World of Ariamis",
+    "source_url": "https://darksouls.wiki.fextralife.com/Vow+of+Silence",
+    "description": "An AoE silence around you that stops all casting in the area, including your own, for about 25 seconds. Does not scale with faith."
+  },
+  {
+    "id": "wrath_of_the_gods",
+    "name": "Wrath of the Gods",
+    "category": "spell",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "miracle"
+    ],
+    "image_url": null,
+    "location": "Reah of Thorolund 10,000 Souls",
+    "acquisition": "Reah of Thorolund 10,000 Souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Wrath+of+the+Gods",
+    "description": "A fast casting force spell that deals high damage in a bubble around you. One of the most powerful offensive miracles in the game. Can deflect sorceries."
+  }
+]

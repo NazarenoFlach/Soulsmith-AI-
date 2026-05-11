@@ -1,0 +1,344 @@
+[
+  {
+    "id": "bloodred_moss_clump",
+    "name": "Bloodred Moss Clump",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped by the Ents in the Darkroot Garden. Purchased from the Undead Merchant (Female) for 300 souls. Purchased from Marvelous Chester in the Royal Wood for 400 souls.",
+    "acquisition": "Dropped by the Ents in the Darkroot Garden. Purchased from the Undead Merchant (Female) for 300 souls. Purchased from Marvelous Chester in the Royal Wood for 400 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Bloodred+Moss+Clump",
+    "description": "Reduces the accumulation of bleed"
+  },
+  {
+    "id": "blooming_purple_moss_clump",
+    "name": "Blooming Purple Moss Clump",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped by the Ents in the Darkroot GardenDropped by Treant Gardeners in the Royal Wood Purchased from the Undead Merchant (Female) for 1,000 souls. Purchased from Chester in Royal Wood for 1,500 souls",
+    "acquisition": "Dropped by the Ents in the Darkroot GardenDropped by Treant Gardeners in the Royal Wood Purchased from the Undead Merchant (Female) for 1,000 souls. Purchased from Chester in Royal Wood for 1,500 souls",
+    "source_url": "https://darksouls.wiki.fextralife.com/Blooming+Purple+Moss+Clump",
+    "description": "Reduces the accumulation of poison and toxic and cancels Toxic status"
+  },
+  {
+    "id": "charcoal_pine_resin",
+    "name": "Charcoal Pine Resin",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Purchased from the Undead Merchant (Female) for 500 souls.",
+    "acquisition": "Purchased from the Undead Merchant (Female) for 500 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Charcoal+Pine+Resin",
+    "description": "Applies Fire to your right-hand weapon"
+  },
+  {
+    "id": "divine_blessing",
+    "name": "Divine Blessing",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Can be taken as a gift upon character creation. Found in a few game locations.Purchased from Patches the Hyena in Firelink Shrine after completion of Tomb of Giants.",
+    "acquisition": "Can be taken as a gift upon character creation. Found in a few game locations.Purchased from Patches the Hyena in Firelink Shrine after completion of Tomb of Giants.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Divine+Blessing",
+    "description": "Healing Item which restores all health and removes all negative status ailments except for Curse."
+  },
+  {
+    "id": "egg_vermifuge",
+    "name": "Egg Vermifuge",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped from the Tree Lizards in Darkroot Garden Dropped from the Egg Carriers in the Demon Ruins. Purchased from Eingyi for 1,000 souls.",
+    "acquisition": "Dropped from the Tree Lizards in Darkroot Garden Dropped from the Egg Carriers in the Demon Ruins. Purchased from Eingyi for 1,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Egg+Vermifuge",
+    "description": "Removes parasitic egg from body"
+  },
+  {
+    "id": "elizabeth_s_mushroom",
+    "name": "Elizabeth's Mushroom",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "1 found in the Royal Wood3 acquired from Elizabeth.",
+    "acquisition": "1 found in the Royal Wood3 acquired from Elizabeth.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Elizabeth's+Mushroom",
+    "description": "Regenerates HP for 30 seconds"
+  },
+  {
+    "id": "estus_flask",
+    "name": "Estus Flask",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Obtained in the Undead Asylum, behind a broken wall.",
+    "acquisition": "Obtained in the Undead Asylum, behind a broken wall.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Estus+Flask",
+    "description": "Used to gather Estus at bonfires for HP recovery in the field"
+  },
+  {
+    "id": "fire_keeper_soul",
+    "name": "Fire Keeper Soul",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Can be found in a few locations, or taken off the corpses of dead Firekeepers if you kill them; see Fire Keeper Soul for more information.",
+    "acquisition": "Can be found in a few locations, or taken off the corpses of dead Firekeepers if you kill them; see Fire Keeper Soul for more information.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire+Keeper+Soul",
+    "description": "Used to upgrade Estus Flask to heal more HP per flaskCan also be used as an item to gain 5 Humanity (NOT recommended)."
+  },
+  {
+    "id": "gold_pine_resin",
+    "name": "Gold Pine Resin",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Possible drop from the Mushroom People and Large Mushroom People in the Darkroot Garden. Purchased from Domhnall of Zena for 1,000 souls (3 in stock).Purchased from Elizabeth for 1,000 souls (5 in stock).",
+    "acquisition": "Possible drop from the Mushroom People and Large Mushroom People in the Darkroot Garden. Purchased from Domhnall of Zena for 1,000 souls (3 in stock).Purchased from Elizabeth for 1,000 souls (5 in stock).",
+    "source_url": "https://darksouls.wiki.fextralife.com/Gold+Pine+Resin",
+    "description": "Applies Lightning to your right-hand weapon"
+  },
+  {
+    "id": "green_blossom",
+    "name": "Green Blossom",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped by the Frog-Rays in the Darkroot Garden. Purchased from the Crestfallen Merchant for 1,000 souls apiece. Purchased from Marvelous Chester in the Royal Wood for 1,200 souls.",
+    "acquisition": "Dropped by the Frog-Rays in the Darkroot Garden. Purchased from the Crestfallen Merchant for 1,000 souls apiece. Purchased from Marvelous Chester in the Royal Wood for 1,200 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Green+Blossom",
+    "description": "Temporary boost to stamina recovery speed"
+  },
+  {
+    "id": "homeward_bone",
+    "name": "Homeward Bone",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Purchased from Undead Merchant (Female) for 500 souls.Purchased from Blacksmith Vamos for 500 souls.Purchased from Oswald of Carim for 500 souls. (PC version)Purchased from Hawkeye Gough for 300 souls. (PC version)Purchased from Marvelous Chester for 800 souls. (PC version)",
+    "acquisition": "Purchased from Undead Merchant (Female) for 500 souls.Purchased from Blacksmith Vamos for 500 souls.Purchased from Oswald of Carim for 500 souls. (PC version)Purchased from Hawkeye Gough for 300 souls. (PC version)Purchased from Marvelous Chester for 800 souls. (PC version)",
+    "source_url": "https://darksouls.wiki.fextralife.com/Homeward+Bone",
+    "description": "Transports player to the last visited Bonfire without loss of souls or humanity."
+  },
+  {
+    "id": "humanity",
+    "name": "Humanity",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Purchased from the Undead Merchant (Female) for 5,000 souls. (1 in stock) Purchased from the Marvelous Chester for 10,000 souls. (1 in stock) Purchased from Patches the Hyena for 10,000 souls. (1 in stock) Dropped by Rats and Sewer Rats, Skeleton Babies, Giant Humanities (Aota only). Found in numerous game locations. Given for successfully defeating the area boss as a summoned phantom.",
+    "acquisition": "Purchased from the Undead Merchant (Female) for 5,000 souls. (1 in stock) Purchased from the Marvelous Chester for 10,000 souls. (1 in stock) Purchased from Patches the Hyena for 10,000 souls. (1 in stock) Dropped by Rats and Sewer Rats, Skeleton Babies, Giant Humanities (Aota only). Found in numerous game locations. Given for successfully defeating the area boss as a summoned phantom.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Humanity(Consumable)",
+    "description": "Increases Humanity by 1 and fully restores HP when consumed."
+  },
+  {
+    "id": "prism_stone",
+    "name": "Prism Stone",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "20 can be found off a body near the Crystal Cave. Purchased from the Undead Merchant (Female) for 10 souls. Purchased from Hawkeye Gough in Oolacile Township for 10 souls.",
+    "acquisition": "20 can be found off a body near the Crystal Cave. Purchased from the Undead Merchant (Female) for 10 souls. Purchased from Hawkeye Gough in Oolacile Township for 10 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Prism+Stone",
+    "description": "Used to determine height and lethality of a fall."
+  },
+  {
+    "id": "purging_stone",
+    "name": "Purging Stone",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped by the Man-Eater Shells in the Crystal Cave or Ash Lake. Purchased from Oswald of Carim for 3,000 souls Purchased from the Undead Merchant (Female) for 6,000 souls.",
+    "acquisition": "Dropped by the Man-Eater Shells in the Crystal Cave or Ash Lake. Purchased from Oswald of Carim for 3,000 souls Purchased from the Undead Merchant (Female) for 6,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Purging+Stone",
+    "description": "Reduces curse build-up and breaks curse"
+  },
+  {
+    "id": "purple_moss_clump",
+    "name": "Purple Moss Clump",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Dropped by the Ents in the Darkroot GardenDropped by Treant Gerdeners in the Royal Wood Purchased from the Undead Merchant (Female) for 500 souls. Purchased from Marvelous Chester in Royal Wood for 600 souls.",
+    "acquisition": "Dropped by the Ents in the Darkroot GardenDropped by Treant Gerdeners in the Royal Wood Purchased from the Undead Merchant (Female) for 500 souls. Purchased from Marvelous Chester in Royal Wood for 600 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Purple+Moss+Clump",
+    "description": "Reduces the accumulation of poison and cancels poisoned status"
+  },
+  {
+    "id": "repair_powder",
+    "name": "Repair Powder",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Purchased from the Undead Merchant (Male) for 500 souls. Purchased from Elizabeth in Oolacile Sanctuary.",
+    "acquisition": "Purchased from the Undead Merchant (Male) for 500 souls. Purchased from Elizabeth in Oolacile Sanctuary.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Repair+Powder",
+    "description": "Used to repair broken equipment without the need of a repair box or smith."
+  },
+  {
+    "id": "rotten_pine_resin",
+    "name": "Rotten Pine Resin",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Purchased from the Undead Merchant (Female) for 1,000 souls.",
+    "acquisition": "Purchased from the Undead Merchant (Female) for 1,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Rotten+Pine+Resin",
+    "description": "Applies Poison build-up to your right-hand weapon"
+  },
+  {
+    "id": "transient_curse",
+    "name": "Transient Curse",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Found on multiple bodies in New Londo Ruins.Possible drop from Ghosts. Purchased from the Undead Merchant (Female) for 4,000 souls (4 in stock). Purchased from Ingward for 1,000 souls.",
+    "acquisition": "Found on multiple bodies in New Londo Ruins.Possible drop from Ghosts. Purchased from the Undead Merchant (Female) for 4,000 souls (4 in stock). Purchased from Ingward for 1,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Transient+Curse",
+    "description": "Lets you damage ghosts for a limited time"
+  },
+  {
+    "id": "twin_humanities",
+    "name": "Twin Humanities",
+    "category": "consumable",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "consumable"
+    ],
+    "image_url": null,
+    "location": "Can be taken as a gift upon character creation. Sold by Patches the Hyena for 30,000 souls. (1 in stock) Dropped by Vagrants and Giant Humanities in the Chasm of the Abyss.",
+    "acquisition": "Can be taken as a gift upon character creation. Sold by Patches the Hyena for 30,000 souls. (1 in stock) Dropped by Vagrants and Giant Humanities in the Chasm of the Abyss.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Twin+Humanities",
+    "description": "Increases Humanity by 2 and fully restores HP when consumed."
+  }
+]

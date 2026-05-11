@@ -1,0 +1,254 @@
+[
+  {
+    "id": "dragonslayer_arrow",
+    "name": "Dragonslayer Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragonslayer+Arrow",
+    "description": "100"
+  },
+  {
+    "id": "feather_arrow",
+    "name": "Feather Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Feather+Arrow",
+    "description": "50"
+  },
+  {
+    "id": "fire_arrow",
+    "name": "Fire Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Fire+Arrow",
+    "description": "35"
+  },
+  {
+    "id": "gough_s_great_arrow",
+    "name": "Gough's Great Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Gough's+Great+Arrow",
+    "description": "105"
+  },
+  {
+    "id": "heavy_bolt",
+    "name": "Heavy Bolt",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Heavy+Bolt",
+    "description": "64"
+  },
+  {
+    "id": "large_arrow",
+    "name": "Large Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Arrow",
+    "description": "60"
+  },
+  {
+    "id": "lightning_bolt",
+    "name": "Lightning Bolt",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Lightning+Bolt",
+    "description": "38"
+  },
+  {
+    "id": "moonlight_arrow",
+    "name": "Moonlight Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "80",
+    "acquisition": "80",
+    "source_url": "https://darksouls.wiki.fextralife.com/Moonlight+Arrow",
+    "description": "0"
+  },
+  {
+    "id": "poison_arrow",
+    "name": "Poison Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Poison+Arrow",
+    "description": "42"
+  },
+  {
+    "id": "sniper_bolt",
+    "name": "Sniper Bolt",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Sniper+Bolt",
+    "description": "53"
+  },
+  {
+    "id": "standard_arrow",
+    "name": "Standard Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Standard+Arrow",
+    "description": "45"
+  },
+  {
+    "id": "standard_bolt",
+    "name": "Standard Bolt",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Standard+Bolt",
+    "description": "48"
+  },
+  {
+    "id": "wood_bolt",
+    "name": "Wood Bolt",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Wood+Bolt",
+    "description": "38"
+  },
+  {
+    "id": "wooden_arrow",
+    "name": "Wooden Arrow",
+    "category": "ammunition",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ammunition"
+    ],
+    "image_url": null,
+    "location": "0",
+    "acquisition": "0",
+    "source_url": "https://darksouls.wiki.fextralife.com/Wooden+Arrow",
+    "description": "35"
+  }
+]

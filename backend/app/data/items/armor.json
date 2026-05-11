@@ -1,0 +1,1304 @@
+[
+  {
+    "id": "adventurer_s_set",
+    "name": "Adventurer's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Adventurer's+Set",
+    "description": "Adventurer's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "antiquated_set",
+    "name": "Antiquated Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Antiquated+Set",
+    "description": "Antiquated Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "artorias_set",
+    "name": "Artorias' Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Artorias'+Set",
+    "description": "Artorias' Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "balder_set",
+    "name": "Balder Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Balder+Set",
+    "description": "Balder Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "bandit_set",
+    "name": "Bandit Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bandit+Set",
+    "description": "Bandit Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "big_hat_s_set",
+    "name": "Big Hat's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Big+Hat's+Set",
+    "description": "Big Hat's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "black_iron_set",
+    "name": "Black Iron Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Iron+Set",
+    "description": "Black Iron Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "black_knight_set",
+    "name": "Black Knight Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Knight+Set",
+    "description": "Black Knight Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "black_set",
+    "name": "Black Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Set",
+    "description": "Black Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "black_sorcerer_set",
+    "name": "Black Sorcerer Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Sorcerer+Set",
+    "description": "Black Sorcerer Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "bloated_head",
+    "name": "Bloated Head",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bloated+Head",
+    "description": "Bloated Head is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "bloated_sorcerer_head",
+    "name": "Bloated Sorcerer Head",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Bloated+Sorcerer+Head",
+    "description": "Bloated Sorcerer Head is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "brass_set",
+    "name": "Brass Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Brass+Set",
+    "description": "Brass Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "catarina_set",
+    "name": "Catarina Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Catarina+Set",
+    "description": "Catarina Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "chain_set",
+    "name": "Chain Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Chain+Set",
+    "description": "Chain Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "channeler_set",
+    "name": "Channeler Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Channeler+Set",
+    "description": "Channeler Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "chester_s_set",
+    "name": "Chester's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Chester's+Set",
+    "description": "Chester's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "cleric_set",
+    "name": "Cleric Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Cleric+Set",
+    "description": "Cleric Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "crimson_set",
+    "name": "Crimson Set",
+    "category": "armor",
+    "aliases": [
+      "crimson armor",
+      "crimson robes",
+      "sealer set"
+    ],
+    "weight": 9.7,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "light",
+      "resistances",
+      "set",
+      "sorcery"
+    ],
+    "image_url": null,
+    "location": "Blighttown, near the Valley of Drakes shortcut route",
+    "acquisition": "Found on a Sealer's corpse in Blighttown next to a chest containing Remedy; after the waterwheel, cross the tree branch near the Cragspider area.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crimson%2BSet",
+    "description": "A light caster-oriented armor set with strong elemental resistances."
+  },
+  {
+    "id": "crystalline_set",
+    "name": "Crystalline Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystalline+Set",
+    "description": "Crystalline Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "dark_set",
+    "name": "Dark Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Set",
+    "description": "Dark Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "dingy_set",
+    "name": "Dingy Set",
+    "category": "armor",
+    "aliases": [
+      "dingy robes",
+      "fire keeper set"
+    ],
+    "weight": 8.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "faith",
+      "light",
+      "resistances",
+      "set"
+    ],
+    "image_url": null,
+    "location": "Firelink Shrine event",
+    "acquisition": "Dropped by Anastacia of Astora during the Firelink Shrine event after both Bells of Awakening or key Fire Keeper Souls are collected.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dingy%2BSet",
+    "description": "A light cloth set with useful resistances for miracle users."
+  },
+  {
+    "id": "eastern_set",
+    "name": "Eastern Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Eastern+Set",
+    "description": "Eastern Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "elite_cleric_set",
+    "name": "Elite Cleric Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Elite+Cleric+Set",
+    "description": "Elite Cleric Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "elite_knight_set",
+    "name": "Elite Knight Set",
+    "category": "armor",
+    "aliases": [
+      "elite knight armor"
+    ],
+    "weight": 26.8,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "balanced",
+      "medium",
+      "poise",
+      "set"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden",
+    "acquisition": "Found on a corpse past the fog wall in Darkroot Garden, guarded by sleeping Stone Knights and Ents.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Elite%2BKnight%2Bset",
+    "description": "A balanced armor set with respectable poise and defenses without committing to the heaviest loadouts."
+  },
+  {
+    "id": "favor_set",
+    "name": "Favor Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Favor+Set",
+    "description": "Favor Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "giant_armor_set",
+    "name": "Giant Armor Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Giant+Armor+Set",
+    "description": "Giant Armor Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "gold_hemmed_black_set",
+    "name": "Gold-Hemmed Black Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gold-Hemmed+Black+Set",
+    "description": "Gold-Hemmed Black Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "gough_s_set",
+    "name": "Gough's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gough's+Set",
+    "description": "Gough's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "great_lord_set",
+    "name": "Great Lord Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Great+Lord+Set",
+    "description": "Great Lord Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "guardian_set",
+    "name": "Guardian Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Guardian+Set",
+    "description": "Guardian Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "gwyndolin_moonlight_set",
+    "name": "Gwyndolin Moonlight Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Gwyndolin+Moonlight+Set",
+    "description": "Gwyndolin Moonlight Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "havel_set",
+    "name": "Havel's Set",
+    "category": "armor",
+    "weight": 50.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "heavy",
+      "poise",
+      "tank"
+    ],
+    "image_url": null,
+    "description": "Extremely heavy armor with massive poise and defenses for slow, tanky builds.",
+    "aliases": [
+      "havel armor",
+      "havel's armor"
+    ],
+    "location": "Anor Londo",
+    "acquisition": "Found in Anor Londo behind an illusory fireplace wall in the basement of the main building leading to Gwynevere.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Havel%27s%2BSet"
+  },
+  {
+    "id": "havel_s_set",
+    "name": "Havel's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Havel's+Set",
+    "description": "Havel's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "hollow_soldier_set",
+    "name": "Hollow Soldier Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hollow+Soldier+Set",
+    "description": "Hollow Soldier Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "hollow_thief_set",
+    "name": "Hollow Thief Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hollow+Thief+Set",
+    "description": "Hollow Thief Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "hollow_warrior_set",
+    "name": "Hollow Warrior Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hollow+Warrior+Set",
+    "description": "Hollow Warrior Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "holy_set",
+    "name": "Holy Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Holy+Set",
+    "description": "Holy Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "hunter_set",
+    "name": "Hunter Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Hunter+Set",
+    "description": "Hunter Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "iron_golem_set",
+    "name": "Iron Golem Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Iron+Golem+Set",
+    "description": "Iron Golem Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "iron_set",
+    "name": "Iron Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Iron+Set",
+    "description": "Iron Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "knight_set",
+    "name": "Knight Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Knight+Set",
+    "description": "Knight Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "lord_s_blade_set",
+    "name": "Lord's Blade Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Lord's+Blade+Set",
+    "description": "Lord's Blade Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "lord_s_blades_set",
+    "name": "Lord's Blades Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Lord's+Blade+Set",
+    "description": "Lord's Blades Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "mage_smith_set",
+    "name": "Mage Smith Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mage+Smith+Set",
+    "description": "Mage Smith Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "maiden_set",
+    "name": "Maiden Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Maiden+Set",
+    "description": "Maiden Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "mask_of_the_child",
+    "name": "Mask of the Child",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mask+of+the+Child",
+    "description": "Mask of the Child is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "mask_of_the_father",
+    "name": "Mask of the Father",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mask+of+the+Father",
+    "description": "Mask of the Father is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "mask_of_the_mother",
+    "name": "Mask of the Mother",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Mask+of+the+Mother",
+    "description": "Mask of the Mother is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "ornstein_s_set",
+    "name": "Ornstein's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Ornstein's+Set",
+    "description": "Ornstein's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "painting_guardian_set",
+    "name": "Painting Guardian Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Painting+Guardian+Set",
+    "description": "Painting Guardian Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "paladin_set",
+    "name": "Paladin Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Paladin+Set",
+    "description": "Paladin Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "pyromancer_set",
+    "name": "Pyromancer Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Pyromancer+Set",
+    "description": "Pyromancer Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "shadow_set",
+    "name": "Shadow Set",
+    "category": "armor",
+    "aliases": [
+      "ninja set",
+      "shadow armor"
+    ],
+    "weight": 9.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "dexterity",
+      "fast-roll",
+      "light",
+      "set"
+    ],
+    "image_url": null,
+    "location": "Upper Blighttown",
+    "acquisition": "Found on a corpse in Blighttown after progressing through the upper wooden structures and dropping to a corpse near a torch.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Shadow%2BSet",
+    "description": "A light armor set suited to fast rolling and aggressive dexterity play."
+  },
+  {
+    "id": "silver_knight_set",
+    "name": "Silver Knight Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Silver+Knight+Set",
+    "description": "Silver Knight Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "smough_s_set",
+    "name": "Smough's Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Smough's+Set",
+    "description": "Smough's Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "sorcerer_set",
+    "name": "Sorcerer Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sorcerer+Set",
+    "description": "Sorcerer Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "steel_set",
+    "name": "Steel Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Steel+Set",
+    "description": "Steel Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "stone_knight_set",
+    "name": "Stone Knight Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Stone+Knight+Set",
+    "description": "Stone Knight Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "sunlight_maggot",
+    "name": "Sunlight Maggot",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Maggot",
+    "description": "Sunlight Maggot is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "symbol_of_avarice",
+    "name": "Symbol of Avarice",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "unique-piece"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Symbol+of+Avarice",
+    "description": "Symbol of Avarice is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "thief_set",
+    "name": "Thief Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Thief+Set",
+    "description": "Thief Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "thorns_set",
+    "name": "Thorns Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Thorns+Set",
+    "description": "Thorns Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "wanderer_set",
+    "name": "Wanderer Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Wanderer+Set",
+    "description": "Wanderer Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "warrior_set",
+    "name": "Warrior Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Warrior+Set",
+    "description": "Warrior Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "witch_set",
+    "name": "Witch Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Witch+Set",
+    "description": "Witch Set is a Dark Souls 1 armor tracked in the local catalog."
+  },
+  {
+    "id": "xanthous_set",
+    "name": "Xanthous Set",
+    "category": "armor",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "armor",
+      "set"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Xanthous+Set",
+    "description": "Xanthous Set is a Dark Souls 1 armor tracked in the local catalog."
+  }
+]

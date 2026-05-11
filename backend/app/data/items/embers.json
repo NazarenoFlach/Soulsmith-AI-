@@ -1,0 +1,192 @@
+[
+  {
+    "id": "chaos_flame_ember",
+    "name": "Chaos Flame Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Demon Ruins. After killing Ceaseless Discharge, and then all the Taurus Demons after the lava flows away below. The Ember is on a corpse in the former lava bed. Modify +5 Fire weapons into +5 Chaos.",
+    "acquisition": "Demon Ruins. After killing Ceaseless Discharge, and then all the Taurus Demons after the lava flows away below. The Ember is on a corpse in the former lava bed. Modify +5 Fire weapons into +5 Chaos.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Chaos+Flame+Ember",
+    "description": "Upgrade ember given to Blacksmith Vamos for ascension paths."
+  },
+  {
+    "id": "crystal_ember",
+    "name": "Crystal Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. Behind some bookshelves in the archives, in the room with stairs leading down to the garden and the Crystal Cave. Modify +10 Normal weapons into +5 Crystal.",
+    "acquisition": "The Duke's Archives. Behind some bookshelves in the archives, in the room with stairs leading down to the garden and the Crystal Cave. Modify +10 Normal weapons into +5 Crystal.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Crystal+Ember",
+    "description": "Upgrade ember given to Giant Blacksmith for ascension paths."
+  },
+  {
+    "id": "dark_ember",
+    "name": "Dark Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Painted World of Ariamis. In the Annex to the right of the Phalanx, requires the Annex Key. The ember is held by a petrified Blacksmith. Modify +5 Divine weapons into +5 Occult.",
+    "acquisition": "Painted World of Ariamis. In the Annex to the right of the Phalanx, requires the Annex Key. The ember is held by a petrified Blacksmith. Modify +5 Divine weapons into +5 Occult.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dark+Ember",
+    "description": "Upgrade ember given to Andre for ascension paths."
+  },
+  {
+    "id": "divine_ember",
+    "name": "Divine Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden. After defeating the Moonlight Butterfly, continue across the bridge and up to the top of the tower. The ember is held by a petrified Blacksmith. Modify +5 Normal weapons into +5 Divine.",
+    "acquisition": "Darkroot Garden. After defeating the Moonlight Butterfly, continue across the bridge and up to the top of the tower. The ember is held by a petrified Blacksmith. Modify +5 Normal weapons into +5 Divine.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Divine+Ember",
+    "description": "Upgrade ember given to Andre for ascension paths."
+  },
+  {
+    "id": "enchanted_ember",
+    "name": "Enchanted Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Darkroot Garden. Between the cats and Alvina's tower. It is stored inside a treasure chest, in shallow water, guarded by big mushrooms. If you attack a small mushroom it will lead you to the big mushrooms. Modify +5 Magic weapons into +5 Enchanted.",
+    "acquisition": "Darkroot Garden. Between the cats and Alvina's tower. It is stored inside a treasure chest, in shallow water, guarded by big mushrooms. If you attack a small mushroom it will lead you to the big mushrooms. Modify +5 Magic weapons into +5 Enchanted.",
+    "source_url": "https://darksouls.wiki.fextralife.com/enchanted+ember",
+    "description": "Upgrade ember given to Rickert for ascension paths."
+  },
+  {
+    "id": "large_divine_ember",
+    "name": "Large Divine Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Tomb of Giants. Among several giant skeletons inside a tomb above the first bonfire. The ember is held by a petrified Blacksmith. Modify +5 Divine weapons into +10 Divine.",
+    "acquisition": "Tomb of Giants. Among several giant skeletons inside a tomb above the first bonfire. The ember is held by a petrified Blacksmith. Modify +5 Divine weapons into +10 Divine.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Divine+Ember",
+    "description": "Upgrade ember given to Andre for ascension paths."
+  },
+  {
+    "id": "large_ember",
+    "name": "Large Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Depths. Found in a chest behind the first Butcher in the kitchen. Modify +5 Normal weapons into +10 Normal. Modify +5 Normal weapons into +5 Raw.",
+    "acquisition": "Depths. Found in a chest behind the first Butcher in the kitchen. Modify +5 Normal weapons into +10 Normal. Modify +5 Normal weapons into +5 Raw.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Ember",
+    "description": "Upgrade ember given to Andre for ascension paths."
+  },
+  {
+    "id": "large_flame_ember",
+    "name": "Large Flame Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "Demon Ruins, after descending the great stairs, taking the left path before walking up to the fog-gate will ultimately lead to the Ember. Modify +5 Fire weapons into +10 Fire.",
+    "acquisition": "Demon Ruins, after descending the great stairs, taking the left path before walking up to the fog-gate will ultimately lead to the Ember. Modify +5 Fire weapons into +10 Fire.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Flame+Ember",
+    "description": "Upgrade ember given to Blacksmith Vamos for ascension paths."
+  },
+  {
+    "id": "large_magic_ember",
+    "name": "Large Magic Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "The Duke's Archives. After defeating Seath the Scaleless, return to the archives where you first confronted it and open the chest. Modify +5 Magic weapons into +10 Magic.",
+    "acquisition": "The Duke's Archives. After defeating Seath the Scaleless, return to the archives where you first confronted it and open the chest. Modify +5 Magic weapons into +10 Magic.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Magic+Ember",
+    "description": "Upgrade ember given to Rickert for ascension paths."
+  },
+  {
+    "id": "very_large_ember",
+    "name": "Very Large Ember",
+    "category": "ember",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "ember",
+      "upgrade"
+    ],
+    "image_url": null,
+    "location": "New Londo Ruins. After lowering the water level, go up the staircase found in a corner of the room with the Mass of Souls closest to Valley of Drakes. Ember is on the third floor. Modify +10 Normal weapons into +15 Normal.",
+    "acquisition": "New Londo Ruins. After lowering the water level, go up the staircase found in a corner of the room with the Mass of Souls closest to Valley of Drakes. Ember is on the third floor. Modify +10 Normal weapons into +15 Normal.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Very+Large+Ember",
+    "description": "Upgrade ember given to Andre for ascension paths."
+  }
+]

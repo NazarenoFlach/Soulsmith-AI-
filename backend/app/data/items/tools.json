@@ -1,0 +1,730 @@
+[
+  {
+    "id": "beatrice_s_catalyst",
+    "name": "Beatrice's Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Beatrice's+Catalyst",
+    "description": "Beatrice's Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "binoculars",
+    "name": "Binoculars",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Found in the Graveyard at Firelink Shrine. Can also be taken as a gift upon character creation.",
+    "acquisition": "Found in the Graveyard at Firelink Shrine. Can also be taken as a gift upon character creation.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Binoculars",
+    "description": "Using it as an item causes you to use the binoculars to see further.Can be used to aim Crossbows for long-distance shooting."
+  },
+  {
+    "id": "black_eye_orb",
+    "name": "Black Eye Orb",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Found on the corpse of the murdered firekeeper. It is used in Anor Londo.",
+    "acquisition": "Found on the corpse of the murdered firekeeper. It is used in Anor Londo.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Black+Eye+Orb",
+    "description": "Invade the world of the murderer of a firekeeper"
+  },
+  {
+    "id": "canvas_talisman",
+    "name": "Canvas Talisman",
+    "category": "tool",
+    "aliases": [
+      "cleric talisman"
+    ],
+    "weight": 0.3,
+    "requirements": {
+      "faith": 14
+    },
+    "scaling": {
+      "faith": "A"
+    },
+    "damage_type": [
+      "magic"
+    ],
+    "tags": [
+      "faith",
+      "miracle",
+      "spell-tool",
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Cleric starting gear or Patches",
+    "acquisition": "Starting equipment for Cleric, and sold by Patches for 1,000 souls.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Canvas%2BTalisman",
+    "description": "A dependable miracle catalyst for mid-level faith builds."
+  },
+  {
+    "id": "chaos_upgrades",
+    "name": "Chaos Upgrades",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Chaos+Upgrades",
+    "description": "Chaos Upgrades is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "darkmoon_talisman",
+    "name": "Darkmoon Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/darkmoon+talisman",
+    "description": "Darkmoon Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "darksign",
+    "name": "Darksign",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "From the beginning",
+    "acquisition": "From the beginning",
+    "source_url": "https://darksouls.wiki.fextralife.com/Darksign",
+    "description": "Sends the user back to the last used bonfire upon death.Can be used as an item (unlimited uses) to warp back to previous bonfire at any point, losing all souls and humanity"
+  },
+  {
+    "id": "demon_s_catalyst",
+    "name": "Demon's Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Demon's+Catalyst",
+    "description": "Demon's Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "divine",
+    "name": "Divine",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Divine",
+    "description": "Divine is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "dragon_head_stone",
+    "name": "Dragon Head Stone",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Gift from joining Path of the Dragon.",
+    "acquisition": "Gift from joining Path of the Dragon.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Head+Stone",
+    "description": "Turns your head into one of a dragon."
+  },
+  {
+    "id": "dragon_torso_stone",
+    "name": "Dragon Torso Stone",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Offer 30 Dragon Scales to the Everlasting Dragon.",
+    "acquisition": "Offer 30 Dragon Scales to the Everlasting Dragon.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Dragon+Torso+Stone",
+    "description": "Turns you completely into a Dragonoid."
+  },
+  {
+    "id": "enchanted_upgrades",
+    "name": "Enchanted Upgrades",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Enchanted+Upgrades",
+    "description": "Enchanted Upgrades is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "ivory_talisman",
+    "name": "Ivory Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Ivory+Talisman",
+    "description": "Ivory Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "izalith_catalyst",
+    "name": "Izalith Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Izalith+Catalyst",
+    "description": "Izalith Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "logan_s_catalyst",
+    "name": "Logan's Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Logan's+Catalyst",
+    "description": "Logan's Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "magic_adjustment",
+    "name": "Magic Adjustment",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Magic+Adjustment",
+    "description": "Magic Adjustment is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "manus_catalyst",
+    "name": "Manus Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Manus+Catalyst",
+    "description": "Manus Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "occult",
+    "name": "Occult",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Occult",
+    "description": "Occult is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "occult_upgrades",
+    "name": "Occult Upgrades",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Occult+Upgrades",
+    "description": "Occult Upgrades is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "oolacile_catalyst",
+    "name": "Oolacile Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Oolacile+Catalyst",
+    "description": "Oolacile Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "oolacile_ivory_catalyst",
+    "name": "Oolacile Ivory Catalyst",
+    "category": "tool",
+    "aliases": [
+      "ivory catalyst",
+      "oolacile catalyst"
+    ],
+    "weight": 0.5,
+    "requirements": {
+      "intelligence": 12
+    },
+    "scaling": {
+      "intelligence": "static"
+    },
+    "damage_type": [
+      "magic"
+    ],
+    "tags": [
+      "catalysts",
+      "intelligence",
+      "low-intelligence",
+      "sorcery",
+      "spell-tool",
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Dusk of Oolacile in Darkroot Basin",
+    "acquisition": "Sold by Dusk of Oolacile after freeing her from the Golden Crystal Golem behind the Darkroot Basin Hydra.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Oolacile%2BIvory%2BCatalyst",
+    "description": "A strong low-investment catalyst before high intelligence scaling takes over."
+  },
+  {
+    "id": "pyromancy_flame",
+    "name": "Pyromancy Flame",
+    "category": "tool",
+    "aliases": [
+      "flame",
+      "pyro flame"
+    ],
+    "weight": 0.0,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [
+      "fire"
+    ],
+    "tags": [
+      "flames",
+      "no-stat-scaling",
+      "pyromancy",
+      "spell-tool",
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Pyromancer start, Laurentius, or Eingyi",
+    "acquisition": "Starting equipment for Pyromancer, given by Laurentius after rescuing him in The Depths, or given by Eingyi if you meet his conditions without a flame.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Flames",
+    "description": "The casting tool for pyromancies. Damage comes from flame upgrades rather than intelligence or faith."
+  },
+  {
+    "id": "pyromancy_flame_upgraded",
+    "name": "Pyromancy Flame (Upgraded)",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "flames",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Pyromancy+Flame+(Upgraded)",
+    "description": "Pyromancy Flame (Upgraded) is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "raw_upgrades",
+    "name": "Raw Upgrades",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Raw+Upgrades",
+    "description": "Raw Upgrades is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "silver_pendant",
+    "name": "Silver Pendant",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Found behind an illusory wall in Upper Oolacile Township, though unlike other illusory walls, it will require a light source of some sort to uncover. Skull Lantern, Cast Light spell and Sunlight Maggot are confirmed to work.",
+    "acquisition": "Found behind an illusory wall in Upper Oolacile Township, though unlike other illusory walls, it will require a light source of some sort to uncover. Skull Lantern, Cast Light spell and Sunlight Maggot are confirmed to work.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Silver+Pendant",
+    "description": "Creates a field around the player that deflects Dark Magic for a few seconds. It is activated in a way similar to Force, though the player is able to move briefly whilst the pendant is still in effect."
+  },
+  {
+    "id": "skull_lantern",
+    "name": "Skull Lantern",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "tool"
+    ],
+    "image_url": null,
+    "location": "Drops from necromancers in Catacombs. It is also found in the Tomb of Giants. You will receive it at the lowest level of the area.",
+    "acquisition": "Drops from necromancers in Catacombs. It is also found in the Tomb of Giants. You will receive it at the lowest level of the area.",
+    "source_url": "https://darksouls.wiki.fextralife.com/Skull+Lantern",
+    "description": "Holding it in the left hand (shield-hand) and holding L1 or LB causes it to light an area around the character like a torch."
+  },
+  {
+    "id": "sorcerer_s_catalyst",
+    "name": "Sorcerer's Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sorcerer's+Catalyst",
+    "description": "Sorcerer's Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "sunlight_talisman",
+    "name": "Sunlight Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Sunlight+Talisman",
+    "description": "Sunlight Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "talisman",
+    "name": "Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Talisman",
+    "description": "Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "thorolund_talisman",
+    "name": "Thorolund Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Thorolund+Talisman",
+    "description": "Thorolund Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "tin_banishment_catalyst",
+    "name": "Tin Banishment Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Tin+Banishment+Catalyst",
+    "description": "Tin Banishment Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "tin_crystallization_catalyst",
+    "name": "Tin Crystallization Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Tin+Crystallization+Catalyst",
+    "description": "Tin Crystallization Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "tin_darkmoon_catalyst",
+    "name": "Tin Darkmoon Catalyst",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "catalysts",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Tin+Darkmoon+Catalyst",
+    "description": "Tin Darkmoon Catalyst is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "velka_s_talisman",
+    "name": "Velka's Talisman",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Velka's+Talisman",
+    "description": "Velka's Talisman is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "bleed",
+    "name": "bleed",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/bleed",
+    "description": "bleed is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "poison_or_toxic",
+    "name": "poison or toxic",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/poison",
+    "description": "poison or toxic is a Dark Souls 1 tool tracked in the local catalog."
+  },
+  {
+    "id": "titanite",
+    "name": "titanite",
+    "category": "tool",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "talismans",
+      "tool"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/titanite",
+    "description": "titanite is a Dark Souls 1 tool tracked in the local catalog."
+  }
+]

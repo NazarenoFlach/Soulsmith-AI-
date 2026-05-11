@@ -1,0 +1,398 @@
+[
+  {
+    "id": "core_of_an_iron_golem",
+    "name": "Core of an Iron Golem",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Core+of+an+Iron+Golem",
+    "description": "Dragon Bone Fist (Ascended from +10 fist weapons) Golem Axe (Ascended from +10 axe weapons) Gives 12,000 souls when consumed. Can also be sold to Kingseeker Frampt for 8,000 souls (less value)."
+  },
+  {
+    "id": "guardian_soul",
+    "name": "Guardian Soul",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Guardian+Soul",
+    "description": "(AotA Only) Gives 12,000 souls when consumed. Can also be sold to Kingseeker Frampt for 10,000 souls (less value)."
+  },
+  {
+    "id": "large_soul_of_a_brave_warrior",
+    "name": "Large Soul of a Brave Warrior",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Soul+of+a+Brave+Warrior",
+    "description": "Gives 8,000 souls when consumed."
+  },
+  {
+    "id": "large_soul_of_a_lost_undead",
+    "name": "Large Soul of a Lost Undead",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Soul+of+a+Lost+Undead",
+    "description": "Gives 400 souls when consumed. Can be sold to Frampt for 500 souls."
+  },
+  {
+    "id": "large_soul_of_a_nameless_soldier",
+    "name": "Large Soul of a Nameless Soldier",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Soul+of+a+Nameless+Soldier",
+    "description": "Gives 1,000 souls when consumed."
+  },
+  {
+    "id": "large_soul_of_a_proud_knight",
+    "name": "Large Soul of a Proud Knight",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Large+Soul+of+a+Proud+Knight",
+    "description": "Gives 3,000 souls when consumed."
+  },
+  {
+    "id": "soul_of_great_wolf_sif",
+    "name": "Soul of (Great Wolf) Sif",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+(Great+Wolf)+Sif",
+    "description": "Greatsword of Artorias (Ascended from +10 Broken Straight Sword or Straight Sword Hilt) Greatsword of Artorias (Cursed) (Ascended from +10 great sword weapons) Greatshield of Artorias (Ascended from +10 shields) Gives 16,000 souls when consumed. Can also be sold to Kingseeker Frampt for 4,000 souls (less value)."
+  },
+  {
+    "id": "soul_of_artorias",
+    "name": "Soul of Artorias",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Artorias",
+    "description": "(AotA Only) Abyss Greatsword (Ascended from +10 greatsword weapons) Dark Silver Tracer and Gold Tracer (give soul to Ciaran, or kill her) Gives 16,000 souls when consumed. Can also be sold to Kingseeker Frampt for 10,000 souls (less value)."
+  },
+  {
+    "id": "soul_of_gwyn_lord_of_cinder",
+    "name": "Soul of Gwyn, Lord of Cinder",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Gwyn,+Lord+of+Cinder",
+    "description": "Great Lord Greatsword (Ascended from +10 greatsword weapons) Sunlight Spear (10 Sunlight Medals at Sunlight Altar) Gives 20,000 souls when consumed. Can also be sold to Kingseeker Frampt for 40,000 souls."
+  },
+  {
+    "id": "soul_of_gwyndolin",
+    "name": "Soul of Gwyndolin",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Gwyndolin",
+    "description": "Darkmoon Bow (Ascended from +10 bow weapons) Tin Darkmoon Catalyst (Ascended from cane catalyst) Gives 16,000 souls when consumed. Can also be sold to Kingseeker Frampt for 20,000 souls."
+  },
+  {
+    "id": "soul_of_manus",
+    "name": "Soul of Manus",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Manus",
+    "description": "(AotA Only) Manus Catalyst (Ascended from catalysts) Pursuers (trade to Snuggly) Gives 18,000 souls when consumed. Can also be sold to Kingseeker Frampt for 10,000 souls (less value)."
+  },
+  {
+    "id": "soul_of_ornstein",
+    "name": "Soul of Ornstein",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Ornstein",
+    "description": "Dragonslayer Spear (Ascended from +10 spear weapons) Gives 12,000 souls when consumed. Can also be sold to Kingseeker Frampt for 8,000 souls (less value)."
+  },
+  {
+    "id": "soul_of_priscilla",
+    "name": "Soul of Priscilla",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Priscilla",
+    "description": "Lifehunt Scythe (Ascended from +10 scythe or whip weapons) Gives 12,000 souls when consumed. Can also be sold to Kingseeker Frampt for 15,000 souls."
+  },
+  {
+    "id": "soul_of_quelaag",
+    "name": "Soul of Quelaag",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/soul+of+Quelaag",
+    "description": "Quelaag's Furysword (Ascended from +10 curved sword) Chaos Blade (Ascended from +10 katana sword) Gives 8,000 souls when consumed. Can also be sold to Kingseeker Frampt for 10,000 souls."
+  },
+  {
+    "id": "soul_of_smough",
+    "name": "Soul of Smough",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+Smough",
+    "description": "Smough's Hammer (Ascended from +10 strike weapons) Gives 12,000 souls when consumed. Can also be sold to Kingseeker Frampt for 1 (one) soul (less value)."
+  },
+  {
+    "id": "soul_of_a_brave_warrior",
+    "name": "Soul of a Brave Warrior",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Brave+Warrior",
+    "description": "Gives 5,000 souls when consumed."
+  },
+  {
+    "id": "soul_of_a_great_hero",
+    "name": "Soul of a Great Hero",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Great+Hero",
+    "description": "Gives 20,000 souls when consumed."
+  },
+  {
+    "id": "soul_of_a_hero",
+    "name": "Soul of a Hero",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Hero",
+    "description": "Gives 10,000 souls when consumed."
+  },
+  {
+    "id": "soul_of_a_lost_undead",
+    "name": "Soul of a Lost Undead",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Lost+Undead",
+    "description": "Gives 200 souls when consumed. Can be sold to Frampt for 500 souls."
+  },
+  {
+    "id": "soul_of_a_nameless_soldier",
+    "name": "Soul of a Nameless Soldier",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Nameless+Soldier",
+    "description": "Gives 800 souls when consumed."
+  },
+  {
+    "id": "soul_of_a_proud_knight",
+    "name": "Soul of a Proud Knight",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+a+Proud+Knight",
+    "description": "Gives 2,000 souls when consumed."
+  },
+  {
+    "id": "soul_of_the_moonlight_butterfly",
+    "name": "Soul of the Moonlight Butterfly",
+    "category": "soul",
+    "aliases": [],
+    "weight": null,
+    "requirements": {},
+    "scaling": {},
+    "damage_type": [],
+    "tags": [
+      "soul"
+    ],
+    "image_url": null,
+    "location": null,
+    "acquisition": null,
+    "source_url": "https://darksouls.wiki.fextralife.com/Soul+of+the+Moonlight+Butterfly",
+    "description": "Moonlight Butterfly Horn (Ascended from +10 spear weapons) Crystal Ring Shield (Ascended from +10 shields) 1,200 souls if consumed. Can also be sold to Kingseeker Frampt for 8,000 souls."
+  }
+]
