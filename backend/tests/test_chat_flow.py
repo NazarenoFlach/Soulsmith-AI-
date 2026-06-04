@@ -246,6 +246,107 @@ def test_semantic_key_question_uses_catalog():
     assert "Master Key" in body["message"]
 
 
+def test_tank_damage_recommendation_generates_strength_build():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={
+                "message": "what do you recommend? i like to play with tank characters but with a lot of damage"
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is not None
+    assert body["build"]["archetype"] == "Strength bruiser"
+    assert body["items"][0]["id"] != "skull_lantern"
+
+
+def test_tank_build_switches_to_strength_even_with_existing_build():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "i want a dark wizard build"},
+        ).json()
+
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "i want a tank build",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is not None
+    assert body["build"]["archetype"] == "Strength bruiser"
+
+
+def test_damage_only_build_request_asks_for_damage_style():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "i want a fully damage build"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert "melee damage" in body["message"]
+    assert "ranged spell damage" in body["message"]
+
+
+def test_damage_clarification_followup_generates_matching_build():
+    cases = [
+        ("melee damage", "Strength bruiser"),
+        ("fast bleed", "Dexterity duelist"),
+        ("ranged spell damage", "Sorcery skirmisher"),
+    ]
+
+    for followup, expected_archetype in cases:
+        with TestClient(app) as client:
+            first = client.post(
+                "/api/chat",
+                json={"message": "i want a fully damage build"},
+            ).json()
+
+            response = client.post(
+                "/api/chat",
+                json={
+                    "conversation_id": first["conversation_id"],
+                    "message": followup,
+                },
+            )
+
+        assert response.status_code == 200
+        body = response.json()
+        assert body["build"] is not None
+        assert body["build"]["archetype"] == expected_archetype
+
+
+def test_refinement_response_does_not_expose_raw_patch():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "i want a strength build"},
+        ).json()
+
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "Recommend a lighter weapon",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert "Applied this patch" not in body["message"]
+    assert "Swapped the weapon" in body["message"]
+    assert body["build"]["equipment"]["weapon"] == "Battle Axe"
+
+
 def test_misspelled_archetype_still_generates_expected_build():
     with TestClient(app) as client:
         response = client.post(

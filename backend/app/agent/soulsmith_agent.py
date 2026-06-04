@@ -6,7 +6,7 @@ from uuid import uuid4
 from app.agent.intent_router import IntentRouter
 from app.agent.prompts import PLANNER_SYSTEM_PROMPT, RESPONSE_SYSTEM_PROMPT
 from app.models.agent import AgentIntent, AgentPlan
-from app.models.build import Build, Item, ItemSummary
+from app.models.build import Build, BuildPatch, Item, ItemSummary
 from app.models.chat import ChatResponse
 from app.models.conversation import BuildPreferences, ConversationState
 from app.services.build_crafter import BuildCraftService
@@ -144,10 +144,11 @@ class SoulsmithAgent:
             )
             if not pending_archetypes and preferences.target_archetype:
                 pending_archetypes = [preferences.target_archetype]
+            pending_question = self._clarifying_question(message, pending_archetypes)
             updated_state = self.conversation_manager.update(
                 conversation_id,
                 preferences=preferences,
-                pending_question=self.intent_router.next_clarifying_question(pending_archetypes),
+                pending_question=pending_question,
                 pending_archetypes=pending_archetypes,
                 last_user_message=message,
             )
@@ -214,7 +215,7 @@ class SoulsmithAgent:
         elif plan.intent == AgentIntent.refine:
             patch = self.crafter.refine(current_build, plan, message)
             build = self.state_manager.apply_patch(conversation_id, patch)
-            change_summary = f"Applied this patch: {patch.model_dump(exclude_none=True)}"
+            change_summary = self._describe_patch(patch)
         else:
             build = current_build
             change_summary = "No build fields changed."
@@ -248,6 +249,7 @@ class SoulsmithAgent:
             AgentIntent.reset,
             AgentIntent.clarify,
             AgentIntent.explore,
+            AgentIntent.generate,
             AgentIntent.item_info,
             AgentIntent.unknown,
         }:
@@ -386,6 +388,45 @@ class SoulsmithAgent:
             f"{', '.join(build.equipment.rings)}. {build.playstyle}"
         )
 
+    def _describe_patch(self, patch: BuildPatch) -> str:
+        changes: list[str] = []
+        equipment = patch.equipment
+        if equipment:
+            if equipment.weapon:
+                changes.append(f"Swapped the weapon to {equipment.weapon}")
+            if equipment.offhand:
+                changes.append(f"Changed the offhand to {equipment.offhand}")
+            if equipment.armor:
+                changes.append(f"Moved the armor to {equipment.armor}")
+            if equipment.rings:
+                changes.append(f"set the rings to {self._join_names(equipment.rings)}")
+            if equipment.spells:
+                changes.append(f"updated spells to {self._join_names(equipment.spells)}")
+
+        if patch.stats:
+            stats = patch.stats.model_dump(exclude_none=True)
+            if stats:
+                stat_names = ", ".join(stat.upper() for stat in stats)
+                changes.append(f"adjusted {stat_names}")
+
+        if patch.playstyle:
+            changes.append("updated the playstyle notes")
+        if patch.upgrade_path:
+            changes.append("updated the upgrade path")
+
+        if not changes:
+            return "I kept the build mostly intact; no equipment swap was needed"
+        if len(changes) == 2:
+            return f"{changes[0]} and {changes[1]}"
+        return "; ".join(changes)
+
+    def _join_names(self, names: list[str]) -> str:
+        if len(names) <= 1:
+            return "".join(names)
+        if len(names) == 2:
+            return f"{names[0]} and {names[1]}"
+        return f"{', '.join(names[:-1])}, and {names[-1]}"
+
     def _candidate_build(
         self,
         plan: AgentPlan,
@@ -442,6 +483,7 @@ class SoulsmithAgent:
         )
 
     def _clarification_response(self, message: str, state: ConversationState | None = None) -> str:
+        text = message.lower()
         mentioned = self.crafter.templates.mentioned_keys(message)
         if not mentioned and state:
             mentioned = set(state.pending_archetypes)
@@ -451,10 +493,22 @@ class SoulsmithAgent:
                 "Sorcery is better if you want safer ranged control and spell scaling. "
                 "Do you want the build to feel more close-range, ranged, or hybrid?"
             )
+        if "damage" in text or "dps" in text or "glass cannon" in text:
+            return (
+                "For pure damage, I would choose between heavy strength trades, "
+                "fast dex bleed pressure, or a sorcery glass cannon. "
+                "Do you want melee damage, fast bleed, or ranged spell damage?"
+            )
         return (
             "There are a couple of viable directions here. "
             "Do you prefer aggressive melee, safer ranged damage, or a balanced build?"
         )
+
+    def _clarifying_question(self, message: str, pending_archetypes: list[str]) -> str:
+        text = message.lower()
+        if "damage" in text or "dps" in text or "glass cannon" in text:
+            return "Do you want melee damage, fast bleed, or ranged spell damage?"
+        return self.intent_router.next_clarifying_question(pending_archetypes)
 
     def _switch_question(self, candidate: Build | None, current_build: Build | None) -> str:
         if candidate is None:

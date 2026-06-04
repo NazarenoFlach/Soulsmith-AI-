@@ -47,6 +47,18 @@ ITEM_FACT_NOUNS = {
 }
 ITEM_FACT_QUESTION_WORDS = {"how", "what", "where", "which"}
 
+BUILD_STYLE_TERMS = {
+    "damage",
+    "dps",
+    "glass cannon",
+    "high damage",
+    "lot of damage",
+    "poise",
+    "tank",
+    "tank build",
+    "tanky",
+}
+
 
 class IntentRouter:
     def __init__(self, templates: BuildTemplateCatalog):
@@ -69,15 +81,42 @@ class IntentRouter:
                 item_query=message,
             )
 
+        preferences = self.extract_preferences(message)
+        pending_archetype = self._single_pending_archetype(state)
+        mentioned_archetypes = self.templates.mentioned_keys(text)
+        archetype = self.templates.first_mentioned_key(text)
+
+        damage_choice = self._resolve_pending_damage_choice(text, state)
+        if damage_choice:
+            return AgentPlan(
+                intent=AgentIntent.generate,
+                archetype=damage_choice,
+                constraints=[message],
+                item_query=message,
+            )
+
+        if self._looks_like_build_style_request(text):
+            concept_archetype = self._build_style_archetype(text)
+            if concept_archetype:
+                return AgentPlan(
+                    intent=AgentIntent.generate,
+                    archetype=concept_archetype,
+                    constraints=[message],
+                    item_query=message,
+                )
+            return AgentPlan(
+                intent=AgentIntent.clarify,
+                archetype=archetype,
+                constraints=[message],
+                item_query=message,
+            )
+
         if self._looks_like_item_fact_question(text):
             return AgentPlan(
                 intent=AgentIntent.item_info,
                 constraints=[message],
                 item_query=message,
             )
-
-        preferences = self.extract_preferences(message)
-        pending_archetype = self._single_pending_archetype(state)
         if state.pending_question and pending_archetype and self._looks_like_confirmation(text):
             return AgentPlan(
                 intent=AgentIntent.generate,
@@ -98,8 +137,6 @@ class IntentRouter:
                 item_query=message,
             )
 
-        mentioned_archetypes = self.templates.mentioned_keys(text)
-        archetype = self.templates.first_mentioned_key(text)
         if len(mentioned_archetypes) == 1 and archetype and self._looks_like_exploration(text):
             return AgentPlan(
                 intent=AgentIntent.explore,
@@ -202,7 +239,7 @@ class IntentRouter:
         mobility = None
         if any(term in text for term in ["fast roll", "light", "mobile", "quick"]):
             mobility = "fast"
-        elif any(term in text for term in ["tank", "tankier", "heavy", "poise"]):
+        elif any(term in text for term in ["tank", "tanky", "tankier", "heavy", "poise"]):
             mobility = "tank"
         elif "mid roll" in text or "medium" in text:
             mobility = "medium"
@@ -325,6 +362,44 @@ class IntentRouter:
         ]
         return any(term in text for term in build_terms)
 
+    def _looks_like_build_style_request(self, text: str) -> bool:
+        if not any(term in text for term in BUILD_STYLE_TERMS):
+            return False
+        if self._looks_like_item_fact_question(text):
+            return False
+        return (
+            self._looks_like_build_request(text)
+            or "recommend" in text
+            or "what should i play" in text
+            or "i like" in text
+        )
+
+    def _build_style_archetype(self, text: str) -> str | None:
+        tank_terms = ["tank", "tanky", "poise", "heavy armor"]
+        damage_terms = ["damage", "dps", "hit hard", "high damage", "lot of damage"]
+        if any(term in text for term in tank_terms):
+            return "strength"
+        if any(term in text for term in damage_terms):
+            return None
+        return None
+
+    def _resolve_pending_damage_choice(
+        self,
+        text: str,
+        state: ConversationState,
+    ) -> str | None:
+        pending_question = (state.pending_question or "").lower()
+        if "melee damage" not in pending_question or "fast bleed" not in pending_question:
+            return None
+
+        if any(term in text for term in ["ranged", "spell", "sorcery", "magic", "glass cannon"]):
+            return "sorcery"
+        if any(term in text for term in ["fast", "bleed", "dex", "dexterity"]):
+            return "dexterity"
+        if any(term in text for term in ["melee", "heavy", "strength", "str", "hit hard"]):
+            return "strength"
+        return None
+
     def _looks_like_greeting(self, text: str) -> bool:
         normalized = text.strip().strip("!.?,")
         greetings = {"hi", "hello", "hey", "yo", "hola", "buenas", "thanks", "thank you"}
@@ -338,11 +413,10 @@ class IntentRouter:
             "how do i get",
             "how can i get",
             "where can i get",
+            "where can i farm",
+            "where do i farm",
             "drop location",
             "drops from",
-            "farm",
-            "location",
-            "obtain",
         ]
         if any(term in text for term in location_terms):
             return True
@@ -350,10 +424,10 @@ class IntentRouter:
         tokens = re.findall(r"[a-z0-9]+", text.lower())
         has_question_word = any(self._looks_like_word(token, ITEM_FACT_QUESTION_WORDS) for token in tokens)
         has_action_word = any(self._looks_like_word(token, ITEM_FACT_ACTION_WORDS) for token in tokens)
-        has_item_noun = any(token in ITEM_FACT_NOUNS for token in tokens)
+        has_item_noun = any(self._looks_like_item_noun(token) for token in tokens)
         if "build" in tokens and not has_action_word:
             return False
-        return has_question_word and (has_action_word or has_item_noun)
+        return has_question_word and has_action_word and has_item_noun
 
     def _looks_like_word(self, token: str, choices: set[str]) -> bool:
         if token in choices:
@@ -361,3 +435,14 @@ class IntentRouter:
         if len(token) < 3:
             return False
         return any(SequenceMatcher(None, token, choice).ratio() >= 0.78 for choice in choices)
+
+    def _looks_like_item_noun(self, token: str) -> bool:
+        if self._looks_like_word(token, ITEM_FACT_NOUNS):
+            return True
+        if len(token) < 4:
+            return False
+        return any(
+            abs(len(token) - len(choice)) <= 1
+            and SequenceMatcher(None, token, choice).ratio() >= 0.74
+            for choice in ITEM_FACT_NOUNS
+        )

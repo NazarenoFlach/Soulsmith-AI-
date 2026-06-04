@@ -1,7 +1,7 @@
 [
   {
     "key": "strength",
-    "aliases": ["strength", "str", "heavy weapon", "big weapon"],
+    "aliases": ["strength", "str", "heavy weapon", "big weapon", "tank", "tanky", "poise build", "heavy armor"],
     "build": {
       "archetype": "Strength bruiser",
       "level": 80,
@@ -85,7 +85,7 @@
   },
   {
     "key": "pyromancy",
-    "aliases": ["pyromancy", "pyro", "fire", "hybrid caster"],
+    "aliases": ["pyromancy", "pyro", "fire", "hybrid caster", "pyromantic", "piromantic"],
     "build": {
       "archetype": "Pyromancy bruiser",
       "level": 75,
@@ -141,7 +141,7 @@
   },
   {
     "key": "sorcery",
-    "aliases": ["sorcery", "sorcerer", "wizard", "mage", "magic", "intelligence", "int"],
+    "aliases": ["sorcery", "sorcerer", "wizard", "mage", "magic", "intelligence", "int", "dark wizard", "dark magic"],
     "build": {
       "archetype": "Sorcery skirmisher",
       "level": 80,

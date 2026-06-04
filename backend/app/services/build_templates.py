@@ -36,7 +36,11 @@ class BuildTemplateCatalog:
 
     def mentioned_keys(self, text: str) -> set[str]:
         lowered = text.lower()
-        exact = {key for alias, key in self._aliases.items() if alias in lowered}
+        exact = {
+            key
+            for alias, key in self._aliases.items()
+            if self._alias_position(lowered, alias) >= 0
+        }
         return exact | self._fuzzy_keys(text)
 
     def first_mentioned_key(self, text: str) -> str | None:
@@ -44,7 +48,7 @@ class BuildTemplateCatalog:
         matches = [
             (position, -len(alias), key)
             for alias, key in self._aliases.items()
-            if (position := lowered.find(alias)) >= 0
+            if (position := self._alias_position(lowered, alias)) >= 0
         ]
         if matches:
             return sorted(matches)[0][2]
@@ -72,7 +76,7 @@ class BuildTemplateCatalog:
                     normalized_alias,
                     self._normalize(" ".join(window)),
                 ).ratio()
-                threshold = 0.9 if len(normalized_alias) <= 8 else 0.84
+                threshold = 0.86 if len(normalized_alias) <= 8 else 0.84
                 if score >= threshold:
                     matches.append((score, len(normalized_alias), key))
 
@@ -81,6 +85,12 @@ class BuildTemplateCatalog:
 
     def _normalize(self, value: str) -> str:
         return "".join(char.lower() for char in value if char.isalnum())
+
+    def _alias_position(self, lowered_text: str, alias: str) -> int:
+        parts = [re.escape(part) for part in alias.lower().split()]
+        pattern = r"(?<![a-z0-9])" + r"[\s_-]+".join(parts) + r"(?![a-z0-9])"
+        match = re.search(pattern, lowered_text)
+        return match.start() if match else -1
 
     def _token_windows(self, tokens: list[str], size: int) -> list[list[str]]:
         sizes = {size}
