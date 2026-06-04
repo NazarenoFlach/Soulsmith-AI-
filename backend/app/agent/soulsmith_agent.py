@@ -507,21 +507,30 @@ class SoulsmithAgent:
 
     def _item_info_response(self, item: Item | None) -> str:
         if item is None:
-            return self._unknown_response("")
+            return (
+                "I could not pin down that item in my DS1 notes yet. "
+                "I'm still farming souls to reach that stat. 😅 "
+                "Try the item name again or give me a bit more of it, and I will check the catalog."
+            )
 
         if item.acquisition:
-            return f"{item.name}: {item.acquisition}"
+            if item.location and item.location not in item.acquisition:
+                return f"Yep, {item.name} is tied to {item.location}. {item.acquisition}"
+            return f"Yep, {item.name}: {item.acquisition}"
         if item.location:
             return (
-                f"{item.name} is listed around {item.location}, "
+                f"I found {item.name}. It is listed around {item.location}, "
                 "but I do not have the exact pickup notes yet."
             )
         if item.source_url:
             return (
-                f"I have {item.name} in the local catalog, but I do not have exact pickup "
-                f"notes for it yet. Source: {item.source_url}"
+                f"I found {item.name} in the local catalog, but my notes do not have the exact "
+                f"pickup route yet. I will not invent the location; source: {item.source_url}"
             )
-        return self._unknown_response("")
+        return (
+            f"I found {item.name}, but this entry is missing location notes right now. "
+            "That one needs a little more catalog work."
+        )
 
     def _build_llm(self, api_key: str | None, model: str, timeout_seconds: int):
         if not api_key or ChatOpenAI is None:

@@ -143,6 +143,7 @@ def test_unknown_item_location_keeps_friendly_fallback():
     assert body["build"] is None
     assert body["items"] == []
     assert "farming souls" in body["message"]
+    assert "pin down" in body["message"]
 
 
 def test_catalog_item_without_location_does_not_look_unknown():
@@ -157,6 +158,7 @@ def test_catalog_item_without_location_does_not_look_unknown():
     assert body["build"] is None
     assert body["items"][0]["id"] == "abyss_greatsword"
     assert "local catalog" in body["message"]
+    assert "will not invent" in body["message"]
 
 
 def test_catalog_item_shorthand_does_not_look_unknown():
@@ -171,6 +173,77 @@ def test_catalog_item_shorthand_does_not_look_unknown():
     assert body["build"] is None
     assert body["items"][0]["id"] == "abyss_greatsword"
     assert "local catalog" in body["message"]
+    assert "will not invent" in body["message"]
+
+
+def test_generated_alias_item_question_uses_catalog():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "where is havel ring?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "havels_ring"
+    assert "Havel" in body["message"]
+
+
+def test_typo_heavy_item_question_still_uses_catalog():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "wher can i finde the haval rign?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "havels_ring"
+    assert "Havel" in body["message"]
+
+
+def test_semantic_item_question_uses_catalog():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "what item lets me hit ghosts?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "transient_curse"
+    assert "Transient Curse" in body["message"]
+
+
+def test_semantic_spell_question_uses_catalog():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "what spell buffs my weapon with lightning?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "sunlight_blade"
+    assert "Sunlight Blade" in body["message"]
+
+
+def test_semantic_key_question_uses_catalog():
+    with TestClient(app) as client:
+        response = client.post(
+            "/api/chat",
+            json={"message": "which key opens early locks?"},
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"] is None
+    assert body["items"][0]["id"] == "master_key"
+    assert "Master Key" in body["message"]
 
 
 def test_misspelled_archetype_still_generates_expected_build():

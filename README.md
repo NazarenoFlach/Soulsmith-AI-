@@ -97,3 +97,17 @@ pytest
 ```
 
 The current tests cover state patching, conversational routing, fuzzy item lookup, and split catalog loading. The highest-value next tests would exercise the streaming endpoint and a full generate-then-refine conversation.
+
+To inspect item coverage and alias conflicts:
+
+```bash
+cd backend
+python scripts/audit_catalog.py
+```
+
+To stress typo-heavy item lookup:
+
+```bash
+cd backend
+python scripts/stress_item_lookup.py 1000
+```

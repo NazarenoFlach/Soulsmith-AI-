@@ -329,24 +329,6 @@
     "source_url": "https://darksouls.wiki.fextralife.com/Havel%27s%2BRing"
   },
   {
-    "id": "havel_s_ring",
-    "name": "Havel's Ring",
-    "category": "ring",
-    "aliases": [],
-    "weight": null,
-    "requirements": {},
-    "scaling": {},
-    "damage_type": [],
-    "tags": [
-      "ring"
-    ],
-    "image_url": null,
-    "location": "Havel the Rock",
-    "acquisition": "Drop: Havel the Rock",
-    "source_url": "https://darksouls.wiki.fextralife.com/Havel's+Ring",
-    "description": "Maximum equip load: +50%"
-  },
-  {
     "id": "hawk_ring",
     "name": "Hawk Ring",
     "category": "ring",

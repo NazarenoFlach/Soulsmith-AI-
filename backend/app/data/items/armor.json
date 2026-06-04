@@ -650,25 +650,6 @@
     "source_url": "https://darksouls.wiki.fextralife.com/Havel%27s%2BSet"
   },
   {
-    "id": "havel_s_set",
-    "name": "Havel's Set",
-    "category": "armor",
-    "aliases": [],
-    "weight": null,
-    "requirements": {},
-    "scaling": {},
-    "damage_type": [],
-    "tags": [
-      "armor",
-      "set"
-    ],
-    "image_url": null,
-    "location": null,
-    "acquisition": null,
-    "source_url": "https://darksouls.wiki.fextralife.com/Havel's+Set",
-    "description": "Havel's Set is a Dark Souls 1 armor tracked in the local catalog."
-  },
-  {
     "id": "hollow_soldier_set",
     "name": "Hollow Soldier Set",
     "category": "armor",
@@ -838,25 +819,6 @@
     "acquisition": null,
     "source_url": "https://darksouls.wiki.fextralife.com/Lord's+Blade+Set",
     "description": "Lord's Blade Set is a Dark Souls 1 armor tracked in the local catalog."
-  },
-  {
-    "id": "lord_s_blades_set",
-    "name": "Lord's Blades Set",
-    "category": "armor",
-    "aliases": [],
-    "weight": null,
-    "requirements": {},
-    "scaling": {},
-    "damage_type": [],
-    "tags": [
-      "armor",
-      "set"
-    ],
-    "image_url": null,
-    "location": null,
-    "acquisition": null,
-    "source_url": "https://darksouls.wiki.fextralife.com/Lord's+Blade+Set",
-    "description": "Lord's Blades Set is a Dark Souls 1 armor tracked in the local catalog."
   },
   {
     "id": "mage_smith_set",

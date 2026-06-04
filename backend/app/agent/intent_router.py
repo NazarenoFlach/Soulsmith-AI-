@@ -1,7 +1,51 @@
+import re
+from difflib import SequenceMatcher
+
 from app.models.agent import AgentIntent, AgentPlan
 from app.models.build import Build
 from app.models.conversation import BuildPreferences, ConversationState
 from app.services.build_templates import BuildTemplateCatalog
+
+
+ITEM_FACT_ACTION_WORDS = {
+    "boost",
+    "buff",
+    "cure",
+    "damage",
+    "drop",
+    "farm",
+    "find",
+    "get",
+    "heal",
+    "hit",
+    "improve",
+    "improves",
+    "increase",
+    "lets",
+    "location",
+    "obtain",
+    "open",
+    "reinforce",
+    "unlock",
+    "upgrade",
+    "where",
+}
+ITEM_FACT_NOUNS = {
+    "armor",
+    "ember",
+    "item",
+    "key",
+    "material",
+    "miracle",
+    "pyromancy",
+    "ring",
+    "shield",
+    "sorcery",
+    "spell",
+    "thing",
+    "weapon",
+}
+ITEM_FACT_QUESTION_WORDS = {"how", "what", "where", "which"}
 
 
 class IntentRouter:
@@ -300,4 +344,20 @@ class IntentRouter:
             "location",
             "obtain",
         ]
-        return any(term in text for term in location_terms)
+        if any(term in text for term in location_terms):
+            return True
+
+        tokens = re.findall(r"[a-z0-9]+", text.lower())
+        has_question_word = any(self._looks_like_word(token, ITEM_FACT_QUESTION_WORDS) for token in tokens)
+        has_action_word = any(self._looks_like_word(token, ITEM_FACT_ACTION_WORDS) for token in tokens)
+        has_item_noun = any(token in ITEM_FACT_NOUNS for token in tokens)
+        if "build" in tokens and not has_action_word:
+            return False
+        return has_question_word and (has_action_word or has_item_noun)
+
+    def _looks_like_word(self, token: str, choices: set[str]) -> bool:
+        if token in choices:
+            return True
+        if len(token) < 3:
+            return False
+        return any(SequenceMatcher(None, token, choice).ratio() >= 0.78 for choice in choices)
