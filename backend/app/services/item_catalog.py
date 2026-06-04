@@ -249,6 +249,27 @@ class ItemCatalog:
         candidates.sort(key=lambda item: (-self._archetype_score(item, archetype), item.weight or 99))
         return candidates[:limit]
 
+    def alternative_weapons_for(
+        self,
+        current_weapon: str,
+        archetype: str,
+        limit: int = 3,
+    ) -> list[Item]:
+        current = self.find_by_name(current_weapon)
+        candidates = [
+            item
+            for item in self.search(archetype, category="weapon", limit=25)
+            if current is None or item.id != current.id
+        ]
+        candidates.sort(
+            key=lambda item: (
+                -self._archetype_score(item, archetype),
+                item.weight is None,
+                item.weight or 99,
+            )
+        )
+        return candidates[:limit]
+
     def to_summary(self, item: Item) -> ItemSummary:
         return ItemSummary(
             id=item.id,

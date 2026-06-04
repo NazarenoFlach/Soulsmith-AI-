@@ -10,6 +10,7 @@ def test_templates_resolve_common_archetype_aliases(settings_data_dir):
     assert templates.resolve_key(None, ["tanky poise build"]) == "strength"
     assert templates.resolve_key(None, ["dark wizard"]) == "sorcery"
     assert templates.resolve_key(None, ["piromantic"]) == "pyromancy"
+    assert templates.resolve_key(None, ["ninja build"]) == "dexterity"
     assert templates.mentioned_keys("full damage build") == set()
     assert templates.mentioned_keys("dextery or wizard") == {"dexterity", "sorcery"}
     assert templates.get("strength").equipment.weapon == "Man-Serpent Greatsword"

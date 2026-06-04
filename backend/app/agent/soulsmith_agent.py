@@ -117,6 +117,11 @@ class SoulsmithAgent:
             )
 
         if plan.intent == AgentIntent.unknown:
+            self.conversation_manager.update(
+                conversation_id,
+                last_user_message=message,
+                last_intent=AgentIntent.unknown.value,
+            )
             return PreparedTurn(
                 conversation_id=conversation_id,
                 build=current_build,
@@ -127,7 +132,12 @@ class SoulsmithAgent:
             )
 
         if plan.intent == AgentIntent.item_info:
-            item = self.catalog.find_in_text(message, allow_fuzzy=True)
+            item = self._resolve_item_for_query(message, current_build)
+            self.conversation_manager.update(
+                conversation_id,
+                last_user_message=message,
+                last_intent=AgentIntent.item_info.value,
+            )
             return PreparedTurn(
                 conversation_id=conversation_id,
                 build=current_build,
@@ -151,6 +161,7 @@ class SoulsmithAgent:
                 pending_question=pending_question,
                 pending_archetypes=pending_archetypes,
                 last_user_message=message,
+                last_intent=AgentIntent.clarify.value,
             )
             return PreparedTurn(
                 conversation_id=conversation_id,
@@ -179,6 +190,7 @@ class SoulsmithAgent:
                 pending_question=self._switch_question(candidate, current_build),
                 pending_archetypes=pending_archetypes,
                 last_user_message=message,
+                last_intent=AgentIntent.explore.value,
             )
             items = (
                 candidate.relevant_items
@@ -219,7 +231,11 @@ class SoulsmithAgent:
         else:
             build = current_build
             change_summary = "No build fields changed."
-        self.conversation_manager.update(conversation_id, last_user_message=message)
+        self.conversation_manager.update(
+            conversation_id,
+            last_user_message=message,
+            last_intent=plan.intent.value,
+        )
 
         items = build.relevant_items if build else []
         item_context = [
@@ -251,6 +267,7 @@ class SoulsmithAgent:
             AgentIntent.explore,
             AgentIntent.generate,
             AgentIntent.item_info,
+            AgentIntent.refine,
             AgentIntent.unknown,
         }:
             return heuristic
@@ -585,6 +602,27 @@ class SoulsmithAgent:
             f"I found {item.name}, but this entry is missing location notes right now. "
             "That one needs a little more catalog work."
         )
+
+    def _resolve_item_for_query(self, message: str, current_build: Build | None) -> Item | None:
+        item = self.catalog.find_in_text(message, allow_fuzzy=True)
+        if item or current_build is None:
+            return item
+
+        text = message.lower()
+        if any(term in text for term in ["weapon", "sword", "katana", "blade"]):
+            return self.catalog.find_by_name(current_build.equipment.weapon)
+        if any(term in text for term in ["offhand", "shield", "parry tool"]):
+            return self.catalog.find_by_name(current_build.equipment.offhand)
+        if any(term in text for term in ["armor", "armour", "set", "clothes"]):
+            return self.catalog.find_by_name(current_build.equipment.armor)
+        if "ring" in text and current_build.equipment.rings:
+            return self.catalog.find_by_name(current_build.equipment.rings[0])
+        if any(term in text for term in ["spell", "magic", "pyromancy", "miracle"]):
+            for spell in current_build.equipment.spells:
+                found = self.catalog.find_by_name(spell)
+                if found:
+                    return found
+        return None
 
     def _build_llm(self, api_key: str | None, model: str, timeout_seconds: int):
         if not api_key or ChatOpenAI is None:

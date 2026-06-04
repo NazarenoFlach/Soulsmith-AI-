@@ -59,6 +59,15 @@ BUILD_STYLE_TERMS = {
     "tanky",
 }
 
+CONTEXTUAL_ITEM_FOLLOWUP_LEADS = (
+    "and ",
+    "and the ",
+    "also ",
+    "how about ",
+    "what about ",
+    "the ",
+)
+
 
 class IntentRouter:
     def __init__(self, templates: BuildTemplateCatalog):
@@ -94,6 +103,8 @@ class IntentRouter:
                 constraints=[message],
                 item_query=message,
             )
+
+        refinement_targets = self._refinement_targets(text)
 
         if self._looks_like_build_style_request(text):
             concept_archetype = self._build_style_archetype(text)
@@ -134,6 +145,22 @@ class IntentRouter:
                     message,
                     f"play_style={preferences.play_style or state.preferences.play_style}",
                 ],
+                item_query=message,
+            )
+
+        if current_build and refinement_targets:
+            return AgentPlan(
+                intent=AgentIntent.refine,
+                archetype=current_build.archetype,
+                refinement_targets=refinement_targets,
+                constraints=[message],
+                item_query=message,
+            )
+
+        if self._looks_like_contextual_item_followup(text, state):
+            return AgentPlan(
+                intent=AgentIntent.item_info,
+                constraints=[message],
                 item_query=message,
             )
 
@@ -179,16 +206,6 @@ class IntentRouter:
             return AgentPlan(
                 intent=AgentIntent.explore,
                 archetype=archetype,
-                constraints=[message],
-                item_query=message,
-            )
-
-        refine_terms = ["lighter", "faster", "swap", "change", "more poise", "tankier", "shield", "fast roll"]
-        if current_build and any(term in text for term in refine_terms):
-            return AgentPlan(
-                intent=AgentIntent.refine,
-                archetype=current_build.archetype,
-                refinement_targets=[term for term in refine_terms if term in text],
                 constraints=[message],
                 item_query=message,
             )
@@ -399,6 +416,64 @@ class IntentRouter:
         if any(term in text for term in ["melee", "heavy", "strength", "str", "hit hard"]):
             return "strength"
         return None
+
+    def _refinement_targets(self, text: str) -> list[str]:
+        targets: list[str] = []
+        direct_terms = [
+            "lighter",
+            "faster",
+            "swap",
+            "change",
+            "more poise",
+            "tankier",
+            "fast roll",
+        ]
+        targets.extend(term for term in direct_terms if term in text)
+
+        if any(term in text for term in ["heavy shield", "greatshield", "great shield"]):
+            targets.extend(["heavy shield", "shield"])
+        elif "shield" in text:
+            targets.append("shield")
+
+        if self._looks_like_weapon_swap_request(text):
+            targets.append("weapon swap")
+
+        return list(dict.fromkeys(targets))
+
+    def _looks_like_weapon_swap_request(self, text: str) -> bool:
+        weapon_terms = ["weapon", "sword", "katana", "blade", "uchigatana"]
+        swap_terms = [
+            "another",
+            "different",
+            "swap",
+            "change",
+            "replace",
+            "instead",
+            "dont like",
+            "don't like",
+            "not like",
+        ]
+        return any(term in text for term in weapon_terms) and any(term in text for term in swap_terms)
+
+    def _looks_like_contextual_item_followup(
+        self,
+        text: str,
+        state: ConversationState,
+    ) -> bool:
+        last_was_item_info = state.last_intent == AgentIntent.item_info.value
+        if not last_was_item_info and state.last_user_message:
+            last_was_item_info = self._looks_like_item_fact_question(state.last_user_message.lower())
+        if not last_was_item_info:
+            return False
+
+        normalized = text.strip().strip("!.?")
+        if "build" in normalized:
+            return False
+        if any(term in normalized for term in ["recommend", "should i", "do you think"]):
+            return False
+
+        tokens = re.findall(r"[a-z0-9]+", normalized)
+        return normalized.startswith(CONTEXTUAL_ITEM_FOLLOWUP_LEADS) or len(tokens) <= 4
 
     def _looks_like_greeting(self, text: str) -> bool:
         normalized = text.strip().strip("!.?,")

@@ -18,6 +18,26 @@ class BuildCraftService:
     def refine(self, current: Build, plan: AgentPlan, user_message: str) -> BuildPatch:
         text = " ".join([user_message, " ".join(plan.constraints), " ".join(plan.refinement_targets)]).lower()
 
+        if "weapon swap" in text or self._wants_alternative_weapon(text):
+            options = self.catalog.alternative_weapons_for(current.equipment.weapon, current.archetype)
+            if options:
+                weapon = options[0]
+                notes = self._replace_note(
+                    current.notes,
+                    f"Swapped to {weapon.name} because the previous weapon was not the right fit.",
+                )
+                return BuildPatch(
+                    equipment=EquipmentPatch(weapon=weapon.name),
+                    notes=notes,
+                    relevant_items=self._summaries_for_equipment(
+                        weapon.name,
+                        current.equipment.offhand,
+                        current.equipment.armor,
+                        current.equipment.rings,
+                        current.equipment.spells,
+                    ),
+                )
+
         if "lighter" in text and ("weapon" in text or "weap" in text or current.equipment.weapon):
             options = self.catalog.lighter_weapons_for(current.equipment.weapon, current.archetype)
             if options:
@@ -73,7 +93,12 @@ class BuildCraftService:
             )
 
         if any(term in text for term in ["shield", "block", "stability"]):
-            shield = "Balder Shield" if "stability" in text else "Heater Shield"
+            if any(term in text for term in ["heavy shield", "greatshield", "great shield"]):
+                shield = "Eagle Shield"
+            elif "stability" in text or "strength" in current.archetype.lower():
+                shield = "Balder Shield"
+            else:
+                shield = "Heater Shield"
             notes = self._replace_note(current.notes, f"Changed offhand to {shield} for the requested defensive profile.")
             return BuildPatch(
                 equipment=EquipmentPatch(offhand=shield),
@@ -127,5 +152,35 @@ class BuildCraftService:
         return self.catalog.summaries_for_names(names)
 
     def _replace_note(self, notes: list[str], note: str) -> list[str]:
-        retained = [existing for existing in notes if not existing.startswith("Swapped")]
+        retained = [
+            existing
+            for existing in notes
+            if existing != note and not self._same_note_family(existing, note)
+        ]
         return [*retained[:3], note]
+
+    def _wants_alternative_weapon(self, text: str) -> bool:
+        weapon_terms = ["weapon", "sword", "katana", "blade", "uchigatana"]
+        swap_terms = [
+            "another",
+            "different",
+            "swap",
+            "change",
+            "replace",
+            "instead",
+            "dont like",
+            "don't like",
+            "not like",
+        ]
+        return any(term in text for term in weapon_terms) and any(term in text for term in swap_terms)
+
+    def _same_note_family(self, existing: str, note: str) -> bool:
+        prefixes = [
+            "Added heavier poise",
+            "Added pyromancy",
+            "Changed offhand",
+            "Kept the core build",
+            "Shifted armor",
+            "Swapped",
+        ]
+        return any(existing.startswith(prefix) and note.startswith(prefix) for prefix in prefixes)

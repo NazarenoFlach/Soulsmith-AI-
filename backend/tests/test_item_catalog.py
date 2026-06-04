@@ -13,6 +13,16 @@ def test_catalog_finds_lighter_strength_weapon(settings_data_dir):
     assert "strength" in options[0].tags
 
 
+def test_catalog_finds_alternative_dex_weapon(settings_data_dir):
+    catalog = ItemCatalog(settings_data_dir / "items")
+
+    options = catalog.alternative_weapons_for("Uchigatana", "Dexterity duelist")
+
+    assert options
+    assert options[0].name != "Uchigatana"
+    assert "dexterity" in options[0].tags
+
+
 def test_catalog_matches_aliases_and_keeps_source_notes(settings_data_dir):
     catalog = ItemCatalog(settings_data_dir / "items")
 

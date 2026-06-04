@@ -29,7 +29,7 @@
   },
   {
     "key": "dexterity",
-    "aliases": ["dexterity", "dex", "fast melee", "bleed"],
+    "aliases": ["dexterity", "dex", "fast melee", "bleed", "ninja", "ninja build", "shinobi"],
     "build": {
       "archetype": "Dexterity duelist",
       "level": 80,

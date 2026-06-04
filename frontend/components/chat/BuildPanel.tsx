@@ -75,8 +75,11 @@ export function BuildPanel({ build }: BuildPanelProps) {
           <section className="mt-6">
             <h3 className="mb-2 text-xs uppercase text-muted-foreground">Notes</h3>
             <ul className="space-y-2">
-              {build.notes.map((note) => (
-                <li key={note} className="rounded-md border border-border bg-[#0d0a08] p-3 text-sm leading-6">
+              {build.notes.map((note, index) => (
+                <li
+                  key={`${note}-${index}`}
+                  className="rounded-md border border-border bg-[#0d0a08] p-3 text-sm leading-6"
+                >
                   {note}
                 </li>
               ))}

@@ -32,8 +32,8 @@
   {
     "id": "build_archetype_language",
     "title": "Build Archetype Language",
-    "tags": ["tank", "damage", "wizard", "glass-cannon", "player-language"],
-    "content": "When players ask for a tank build, they usually mean high vitality, endurance, poise, blocking or trading hits, and often strength weapons. When they ask for a high damage or glass cannon build, ask whether they want heavy melee damage, fast bleed pressure, or ranged sorcery damage unless they already gave a clear style. Wizard, mage, dark wizard, and intelligence usually refer to sorcery, not pyromancy."
+    "tags": ["tank", "damage", "wizard", "glass-cannon", "ninja", "player-language"],
+    "content": "When players ask for a tank build, they usually mean high vitality, endurance, poise, blocking or trading hits, and often strength weapons. When they ask for a high damage or glass cannon build, ask whether they want heavy melee damage, fast bleed pressure, or ranged sorcery damage unless they already gave a clear style. Wizard, mage, dark wizard, and intelligence usually refer to sorcery, not pyromancy. Ninja usually means a light dexterity build with fast roll pressure, bleed, and Shadow Set-style armor."
   },
   {
     "id": "early_pickup_notes",

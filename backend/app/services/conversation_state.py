@@ -23,6 +23,7 @@ class ConversationStateManager:
         pending_question: str | None = None,
         pending_archetypes: list[str] | None = None,
         last_user_message: str | None = None,
+        last_intent: str | None = None,
     ) -> ConversationState:
         with self._lock:
             current = self._states.get(conversation_id) or ConversationState()
@@ -35,6 +36,8 @@ class ConversationStateManager:
                 current.preferences.considered_archetypes = pending_archetypes
             if last_user_message is not None:
                 current.last_user_message = last_user_message
+            if last_intent is not None:
+                current.last_intent = last_intent
             self._states[conversation_id] = current
             return current.model_copy(deep=True)
 

@@ -347,6 +347,136 @@ def test_refinement_response_does_not_expose_raw_patch():
     assert body["build"]["equipment"]["weapon"] == "Battle Axe"
 
 
+def test_heavy_shield_refinement_uses_heavy_option_and_keeps_notes_unique():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "i want a tank build, with a lot of HP"},
+        ).json()
+
+        shield_response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "i would like to use a shield too, what do you recommend?",
+            },
+        ).json()
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "and what about a heavy shield?",
+            },
+        )
+
+    assert shield_response["build"]["equipment"]["offhand"] == "Balder Shield"
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"]["equipment"]["offhand"] == "Eagle Shield"
+    assert "Eagle Shield" in body["message"]
+    assert len(body["build"]["notes"]) == len(set(body["build"]["notes"]))
+
+
+def test_ninja_build_is_treated_as_dexterity_exploration():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "i want a strength build"},
+        ).json()
+
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "what about a ninja build?",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"]["archetype"] == "Strength bruiser"
+    assert "Dexterity duelist" in body["message"]
+    assert "not changed" in body["message"]
+
+
+def test_disliked_weapon_refines_current_build_instead_of_regenerating():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "a dextery build"},
+        ).json()
+
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "i dont like the uchigatana, i want another weapon",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["build"]["archetype"] == "Dexterity duelist"
+    assert body["build"]["equipment"]["weapon"] != "Uchigatana"
+    assert "Swapped the weapon" in body["message"]
+
+
+def test_item_location_followup_reuses_previous_item_question_context():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "a dextery build"},
+        ).json()
+
+        client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "where can i get the shadow set?",
+            },
+        )
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "and the huchigatana?",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["items"][0]["id"] == "uchigatana"
+    assert "Uchigatana" in body["message"]
+
+
+def test_generic_item_followup_can_reference_current_build_equipment():
+    with TestClient(app) as client:
+        first = client.post(
+            "/api/chat",
+            json={"message": "a dextery build"},
+        ).json()
+
+        client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "where can i get the shadow set?",
+            },
+        )
+        response = client.post(
+            "/api/chat",
+            json={
+                "conversation_id": first["conversation_id"],
+                "message": "and the weapon?",
+            },
+        )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["items"][0]["id"] == "uchigatana"
+    assert "Uchigatana" in body["message"]
+
+
 def test_misspelled_archetype_still_generates_expected_build():
     with TestClient(app) as client:
         response = client.post(

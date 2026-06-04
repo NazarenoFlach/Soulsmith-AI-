@@ -11,11 +11,13 @@ def test_conversation_state_keeps_pending_preferences():
         pending_question="Close-range, ranged, or hybrid?",
         pending_archetypes=["dexterity", "sorcery"],
         last_user_message="not sure yet",
+        last_intent="clarify",
     )
 
     assert state.preferences.play_style == "ranged"
     assert state.pending_archetypes == ["dexterity", "sorcery"]
     assert state.preferences.considered_archetypes == ["dexterity", "sorcery"]
+    assert state.last_intent == "clarify"
 
 
 def test_clear_pending_preserves_preferences():

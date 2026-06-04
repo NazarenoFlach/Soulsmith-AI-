@@ -21,3 +21,4 @@ class ConversationState(BaseModel):
     pending_question: str | None = None
     pending_archetypes: list[str] = Field(default_factory=list)
     last_user_message: str | None = None
+    last_intent: str | None = None
